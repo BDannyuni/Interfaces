@@ -90,6 +90,29 @@
                 ["683695", "Ceiling Splice for Straight Track (Used when installing two shorter mounting track pieces together)", "$90.00"]
             ]
         }
+    },
+    {
+        "id": 6,
+        "name": "General R/F QC Phantom",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "description": "The R/F QC Phantom is designed to provide the diagnostic radiologic technologist with an accurate, easy-to-use tool for evaluating the image quality and performance of standard diagnostic radiographic and fluoroscopic imaging systems.",
+        "images": ["assets/img/productos/info/General R-F QC Phantom-1.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-4.jpg","assets/img/productos/info/General R-F QC Phantom-5.jpg","assets/img/productos/info/General R-F QC Phantom-.6jpg", "assets/img/productos/info/General R-F QC Phantom-7.jpg"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["07-647", "R/F QC Phantom", "$628.00"],
+                ["07-647-CUST", "RF QC Phantom with NO COPPER", "$628.00"],
+                ["02-220", "Pro-RF XR21 - Complete phantom with case.", "$7,200.00"],
+                ["02-220-MTR", "Add Rotating Motor", "$875.00"],
+                ["02-401", "Pro-RF Fluo18 - Phantom for High & Low Contrast", "$1,675.00"]
+            ]
+        }
     }
     
+    Fluoroscopic Resolution Test Tool-1.jpg
+    ["07-601", "Fluoro Resolution Test Tool", ""],
+                ["", "", ""],
+                ["", "", ""],
 ]
