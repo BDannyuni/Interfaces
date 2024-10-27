@@ -95,7 +95,7 @@
         "id": 6,
         "name": "General R/F QC Phantom",
         "rating": "★★★☆☆ (19 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$626.00 - $7,200.00",
         "description": "The R/F QC Phantom is designed to provide the diagnostic radiologic technologist with an accurate, easy-to-use tool for evaluating the image quality and performance of standard diagnostic radiographic and fluoroscopic imaging systems.",
         "images": ["assets/img/productos/info/General R-F QC Phantom-1.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-4.jpg","assets/img/productos/info/General R-F QC Phantom-5.jpg","assets/img/productos/info/General R-F QC Phantom-.6jpg", "assets/img/productos/info/General R-F QC Phantom-7.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -109,10 +109,23 @@
                 ["02-401", "Pro-RF Fluo18 - Phantom for High & Low Contrast", "$1,675.00"]
             ]
         }
+    },
+    {
+        "id": 7,
+        "name": "Fluoro Resolution Test Tool",
+        "rating": "★★★★★ (274 reseñas)",
+        "price": "$.00 - $.00",
+        "description": "",
+        "images": ["assets/img/productos/info/c-1.jpg", "assets/img/productos/info/"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "LPI?", "Your Price"],
+            "rows": [
+                ["07-601", "Fluoro Resolution Test Tool", "16-60 LPI", "$395.00"],
+                ["07-618", "Fluoro Resolution Test Tool", "30-100 LPI", "$490.00"],
+                ["07-619", "Fluoro Resolution Test Tool", "60-100 LPI", "$515.00"]
+            ]
+        }
     }
     
-    Fluoroscopic Resolution Test Tool-1.jpg
-    ["07-601", "Fluoro Resolution Test Tool", ""],
-                ["", "", ""],
-                ["", "", ""],
 ]
