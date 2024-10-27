@@ -11,24 +11,28 @@
 	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
 </head>
 <body>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
-   <!-- BARRA DE NAVEGACIÓN -->
+    <!-- BARRA DE NAVEGACIÓN -->
 <nav class="navbar">
     <div class="logo-container">
         <a href="index.html" class="logo">
             <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-            <h1>GRUPO MIFID</h1>
+            <h1>Pacific Northwest X-RAY Inc.</h1>
         </a>
     </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos..." oninput="searchProducts()" autocomplete="off">
+        <button class="search-button">
+            <img src="assets/img/search.png" alt="Buscar" width="20">
+        </button>
+        <div id="autocomplete-list" class="autocomplete-items"></div>
+    </div>
+
     <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="index.html#nosotros">Nosotros</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="marcas.html">Marcas</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contactanos</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Products</a></li>
+        <li><a href="marcas.html">Brands</a></li>
+        <li><a href="contacto.html">Contact Us</a></li> 
     </ul>
     <div class="menu-icon">
         <span>&#9776;</span>

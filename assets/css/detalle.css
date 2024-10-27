@@ -1,14 +1,3 @@
-/* styles.css */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Asegurando que no haya desbordamiento en el body */
-body {
-    overflow-x: hidden;
-}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -177,11 +166,12 @@ body {
 }
 
 
+
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero-productos.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero.avif');
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 25vh;
     display: flex;
     align-items: flex-start;
     justify-content: center; /* Cambiado para alinear el contenido a la izquierda */
@@ -190,9 +180,10 @@ body {
 }
 
 
-.hero h2 {
+.hero h1 {
     margin: 0;
     margin-top: 50px;
+    font-size: 2.7em;
 }
 .hero h3 {
     font-size: 1.5rem;
@@ -207,6 +198,9 @@ body {
 
 .hero-buttons {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
+    gap: 10px; /* Espacio entre los botones */
 }
 
 .btn {
@@ -218,6 +212,8 @@ body {
     color: white;
     font-size: 1rem;
     cursor: pointer;
+    flex: 1 1 auto; /* Permite que los botones se ajusten en tamaño si es necesario */
+    max-width: calc(50% - 10px); /* Ajusta el ancho máximo de los botones para que se acomoden en una fila en pantallas más grandes */
 }
 
 .btn-blue {
@@ -235,63 +231,7 @@ body {
 .btn-red:hover{
     background-color: #04A7E4;
 }
-
 /* Media Queries para hacer el hero responsive */
-
-@media (max-width: 1980px) {
-    .hero {
-        align-items: flex-start; /* Mantener el contenido en la parte superior */
-        justify-content: center; /* Alinear contenido en el centro horizontalmente */
-        text-align: center; /* Centrar el texto */
-        padding: 20px; /* Reducir el padding */
-        height: 30vh;
-    }
-
-    .hero-content {
-        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
-        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
-    }
-
-    .hero h1 {
-        font-size: 2.5rem; /* Reducir el tamaño del texto */
-    }
-
-    .hero p {
-        font-size: 1.2rem; /* Reducir el tamaño del texto */
-    }
-
-    .btn {
-        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
-    }
-}
-
-
-@media (max-width: 1285px) {
-    .hero {
-        align-items: flex-start; /* Mantener el contenido en la parte superior */
-        justify-content: center; /* Alinear contenido en el centro horizontalmente */
-        text-align: center; /* Centrar el texto */
-        padding: 20px; /* Reducir el padding */
-        height: 35vh;
-    }
-
-    .hero-content {
-        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
-        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
-    }
-
-    .hero h1 {
-        font-size: 2.5rem; /* Reducir el tamaño del texto */
-    }
-
-    .hero p {
-        font-size: 1.2rem; /* Reducir el tamaño del texto */
-    }
-
-    .btn {
-        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
-    }
-}
 
 @media (max-width: 878px) {
     .hero {
@@ -299,16 +239,11 @@ body {
         justify-content: center; /* Alinear contenido en el centro horizontalmente */
         text-align: center; /* Centrar el texto */
         padding: 20px; /* Reducir el padding */
-        height: 45vh;
     }
 
     .hero-content {
         max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
         margin-top: 20px; /* Añadir margen superior para separar del borde superior */
-    }
-
-    .hero h1 {
-        font-size: 2.5rem; /* Reducir el tamaño del texto */
     }
 
     .hero p {
@@ -317,15 +252,19 @@ body {
 
     .btn {
         font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+        padding: 10px 15px; /* Reducir el padding del botón */
     }
 }
 
 @media (max-width: 480px) {
-    .hero {
-        height: 55vh;
+    .hero-buttons {
+        flex-direction: column; /* Apilar botones verticalmente en pantallas muy pequeñas */
+        align-items: center; /* Alinear botones al centro */
     }
-    .hero h1 {
-        font-size: 2rem; /* Reducir aún más el tamaño del texto */
+
+    .btn {
+        max-width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+        margin: 5px 0; /* Añadir margen vertical entre botones */
     }
 
     .hero p {
@@ -337,6 +276,97 @@ body {
         font-size: 0.8rem; /* Reducir el tamaño del texto del botón */
     }
 }
+
+/* Estructura general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.product-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+/* Carrusel de imágenes */
+.carousel {
+    flex: 1;
+    position: relative;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-controls button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background 0.3s;
+}
+
+.carousel-controls button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Información del producto */
+.product-info {
+    flex: 2;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+/* Volver a productos */
+.product-info a {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #0E5480;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.product-info a:hover {
+    color: #063a5d;
+}
+
+
 
 
 
@@ -474,7 +504,6 @@ body {
     }
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -505,11 +534,11 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-    max-height: 100px; /* Ajusta la altura máxima */
+    max-height: 150px; /* Ajusta la altura máxima */
 }
 @media (max-width: 1200px) {
     .collaborators {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (max-width: 992px) {
@@ -559,6 +588,11 @@ h2 .highlight {
 }
 
 
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 1.9rem;
+    }
+}
 
 footer {
     background-color: #1D4A67;

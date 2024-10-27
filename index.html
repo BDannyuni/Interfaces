@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRUPO MIFID</title>
+    <title>Pacific Northwest X-RAY Inc.</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/style-whats.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -12,24 +12,29 @@
 
 </head>
 <body>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
+    
    <!-- BARRA DE NAVEGACIÓN -->
 <nav class="navbar">
     <div class="logo-container">
         <a href="index.html" class="logo">
             <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-            <h1>GRUPO MIFID</h1>
+            <h1>Pacific Northwest X-RAY Inc.</h1>
         </a>
     </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos..." oninput="searchProducts()" autocomplete="off">
+        <button class="search-button">
+            <img src="assets/img/search.png" alt="Buscar" width="20">
+        </button>
+        <div id="autocomplete-list" class="autocomplete-items"></div>
+    </div>
+
     <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="marcas.html">Marcas</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contactanos</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Products</a></li>
+        <li><a href="marcas.html">Brands</a></li>
+        <li><a href="contacto.html">Contact Us</a></li> 
     </ul>
     <div class="menu-icon">
         <span>&#9776;</span>
@@ -39,17 +44,17 @@
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
-            <h2>Soluciones Eléctricas de <br> Confianza para Profesionales</h2>
+            <h2> Welcome to Catalog <br> From Pacific Northwest X-RAY Inc.</h2>
             <div class="hero-buttons">
-                <a href="productos.html" class="btn btn-blue">Explora nuestros Productos</a>
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn btn-red">Contáctanos</a>
+                <a href="productos.html" class="btn btn-blue">Our Catalog</a>
+                <a href="Contacto.html" class="btn btn-red">Contact Us</a>
             </div>
         </div>
     </section> <!-- FIN DE INICIO -->
 
     <!-- NOSOTROS -->
     <section id="nosotros">
-        <h2 class="section-title">Nosotros</h2>
+        <h2 class="section-title">About Us</h2>
         <div class="nosotros-content">
             <!-- <div class="nosotros-item">
                 <h3>Historia</h3>
@@ -58,7 +63,11 @@
             </div> -->
             <div class="nosotros-item">
                 <!-- <h3>Misión</h3> -->
-                <p>Satisfaciendo siempre las necesidades de la industria en subestaciones e instalaciones eléctricas en general, hemos logrado consolidar una excelente relación comercial con los mejores proveedores de transformadores, cables y componentes en alta y baja tensión, y luminarias, así como motoreductores  de marcas de prestigio.</p>
+                <p>We are a company called Pacific Northwest X-RAY Inc. dedicated to providing our customers 
+                    with high-quality X-ray focused products, with a wide range of innovative solutions to meet the needs
+                of hospitals, clinics, and medical centers. We take pride in providing reliablem accurate, and durable
+                equipment desing to ensure top-notch medical diagnostics. Our commitment is to prsovide exceptional service, combining
+            advanced technology with a personalized approach to ensure customer satisfaction and imprive healthcare globally.</p>
             </div>
             <!-- <div class="nosotros-item">
                 <h3>Visión</h3>
@@ -68,7 +77,7 @@
     </section>  <!-- FIN DE NOSOTROS -->
 
     <section id="productos-destacados">
-        <h2>Productos Destacados</h2>
+        <h2>Most Popular Products</h2>
         <div class="productos-container">
             <!-- Card 1 -->
              <a href="productos.html" class="a-productos"> <div class="producto-card">
@@ -112,7 +121,7 @@
 
       <!-- NUESTROS COLABORADORES -->
       <section>
-        <h2><span class="highlight">COLABO</span>RADORES</h2>
+        <h2>OUR <span class="highlight">BRANDS</span></h2>
         <div class="underline"></div>
         <div class="container">
             <div class="collaborators">
@@ -137,29 +146,31 @@
         <footer>
             <div class="footer-container">
                 <div class="footer-column" style="text-align: left;">
-                    <h3>Contacto</h3>
-                    <p>home@mifid.com</p>
-                    <p>+52 81 1418 6560</p>
+                    <h3>Contact Us</h3>
+                    <p>Phone: 1-503-667-3000</p>
+                    <p>Toll-Free (US): 800-827-XRAY</p>
+                    <p>(800-827-9729)</p>
                 </div>
                 <div class="footer-column" style="text-align: left;">
-                    <h3>Dirección</h3>
-                    <p>Rio Pánuco No.216</p>
+                    <h3>Address</h3>
+                    <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
                     <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                    <h3>Horario</h3>
-                    <p>LUN a VIE: 7AM a 5PM</p>
+                    <h3>Schedule</h3>
+                    <p>Phone Lines Open....</p>
+                    <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
                 </div>
                 <div class="footer-column" style="text-align: left;">
                     <h3>Páginas</h3>
-                    <p><a href="index.html">Inicio</a></p>
-                    <p><a href="#nosotros">Nosotros</a></p>
-                    <p><a href="productos.html">Productos</a></p>
-                    <p><a href="marcas.html">Marcas</a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contáctanos</a></p>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="#nosotros">About Us</a></p>
+                    <p><a href="productos.html">Products</a></p>
+                    <p><a href="marcas.html">Brands</a></p>
+                    <p><a href="contacto.html">Contac Us</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Copyright &copy; 2024 - <a href="#">GRUPO MIFID</a>. All Rights Reserved.</p>
-                <p>Desarrollado por - <a href="#">Brandon Alvarez</a></p>
+                <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
+                <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
             </div>
         </footer>
     </section> <!-- FIN DE FOOTER -->
