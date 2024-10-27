@@ -60,7 +60,7 @@
         "images": ["assets/img/productos/info/Leaded-Glass-1.jpg", "assets/img/productos/info/Leaded-Glass-2.jpg", "assets/img/productos/info/Leaded-Glass-3.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
-            "headers": ["Stock #", "Window Size in Inches", "Physical Thickness", "Ship Weight", "Ship Dimensions", "Lead Protection", "Lead Thickness", "Your Price"],
+            "headers": ["Stock #", "Window Size in Inches", "Physical Thickness", "Ship Weight", "Ship Dimensions", "Lead Protection", "Your Price"],
             "rows": [
                 ["14307", "8x10", "9mm", "7#", "17''x18''x5''", "2.0mm", "$495.00"],
                 ["14315", "12x16", "7mm", "23#", "18''x24''x5''", "1.6mm", "$850.00"],
