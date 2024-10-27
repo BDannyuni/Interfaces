@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -189,3 +190,196 @@
     </script> <!-- FIN DE SCRIPTS -->
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO MIFID</title>
+    <link rel="stylesheet" href="assets/css/marcas.css">
+    <link rel="stylesheet" href="assets/css/style-whats.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+<nav class="navbar">
+    <div class="logo-container">
+        <a href="index.html" class="logo">
+            <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
+            <h1>Pacific Northwest X-RAY Inc.</h1>
+        </a>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos..." oninput="searchProducts()" autocomplete="off">
+        <button class="search-button">
+            <img src="assets/img/search.png" alt="Buscar" width="20">
+        </button>
+        <div id="autocomplete-list" class="autocomplete-items"></div>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Products</a></li>
+        <li><a href="marcas.html">Brands</a></li>
+        <li><a href="contacto.html">Contact Us</a></li> 
+    </ul>
+    <div class="menu-icon">
+        <span>&#9776;</span>
+    </div>
+</nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
+
+    <!-- INICIO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Ofrecemos Productos de Calidad<br> de las Siguientes Marcas:</h2>
+            <div class="hero-buttons">
+                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn btn-red">Contáctanos</a>
+            </div>
+        </div>
+    </section> <!-- FIN DE INICIO -->
+
+    
+      <!-- NUESTROS COLABORADORES -->
+      <section><br>
+        <div class="container">
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="assets/img/logos/lapp-1.png" alt="Prolec" onclick="redirectToBrand('Marca1')">
+                </div>
+                <div class="collaborator">
+                    <img src="assets/img/logos/belden.png" alt="Nidec">
+                </div>
+                <div class="collaborator">
+                    <img src="assets/img/logos/nord.png" alt="Sanmina">
+                </div>
+                <!-- Agrega más colaboradores aquí -->
+            </div>
+        </div><br><br>
+    </section> <!-- FIN DE NUESTROS COLABORADORES -->
+
+    <section id="productos-destacados">
+        <h2>Productos Destacados</h2>
+        <div class="productos-container">
+            <!-- Card 1 -->
+             <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/Helicoidal en línea.avif" alt="Producto 1">
+                <div class="producto-info">
+                    <h3>Helicoidal en línea</h3>
+                    <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 2 -->
+            <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/3106A.avif" alt="Producto 2">
+                <div class="producto-info">
+                    <h3>3106A - RS-485, 1 Pr, 22AWG</h3>
+                    <img src="assets/img/logos/belden.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 1 -->
+            <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/NORDBlOC.1.avif" alt="Producto 1">
+                <div class="producto-info">
+                    <h3>NORDBlOC.1®</h3>
+                    <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 2 -->
+            <a href="productos.html"  class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/ÖLFLEX-CLASSIC-400P.avif" alt="Producto 2">
+                <div class="producto-info">
+                    <h3>ÖLFLEX® CLASSIC 400 P</h3>
+                    <img src="assets/img/logos/lapp-1.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Repite para más productos -->
+        </div><br><br>
+    </section>
+
+    <!-- FOOTER -->
+    <section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Contacto</h3>
+                    <p>home@mifid.com</p>
+                    <p>+52 81 1418 6560</p>
+                </div>
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Dirección</h3>
+                    <p>Rio Pánuco No.216</p>
+                    <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
+                    <h3>Horario</h3>
+                    <p>LUN a VIE: 7AM a 5PM</p>
+                </div>
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Páginas</h3>
+                    <p><a href="index.html">Inicio</a></p>
+                    <p><a href="#nosotros">Nosotros</a></p>
+                    <p><a href="productos.html">Productos</a></p>
+                    <p><a href="marcas.html">Marcas</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contáctanos</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 - <a href="#">GRUPO MIFID</a>. All Rights Reserved.</p>
+                <p>Desarrollado por - <a href="#">Brandon Alvarez</a></p>
+            </div>
+        </footer>
+    </section> <!-- FIN DE FOOTER -->
+
+
+    <!-- SCRIPTS -->
+    <script src="assets/scripts/scripts.js"></script>
+    <!-- Link to Swiper's JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+       var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 4,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                640: {
+                    slidesPerView: 2,
+                },
+                320: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuIcon = document.querySelector('.menu-icon');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuIcon.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script> <!-- FIN DE SCRIPTS -->
+</body>
+</html>
+>>>>>>> 1418ebbd88ceae8dbcd03217748662780e6525fc

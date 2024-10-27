@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "id": 1,
@@ -50,3 +51,57 @@
         "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
     }
 ]
+=======
+[
+    {
+        "id": 1,
+        "name": "Infab's lightning fast 24 hour ship aprons.",
+        "name2": "Infab's lightning fast 24 hour ship aprons.",
+        "price": 100,
+        "description": "0.50mm LE full front panel for maximum protection that distributes weight between waist and shoulder. Hook and Loop closure and a double welt pocket on the chest.",
+        "images": ["assets/img/productos/info/Infab-lightning-1.jpg", "assets/img/productos/info/Infab-lightning-2.jpg", "assets/img/productos/info/Infab-lightning-3.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Exam and Surgical Radiation Reducing Gloves.",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Resolution Test Patterns, Easily Customized At Your Request.",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "price": 150,
+        "description": "Descripción detallada del Producto 2.",
+        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+    }
+]
+>>>>>>> 1418ebbd88ceae8dbcd03217748662780e6525fc
