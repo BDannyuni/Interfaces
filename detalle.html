@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,370 +23,211 @@
             <li><a href="contacto.html">Contact Us</a></li> 
         </ul>
     </nav>
-     <!-- INICIO -->
-     <section class="hero">
+    <!-- INICIO -->
+    <section class="hero">
         <div class="hero-content">
-            <h1 id="product-name"></h1>
+            <h1>The Best Products</h1>
         </div>
     </section> <!-- FIN DE INICIO -->
+    <br><br>
     
-    <!-- Detalle del Producto -->
-    <div class="product-detail-container">
-        <!-- Carrusel de imágenes -->
-        <div class="carousel">
-            <div id="carousel-images" class="carousel-images"></div>
-            <div class="carousel-controls">
-                <button id="prevBtn">&#10094;</button>
-                <button id="nextBtn">&#10095;</button>
-            </div>
-        </div>
-        
-        <!-- Información del producto -->
-        <div class="product-info">
-            <h1 id="product-name2"></h1>
-            <p id="product-price"></p>
-            <p id="product-description"></p>
-            <a href="productos.html">Volver a Productos</a>
-        </div>
-    </div>
-
-<section id="productos-destacados">
-    <h2>Most Popular Products</h2>
-    <div class="productos-container">
-        <!-- Card 1 -->
-         <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/Helicoidal en línea.avif" alt="Producto 1">
-            <div class="producto-info">
-                <h3>Helicoidal en línea</h3>
-                <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 2 -->
-        <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/3106A.avif" alt="Producto 2">
-            <div class="producto-info">
-                <h3>3106A - RS-485, 1 Pr, 22AWG</h3>
-                <img src="assets/img/logos/belden.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 1 -->
-        <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/NORDBlOC.1.avif" alt="Producto 1">
-            <div class="producto-info">
-                <h3>NORDBlOC.1®</h3>
-                <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 2 -->
-        <a href="productos.html"  class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/ÖLFLEX-CLASSIC-400P.avif" alt="Producto 2">
-            <div class="producto-info">
-                <h3>ÖLFLEX® CLASSIC 400 P</h3>
-                <img src="assets/img/logos/lapp-1.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Repite para más productos -->
-    </div><br><br>
-</section>
-
-  <!-- NUESTROS COLABORADORES -->
-  <section>
-    <h2>OUR <span class="highlight">BRANDS</span></h2>
-    <div class="underline"></div>
     <div class="container">
-        <div class="collaborators">
-            <div class="collaborator">
-                <img src="assets/img/logos/lapp-1.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+        <div class="product-detail">
+            <div class="product-images">
+                <img src="assets/img/productos/info/Infab-lightning-1.jpg" alt="Producto principal" class="main-image" id="mainImage">
+                <div class="thumbnail-container" id="products-images-info">
+                    <!-- Aquí se agregarán las miniaturas dinámicamente -->
+                </div>
             </div>
-            <div class="collaborator">
-                <img src="assets/img/logos/belden.png" alt="Belden" onclick="redirectToBrand('Marca2')">
+            <div class="product-info">
+                <h1 id="product-name"></h1>
+                <img id="brand-logo" src="" alt="Logo de la marca" class="brand-logo" style="display: none; margin-top: 10px; width: 150px;"><br> <!-- Agregado aquí -->
+                <div class="rating" id="rating"><br>
+                </div>
+                <p class="price" id="product-price"></p>
+                <p class="description" id="product-description"></p>
+                <div class="product-actions">
+                    <button onclick="window.location.href='productos.html';" class="btn btn-primary">See More Products</button>
+                    <button onclick="window.location.href='contacto.html';" class="btn btn-secondary">Contact Us</button>
+                </div>
             </div>
-            <div class="collaborator">
-                <img src="assets/img/logos/nord.png" alt="Nord" onclick="redirectToBrand('Marca3')">
-            </div>
-            <!-- Agrega más colaboradores aquí -->
         </div>
+
+        <!-- Reemplaza esta parte en tu HTML -->
+<div class="product-detail-container">
+    <!-- Reemplaza los tabs por la tabla -->
+    <div class="specifications-table">
+        <table id="specifications">
+            <thead>
+                <tr id="table-headers"></tr>
+            </thead>
+            <tbody id="table-rows"></tbody>
+        </table>
     </div>
-</section> <!-- FIN DE NUESTROS COLABORADORES -->
+</div>
+    </div><br><br><br>
 
+    <section id="productos-destacados">
+        <h2>Most Popular Products</h2>
+        <div class="productos-container">
+            <!-- Card 1 -->
+             <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/Helicoidal en línea.avif" alt="Producto 1">
+                <div class="producto-info">
+                    <h3>Helicoidal en línea</h3>
+                    <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 2 -->
+            <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/3106A.avif" alt="Producto 2">
+                <div class="producto-info">
+                    <h3>3106A - RS-485, 1 Pr, 22AWG</h3>
+                    <img src="assets/img/logos/belden.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 1 -->
+            <a href="productos.html" class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/NORDBlOC.1.avif" alt="Producto 1">
+                <div class="producto-info">
+                    <h3>NORDBlOC.1®</h3>
+                    <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Card 2 -->
+            <a href="productos.html"  class="a-productos"> <div class="producto-card">
+                <img src="assets/img/productos/ÖLFLEX-CLASSIC-400P.avif" alt="Producto 2">
+                <div class="producto-info">
+                    <h3>ÖLFLEX® CLASSIC 400 P</h3>
+                    <img src="assets/img/logos/lapp-1.png" alt="Logo Marca" class="logo-marca">
+                    <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
+                </div>
+            </div></a>
+            <!-- Repite para más productos -->
+        </div><br><br>
+    </section>
 
-<br><br><br>
-<!-- FOOTER -->
-<section>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-column" style="text-align: left;">
-                <h3>Contact Us</h3>
-                <p>Phone: 1-503-667-3000</p>
-                <p>Toll-Free (US): 800-827-XRAY</p>
-                <p>(800-827-9729)</p>
-            </div>
-            <div class="footer-column" style="text-align: left;">
-                <h3>Address</h3>
-                <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
-                <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                <h3>Schedule</h3>
-                <p>Phone Lines Open....</p>
-                <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
-            </div>
-            <div class="footer-column" style="text-align: left;">
-                <h3>Páginas</h3>
-                <p><a href="index.html">Home</a></p>
-                <p><a href="#nosotros">About Us</a></p>
-                <p><a href="productos.html">Products</a></p>
-                <p><a href="marcas.html">Brands</a></p>
-                <p><a href="contacto.html">Contac Us</a></p>
+      <!-- NUESTROS COLABORADORES -->
+      <section>
+        <h2>OUR <span class="highlight">BRANDS</span></h2>
+        <div class="underline"></div>
+        <div class="container">
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="assets/img/logos/lapp-1.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+                </div>
+                <div class="collaborator">
+                    <img src="assets/img/logos/belden.png" alt="Belden" onclick="redirectToBrand('Marca2')">
+                </div>
+                <div class="collaborator">
+                    <img src="assets/img/logos/nord.png" alt="Nord" onclick="redirectToBrand('Marca3')">
+                </div>
+                <!-- Agrega más colaboradores aquí -->
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
-            <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
-        </div>
-    </footer>
-</section> <!-- FIN DE FOOTER -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const productId = localStorage.getItem('productId');
+    </section> <!-- FIN DE NUESTROS COLABORADORES -->
 
-            fetch('assets/scripts/productos.json')
-                .then(response => response.json())
-                .then(products => {
-                    const product = products.find(p => p.id == productId);
-                    if (product) {
-                        document.getElementById('product-name').textContent = product.name;
-                        document.getElementById('product-price').textContent = `Precio: $${product.price}`;
-                        document.getElementById('product-description').textContent = product.description;
 
-                        // Cargar imágenes en el carrusel
-                        const carouselImages = document.getElementById('carousel-images');
-                        let imageIndex = 0;
+    <br><br><br>
+    <!-- FOOTER -->
+    <section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Contact Us</h3>
+                    <p>Phone: 1-503-667-3000</p>
+                    <p>Toll-Free (US): 800-827-XRAY</p>
+                    <p>(800-827-9729)</p>
+                </div>
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Address</h3>
+                    <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
+                    <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
+                    <h3>Schedule</h3>
+                    <p>Phone Lines Open....</p>
+                    <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
+                </div>
+                <div class="footer-column" style="text-align: left;">
+                    <h3>Páginas</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="#nosotros">About Us</a></p>
+                    <p><a href="productos.html">Products</a></p>
+                    <p><a href="marcas.html">Brands</a></p>
+                    <p><a href="contacto.html">Contac Us</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
+                <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
+            </div>
+        </footer>
+    </section> <!-- FIN DE FOOTER -->
 
-                        product.images.forEach((imageUrl, index) => {
-                            const img = document.createElement('img');
-                            img.src = imageUrl;
-                            img.alt = product.name;
-                            img.classList.add('carousel-img');
-                            if (index !== 0) img.style.display = 'none';
-                            carouselImages.appendChild(img);
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const productId = localStorage.getItem('productId');
+
+        fetch('assets/scripts/productos.json')
+            .then(response => response.json())
+            .then(products => {
+                const product = products.find(p => p.id == productId);
+                if (product) {
+                    document.getElementById('product-name').textContent = product.name;
+                    document.getElementById('product-price').textContent = `Precio: ${product.price}`;
+                    document.getElementById('product-description').textContent = product.description;
+                    document.getElementById('rating').textContent = product.rating;
+
+                     // Cargar imagen del logo
+                    const brandLogo = document.getElementById('brand-logo');
+                    brandLogo.src = product.brandLogo; // Asigna la URL del logo
+                    brandLogo.style.display = 'block'; // Muestra la imagen
+
+                    // Cargar imágenes en el contenedor de imágenes
+                    const productsImagesInfo = document.getElementById('products-images-info');
+                    product.images.forEach((imageUrl, index) => {
+                        const img = document.createElement('img');
+                        img.src = imageUrl;
+                        img.alt = product.name;
+                        img.classList.add('thumbnail'); // Asigna la clase thumbnail
+                        
+                        // Agrega un evento para cambiar la imagen principal al hacer clic
+                        img.addEventListener('click', () => {
+                            document.getElementById('mainImage').src = imageUrl; // Cambia la imagen principal
                         });
+                        
+                        // Muestra la primera imagen como principal
+                        if (index === 0) {
+                            document.getElementById('mainImage').src = imageUrl; // Actualiza la imagen principal
+                        }
+                        productsImagesInfo.appendChild(img); // Añade la imagen al contenedor
+                    });
 
-                        // Controles del carrusel
-                        const images = document.querySelectorAll('.carousel-img');
-                        document.getElementById('prevBtn').addEventListener('click', () => {
-                            images[imageIndex].style.display = 'none';
-                            imageIndex = (imageIndex - 1 + images.length) % images.length;
-                            images[imageIndex].style.display = 'block';
+                   // Rellenar la tabla de especificaciones
+                   const tableHeaders = document.getElementById('table-headers');
+                    product.specifications.headers.forEach(header => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        tableHeaders.appendChild(th);
+                    });
+
+                    const tableRows = document.getElementById('table-rows');
+                    product.specifications.rows.forEach(rowData => {
+                        const row = document.createElement('tr');
+                        rowData.forEach(cellData => {
+                            const td = document.createElement('td');
+                            td.textContent = cellData;
+                            row.appendChild(td);
                         });
-                        document.getElementById('nextBtn').addEventListener('click', () => {
-                            images[imageIndex].style.display = 'none';
-                            imageIndex = (imageIndex + 1) % images.length;
-                            images[imageIndex].style.display = 'block';
-                        });
-                    }
-                })
-                .catch(error => console.error('Error al cargar los productos:', error));
-        });
-    </script>
+                        tableRows.appendChild(row);
+                    });
+                }
+            })
+            .catch(error => console.error('Error al cargar los productos:', error));
+    });
+</script>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalle del Producto</title>
-    <link rel="stylesheet" href="assets/css/detalle.css">
-</head>
-<body>
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar">
-        <div class="logo-container">
-            <a href="index.html" class="logo">
-                <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-                <h1>Pacific Northwest X-RAY Inc.</h1>
-            </a>
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productos.html">Products</a></li>
-            <li><a href="marcas.html">Brands</a></li>
-            <li><a href="contacto.html">Contact Us</a></li> 
-        </ul>
-    </nav>
-     <!-- INICIO -->
-     <section class="hero">
-        <div class="hero-content">
-            <h1 id="product-name"></h1>
-        </div>
-    </section> <!-- FIN DE INICIO -->
-    
-    <!-- Detalle del Producto -->
-    <div class="product-detail-container">
-        <!-- Carrusel de imágenes -->
-        <div class="carousel">
-            <div id="carousel-images" class="carousel-images"></div>
-            <div class="carousel-controls">
-                <button id="prevBtn">&#10094;</button>
-                <button id="nextBtn">&#10095;</button>
-            </div>
-        </div>
-        
-        <!-- Información del producto -->
-        <div class="product-info">
-            <h1 id="product-name2"></h1>
-            <p id="product-price"></p>
-            <p id="product-description"></p>
-            <a href="productos.html">Volver a Productos</a>
-        </div>
-    </div>
-
-<section id="productos-destacados">
-    <h2>Most Popular Products</h2>
-    <div class="productos-container">
-        <!-- Card 1 -->
-         <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/Helicoidal en línea.avif" alt="Producto 1">
-            <div class="producto-info">
-                <h3>Helicoidal en línea</h3>
-                <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 2 -->
-        <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/3106A.avif" alt="Producto 2">
-            <div class="producto-info">
-                <h3>3106A - RS-485, 1 Pr, 22AWG</h3>
-                <img src="assets/img/logos/belden.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 1 -->
-        <a href="productos.html" class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/NORDBlOC.1.avif" alt="Producto 1">
-            <div class="producto-info">
-                <h3>NORDBlOC.1®</h3>
-                <img src="assets/img/logos/nord.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Card 2 -->
-        <a href="productos.html"  class="a-productos"> <div class="producto-card">
-            <img src="assets/img/productos/ÖLFLEX-CLASSIC-400P.avif" alt="Producto 2">
-            <div class="producto-info">
-                <h3>ÖLFLEX® CLASSIC 400 P</h3>
-                <img src="assets/img/logos/lapp-1.png" alt="Logo Marca" class="logo-marca">
-                <a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID." class="btn-contacto">Contáctanos</a>
-            </div>
-        </div></a>
-        <!-- Repite para más productos -->
-    </div><br><br>
-</section>
-
-  <!-- NUESTROS COLABORADORES -->
-  <section>
-    <h2>OUR <span class="highlight">BRANDS</span></h2>
-    <div class="underline"></div>
-    <div class="container">
-        <div class="collaborators">
-            <div class="collaborator">
-                <img src="assets/img/logos/lapp-1.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
-            </div>
-            <div class="collaborator">
-                <img src="assets/img/logos/belden.png" alt="Belden" onclick="redirectToBrand('Marca2')">
-            </div>
-            <div class="collaborator">
-                <img src="assets/img/logos/nord.png" alt="Nord" onclick="redirectToBrand('Marca3')">
-            </div>
-            <!-- Agrega más colaboradores aquí -->
-        </div>
-    </div>
-</section> <!-- FIN DE NUESTROS COLABORADORES -->
-
-
-<br><br><br>
-<!-- FOOTER -->
-<section>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-column" style="text-align: left;">
-                <h3>Contact Us</h3>
-                <p>Phone: 1-503-667-3000</p>
-                <p>Toll-Free (US): 800-827-XRAY</p>
-                <p>(800-827-9729)</p>
-            </div>
-            <div class="footer-column" style="text-align: left;">
-                <h3>Address</h3>
-                <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
-                <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                <h3>Schedule</h3>
-                <p>Phone Lines Open....</p>
-                <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
-            </div>
-            <div class="footer-column" style="text-align: left;">
-                <h3>Páginas</h3>
-                <p><a href="index.html">Home</a></p>
-                <p><a href="#nosotros">About Us</a></p>
-                <p><a href="productos.html">Products</a></p>
-                <p><a href="marcas.html">Brands</a></p>
-                <p><a href="contacto.html">Contac Us</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
-            <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
-        </div>
-    </footer>
-</section> <!-- FIN DE FOOTER -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const productId = localStorage.getItem('productId');
-
-            fetch('assets/scripts/productos.json')
-                .then(response => response.json())
-                .then(products => {
-                    const product = products.find(p => p.id == productId);
-                    if (product) {
-                        document.getElementById('product-name').textContent = product.name;
-                        document.getElementById('product-price').textContent = `Precio: $${product.price}`;
-                        document.getElementById('product-description').textContent = product.description;
-
-                        // Cargar imágenes en el carrusel
-                        const carouselImages = document.getElementById('carousel-images');
-                        let imageIndex = 0;
-
-                        product.images.forEach((imageUrl, index) => {
-                            const img = document.createElement('img');
-                            img.src = imageUrl;
-                            img.alt = product.name;
-                            img.classList.add('carousel-img');
-                            if (index !== 0) img.style.display = 'none';
-                            carouselImages.appendChild(img);
-                        });
-
-                        // Controles del carrusel
-                        const images = document.querySelectorAll('.carousel-img');
-                        document.getElementById('prevBtn').addEventListener('click', () => {
-                            images[imageIndex].style.display = 'none';
-                            imageIndex = (imageIndex - 1 + images.length) % images.length;
-                            images[imageIndex].style.display = 'block';
-                        });
-                        document.getElementById('nextBtn').addEventListener('click', () => {
-                            images[imageIndex].style.display = 'none';
-                            imageIndex = (imageIndex + 1) % images.length;
-                            images[imageIndex].style.display = 'block';
-                        });
-                    }
-                })
-                .catch(error => console.error('Error al cargar los productos:', error));
-        });
-    </script>
-</body>
-</html>
->>>>>>> 1418ebbd88ceae8dbcd03217748662780e6525fc

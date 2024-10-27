@@ -1,3 +1,14 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Asegurando que no haya desbordamiento en el body */
+body {
+    overflow-x: hidden;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -165,13 +176,11 @@
     }
 }
 
-
-
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero-productos.avif');
     background-size: cover;
     background-position: center;
-    height: 10vh;
+    height: 30vh;
     display: flex;
     align-items: flex-start;
     justify-content: center; /* Cambiado para alinear el contenido a la izquierda */
@@ -180,10 +189,9 @@
 }
 
 
-.hero h1 {
+.hero h2 {
     margin: 0;
-    margin-top: 20px;
-    font-size: 2.7em;
+    margin-top: 70px;
 }
 .hero h3 {
     font-size: 1.5rem;
@@ -197,10 +205,7 @@
 }
 
 .hero-buttons {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
-    gap: 10px; /* Espacio entre los botones */
+    margin-top: 40px;
 }
 
 .btn {
@@ -212,8 +217,6 @@
     color: white;
     font-size: 1rem;
     cursor: pointer;
-    flex: 1 1 auto; /* Permite que los botones se ajusten en tamaño si es necesario */
-    max-width: calc(50% - 10px); /* Ajusta el ancho máximo de los botones para que se acomoden en una fila en pantallas más grandes */
 }
 
 .btn-blue {
@@ -231,7 +234,73 @@
 .btn-red:hover{
     background-color: #04A7E4;
 }
+
 /* Media Queries para hacer el hero responsive */
+
+@media (max-width: 1285px) {
+    .hero {
+        align-items: flex-start; /* Mantener el contenido en la parte superior */
+        justify-content: center; /* Alinear contenido en el centro horizontalmente */
+        text-align: center; /* Centrar el texto */
+        padding: 20px; /* Reducir el padding */
+        height: 40vh;
+    }
+
+    .hero h2 {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .hero-content {
+        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
+        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .hero {
+        align-items: flex-start; /* Mantener el contenido en la parte superior */
+        justify-content: center; /* Alinear contenido en el centro horizontalmente */
+        text-align: center; /* Centrar el texto */
+        padding: 20px; /* Reducir el padding */
+        height: 50vh;
+    }
+
+    .hero h2 {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .hero-content {
+        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
+        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+    }
+}
 
 @media (max-width: 878px) {
     .hero {
@@ -246,25 +315,22 @@
         margin-top: 20px; /* Añadir margen superior para separar del borde superior */
     }
 
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
     .hero p {
         font-size: 1.2rem; /* Reducir el tamaño del texto */
     }
 
     .btn {
         font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
-        padding: 10px 15px; /* Reducir el padding del botón */
     }
 }
 
 @media (max-width: 480px) {
-    .hero-buttons {
-        flex-direction: column; /* Apilar botones verticalmente en pantallas muy pequeñas */
-        align-items: center; /* Alinear botones al centro */
-    }
-
-    .btn {
-        max-width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
-        margin: 5px 0; /* Añadir margen vertical entre botones */
+    .hero h1 {
+        font-size: 2rem; /* Reducir aún más el tamaño del texto */
     }
 
     .hero p {
@@ -277,181 +343,90 @@
     }
 }
 
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+    background-color: #f0f0f0;
+}
 
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #EBF8FF;
-    color: #2B6CB0;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.product-detail {
+
+.contact-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-}
-.product-images {
-    flex: 1;
-    min-width: 300px;
-}
-.main-image {
+    max-width: 1000px;
     width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.thumbnail-container {
-    display: flex;
-    gap: 10px;
-}
-.thumbnail {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.product-info {
-    flex: 1;
-    min-width: 300px;
-}
-h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-.rating {
-    color: #4299E1;
-    font-size: 24px;
-}
-.price {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-}
-.description {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-}
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.btn-primary {
-    background-color: #3182CE;
-    color: white;
-}
-.btn-primary:hover {
-    background-color: #2C5282;
-}
-.btn-secondary {
-    background-color: white;
-    color: #3182CE;
-    border: 1px solid #3182CE;
-}
-.btn-secondary:hover {
-    background-color: #EBF8FF;
-}
-.product-actions {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.tabs {
-    margin-top: 40px;
-}
-.tab-buttons {
-    display: flex;
-    border-bottom: 2px solid #BEE3F8;
-}
-.tab-button {
-    padding: 10px 20px;
-    background-color: #EBF8FF;
-    border: none;
-    cursor: pointer;
-}
-.tab-button.active {
-    background-color: white;
-    border-bottom: 2px solid #3182CE;
-}
-.tab-content {
-    background-color: white;
+    gap: 20px;
     padding: 20px;
-    border-radius: 0 0 8px 8px;
-}
-.tab-pane {
-    display: none;
-}
-.tab-pane.active {
-    display: block;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
-.specifications-table {
+.contact-form, .contact-map {
+    flex: 1 1 300px;
+}
+
+.contact-form h2, .contact-map h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    color: #555;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
     margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-map iframe {
     width: 100%;
-    overflow-x: auto; /* Permite desplazamiento horizontal si la tabla es más ancha que el contenedor */
+    border-radius: 5px;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse; /* Elimina los espacios entre las celdas */
-}
-
-th, td {
-    padding: 12px; /* Espaciado interno en celdas */
-    text-align: left; /* Alineación del texto */
-    border: 1px solid #ddd; /* Borde de las celdas */
-}
-
-th {
-    background-color: #f4f4f4; /* Color de fondo para los encabezados */
-    font-weight: bold; /* Negrita en los encabezados */
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9; /* Color de fondo para filas pares */
-}
-
-tr:hover {
-    background-color: #f1f1f1; /* Color de fondo al pasar el mouse sobre la fila */
-}
-
-/* Estilo para que la tabla sea responsiva en pantallas pequeñas */
-@media (max-width: 600px) {
-    th, td {
-        display: block; /* Cada celda se convierte en un bloque */
-        width: 100%; /* Cada celda ocupa todo el ancho */
-    }
-
-    tr {
-        margin-bottom: 10px; /* Espaciado entre filas */
-        display: block; /* Cada fila se convierte en un bloque */
-    }
-
-    th {
-        display: none; /* Oculta los encabezados en vistas móviles */
-    }
-
-    tr:nth-child(even) {
-        background-color: transparent; /* Elimina el color de fondo para filas pares en móviles */
-    }
-}
-
-
-
-
 
 
 
@@ -554,6 +529,7 @@ tr:hover {
         max-width: 100%;
         margin: 10px 0;
     }
+    
 }
 
 @media (max-width: 480px) {
@@ -587,6 +563,14 @@ tr:hover {
     .btn-contacto {
         padding: 6px 12px;
     }
+    .logo-marca {
+    max-width: 200px; /* Define un ancho máximo razonable para los logos */
+    max-height: 87px; /* Define una altura máxima razonable para los logos */
+    width: auto; /* Permite que el ancho sea ajustado automáticamente */
+    height: auto; /* Permite que la altura sea ajustada automáticamente */
+    object-fit: contain; /* Asegura que el logo se ajuste sin distorsionar */
+    margin: 10px 0;
+}
 }
 
 body {
@@ -623,7 +607,7 @@ body {
 }
 @media (max-width: 1200px) {
     .collaborators {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 @media (max-width: 992px) {
@@ -673,11 +657,6 @@ h2 .highlight {
 }
 
 
-@media (max-width: 1200px) {
-    h2 {
-        font-size: 1.9rem;
-    }
-}
 
 footer {
     background-color: #1D4A67;

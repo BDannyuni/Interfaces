@@ -1,107 +1,55 @@
-<<<<<<< HEAD
 [
     {
         "id": 1,
         "name": "Infab's lightning fast 24 hour ship aprons.",
-        "name2": "Infab's lightning fast 24 hour ship aprons.",
-        "price": 100,
-        "description": "0.50mm LE full front panel for maximum protection that distributes weight between waist and shoulder. Hook and Loop closure and a double welt pocket on the chest.",
-        "images": ["assets/img/productos/info/Infab-lightning-1.jpg", "assets/img/productos/info/Infab-lightning-2.jpg", "assets/img/productos/info/Infab-lightning-3.jpg"]
+        "rating": "★★★☆☆ (128 reseñas)",
+        "price": "$98.00 - $595.00",
+        "description": "0.50mm LE full front panel for maximum protection that distributes weight between waist and shoulder. 6 nylon color options. 5 sizing options.Ki-Armor Lead Free. With or without Thyroid Collar",
+        "images": ["assets/img/productos/info/Infab-lightning-1.jpg", "assets/img/productos/info/Infab-lightning-2.jpg", "assets/img/productos/info/Infab-lightning-3.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Core Material", "Closure", "Core Material Lead Prot. Equiv.", "Time til Ship at Receipt of Order", "Your Price"],
+            "rows": [
+                ["UFP-KI-LF", "Frontal Apron", "Ki-Armor Lead Free", "Hook n Loop", "0.50mm on Front", "24 hours", "$595.00"],
+                ["UVS-KI-LF", "Vest/Skirt Set", "Ki-Armor Lead Free", "Hook n Loop", "0.50mm/At Front Overlap 0.25mm Back", "24 hours", "$895.00"],
+                ["UFW-KI-LF", "Full Wrap", "Ki-Armor Lead Free", "Hook n Loop", "0.50mm/At Front Overlap 0.25mm Back", "24 hours", "$895.00"],
+                ["UST-S1", "No Binding Thyroid Collar Not Sold Separately", "Lead Free", "Hook n Loop", "0.50mm", "24 hours", "$98.00"]
+
+            ]
+        }
     },
     {
         "id": 2,
         "name": "Exam and Surgical Radiation Reducing Gloves.",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+        "rating": "★★★★★ (150 reseñas)",
+        "price": "$44.00 - $47.00",
+        "description": "Developed with the physician in mind, these radiation reducing gloves offer the best protection with the greatest dexterity, sensitivity and comfort compared to similar products. Ideal for Radiology, Cath/Electro Physiology, Orthopedic Surgery, Endoscopy, Urology, and Pain Management. Ideal for all high exposure procedures where sensitivity and protection are essential. Color - warm gray. Order as many or as few as one pair at a time.",
+        "images": ["assets/img/productos/info/ExamandSurgicalRadiationReducingGloves-1.png", "assets/img/productos/info/ExamandSurgicalRadiationReducingGloves-2.png"],
+        "brandLogo": "assets/img/logos/ProGuard.png",
+        "specifications": {
+            "headers": ["Stock #", "Thickness", "Your Price"],
+            "rows": [
+                ["RR1", "0.0088' (.24mm)", "$44.00"],
+                ["RR2", "0.012' (.28mm)", "$47.00"]
+            ]
+        }
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Resolution Test Patterns, Easily Customized At Your Request.",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
+        "rating": "★★★★☆ (120 reseñas)",
+        "price": "$950.00 - $1,975.00",
+        "description": "Resolution Test Patterns Pro-Project offers a wide range of test patterns for two and three dimensional resolution evaluation. Because they do not depend on other companies, and each pattern is developed and manufactured in-house, they offer all combination of shapes, layouts, templates and materials. Their cutting-edge technology allows them to obtain unmatched precision and resolution range in many types of materials and they can easily manufacture different sizes per your requirement. Call for pricing on your needs if you don't see them mentioned here.",
+        "images": ["assets/img/productos/info/ResolutionTestPatterns-1.png", "assets/img/productos/info/ResolutionTestPatterns-2.png"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Type", "Range of Line Pairs/mm", "Number Of Groups", "Bars per Group", "Lead Thickness", "Your Price"],
+            "rows": [
+                ["RR1", "Pro-Res RF BarType 1 Physical Size: 50x50mm","Bar","0.6 - 5.0","20","3","0.05mm", "$950.00"],
+                ["05-402", "Pro-Res RF BarType 2 Physical Size: 57mmx47mm","Bar","0.5 - 5.0","21","5","0.10mm", "$895.00"],
+                ["05-403", "Pro-Res RF BarType 3 Physical Size: 57mmx47mm","Bar","0.5 - 14.3","30","5","0.05mm", "$1,145.00"]
+            ]
+        }
     }
+    
 ]
-=======
-[
-    {
-        "id": 1,
-        "name": "Infab's lightning fast 24 hour ship aprons.",
-        "name2": "Infab's lightning fast 24 hour ship aprons.",
-        "price": 100,
-        "description": "0.50mm LE full front panel for maximum protection that distributes weight between waist and shoulder. Hook and Loop closure and a double welt pocket on the chest.",
-        "images": ["assets/img/productos/info/Infab-lightning-1.jpg", "assets/img/productos/info/Infab-lightning-2.jpg", "assets/img/productos/info/Infab-lightning-3.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Exam and Surgical Radiation Reducing Gloves.",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Resolution Test Patterns, Easily Customized At Your Request.",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    },
-    {
-        "id": 2,
-        "name": "Producto 2",
-        "price": 150,
-        "description": "Descripción detallada del Producto 2.",
-        "images": ["producto2.jpg", "producto2_extra1.jpg", "producto2_extra2.jpg"]
-    }
-]
->>>>>>> 1418ebbd88ceae8dbcd03217748662780e6525fc
