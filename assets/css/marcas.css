@@ -1,0 +1,708 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Asegurando que no haya desbordamiento en el body */
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none; /* Elimina la línea debajo del texto */
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+}
+
+.logo img {
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Ajusta el tamaño del texto según necesites */
+    color: #000;
+}
+
+.logo a {
+    text-decoration: none; /* Elimina la línea debajo del texto */
+    color: inherit; /* Asegura que el texto herede el color */
+    display: flex;
+    align-items: center; /* Asegura la alineación vertical correcta */
+}
+
+.logo a {
+    text-decoration: none; /* Elimina la línea debajo del texto */
+    color: inherit; /* Asegura que el texto herede el color */
+    display: flex;
+    align-items: center; /* Asegura la alineación vertical correcta */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Ajusta el tamaño del texto según necesites */
+    color: #000;
+    text-decoration: none; /* Elimina la línea debajo del texto */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s, padding 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #0E5480;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 1.5rem 1.5rem;
+}
+
+.menu-icon {
+    display: none;
+    color: #000;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1175px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* Contenedor de la búsqueda */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    flex-grow: 1;
+    margin: 0 2rem;
+}
+
+#search-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #0E5480;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button img {
+    filter: brightness(0) invert(1); /* Cambia el color de la lupa a blanco */
+}
+
+/* Lista de autocompletado */
+.autocomplete-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media query para ajustar el diseño en dispositivos móviles */
+@media (max-width: 1175px) {
+    .search-container {
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero-productos.avif');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* Cambiado para alinear el contenido a la izquierda */
+    color: white;
+    text-align: center; /* Cambiado para alinear el texto a la izquierda */
+}
+
+
+.hero h2 {
+    margin: 0;
+    margin-top: 50px;
+}
+.hero h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 15px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #04A7E4;
+}
+
+.btn-blue:hover{
+    background-color: #834B9F;
+}
+
+.btn-red {
+    background-color: #834B9F;
+    padding: 15px 30px;
+}
+.btn-red:hover{
+    background-color: #04A7E4;
+}
+
+/* Media Queries para hacer el hero responsive */
+
+@media (max-width: 1980px) {
+    .hero {
+        align-items: flex-start; /* Mantener el contenido en la parte superior */
+        justify-content: center; /* Alinear contenido en el centro horizontalmente */
+        text-align: center; /* Centrar el texto */
+        padding: 20px; /* Reducir el padding */
+        height: 30vh;
+    }
+
+    .hero-content {
+        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
+        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+
+@media (max-width: 1285px) {
+    .hero {
+        align-items: flex-start; /* Mantener el contenido en la parte superior */
+        justify-content: center; /* Alinear contenido en el centro horizontalmente */
+        text-align: center; /* Centrar el texto */
+        padding: 20px; /* Reducir el padding */
+        height: 35vh;
+    }
+
+    .hero-content {
+        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
+        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+@media (max-width: 878px) {
+    .hero {
+        align-items: flex-start; /* Mantener el contenido en la parte superior */
+        justify-content: center; /* Alinear contenido en el centro horizontalmente */
+        text-align: center; /* Centrar el texto */
+        padding: 20px; /* Reducir el padding */
+        height: 45vh;
+    }
+
+    .hero-content {
+        max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
+        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Reducir el tamaño del texto */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 55vh;
+    }
+    .hero h1 {
+        font-size: 2rem; /* Reducir aún más el tamaño del texto */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Reducir aún más el tamaño del texto */
+    }
+
+    .btn {
+        padding: 8px 16px; /* Reducir el padding del botón */
+        font-size: 0.8rem; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+
+
+#productos-destacados {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/productos-destacados.avif');
+    background-size: cover;
+    background-position: center;
+    text-decoration: none; /* Elimina la línea debajo del texto */
+}
+
+#productos-destacados h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.a-productos{
+    text-decoration: none;
+    color: #000;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center; /* Alinea los cards al centro */
+    flex-wrap: wrap;
+    gap: 10px; /* Reduce el espacio entre los cards */
+}
+
+.producto-card {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 300px; /* Aumenta el ancho máximo de los cards */
+    width: 100%; /* Asegura que los cards ocupen todo el ancho permitido */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.producto-card img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del card */
+    height: 180px; /* Fija la altura de las imágenes */
+    object-fit: cover; /* Cubre todo el espacio disponible sin distorsionar la imagen */
+    border-bottom: 2px solid #ddd;
+}
+.producto-info {
+    padding: 20px;
+}
+
+.producto-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.logo-marca {
+    max-width: 210px; /* Define un ancho máximo razonable para los logos */
+    max-height: 90px; /* Define una altura máxima razonable para los logos */
+    width: auto; /* Permite que el ancho sea ajustado automáticamente */
+    height: auto; /* Permite que la altura sea ajustada automáticamente */
+    object-fit: contain; /* Asegura que el logo se ajuste sin distorsionar */
+    margin: 10px 0;
+}
+
+
+.btn-contacto {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #834B9F;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contacto:hover {
+    background-color: #04A7E4;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Responsividad */
+@media (max-width: 608px) {
+    #productos-destacados h2 {
+        font-size: 2rem;
+    }
+
+    .productos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto-card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #productos-destacados h2 {
+        font-size: 1.5rem;
+    }
+
+    .productos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto-card {
+        max-width: 90%;
+        margin: 10px 0;
+    }
+
+    .producto-card img {
+        height: 250px;
+    }
+
+    .producto-info h3 {
+        font-size: 0.9rem;
+    }
+
+    .logo-marca {
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+    .btn-contacto {
+        padding: 6px 12px;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.collaborators {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.collaborator img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 100px; /* Ajusta la altura máxima */
+}
+@media (max-width: 1200px) {
+    .collaborators {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 992px) {
+    .collaborators {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .collaborators {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 576px) {
+    .collaborators {
+        grid-template-columns: 1fr;
+    }
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2 .highlight {
+    color: #25B0EB;
+}
+.underline {
+    width: 200px; /* Ajusta el ancho de la línea según sea necesario */
+    height: 4px;
+    background-color: #25B0EB;
+    margin: 10px auto 0; /* Centra la línea y ajusta el margen */
+}
+
+.collaborator img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 150px;
+    filter: grayscale(100%); /* Hace que el logo aparezca en gris */
+    transition: filter 0.3s ease, transform 0.3s ease; /* Suaviza la transición al color */
+    cursor: pointer; /* Cambia el cursor a pointer para indicar que es clicable */
+}
+
+.collaborator img:hover {
+    filter: grayscale(0%); /* Vuelve a colorear el logo al pasar el ratón */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del logo al pasar el ratón */
+}
+
+
+
+footer {
+    background-color: #1D4A67;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #1D4A67;
+    padding-bottom: 20px;
+}
+.footer-column {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+    text-align: right; /* Alinea el texto a la derecha */
+}
+.footer-column h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.footer-column h3::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #25B0EB;
+    position: absolute;
+    right: -10; /* Alinea la línea a la derecha */
+    bottom: -5px;
+}
+.footer-column p, .footer-column a {
+    color: #CCCCCC;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-column a {
+    position: relative; /* Necesario para colocar el triángulo */
+    padding-left: 20px; /* Espacio para el triángulo */
+}
+.footer-column a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #25B0EB; /* Color del triángulo */
+}
+
+.footer-column a:hover {
+    color: #25B0EB;
+}
+.footer-column h4 {
+    color: #25B0EB;
+    margin-top: 20px;
+    position: relative;
+}
+.footer-column h4::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #25B0EB;
+    position: absolute;
+    right: 0; /* Alinea la línea a la derecha */
+    bottom: -5px;
+}
+.footer-bottom {
+    background-color: #1D4A67;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #fff;
+}
+.footer-bottom a {
+    color: #25B0EB;
+    text-decoration: none;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos al principio del contenedor en móviles */
+        text-align: center; /* Centra el texto a la izquierda en dispositivos móviles */
+    }
+    .footer-column {
+        text-align: center; /* Alinea el texto a la izquierda en dispositivos móviles */
+        margin: 10px 15px; /* Ajusta el margen para móviles */
+        position: static; /* Elimina el posicionamiento absoluto para móviles */
+    }
+    .footer-column h3::after, .footer-column h4::after {
+        left: 0; /* Alinea la línea decorativa a la izquierda en dispositivos móviles */
+        right: auto; /* Restablece el alineamiento de la línea decorativa en móviles */
+        transform: none; /* Elimina el centrado de la línea decorativa */
+    }
+}
+
+
+/* Animación de desvanecimiento hacia arriba */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación de entrada desde la izquierda */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animated.fadeInUp {
+    animation: fadeInUp 1s forwards;
+}
+
+.animated.fadeInLeft {
+    animation: fadeInLeft 1s forwards;
+}
