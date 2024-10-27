@@ -492,6 +492,51 @@ h3 {
     }
 }
 
+ /* Estilo para los botones de paginación */
+ .paginacion {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagina-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagina-btn:hover {
+    background-color: #0056b3;
+}
+
+.paginacion button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Estilo del selector de productos por página */
+.pagination-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pagination-controls label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.pagination-controls select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 
 #productos-destacados {

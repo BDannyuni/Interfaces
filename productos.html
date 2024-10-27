@@ -55,8 +55,17 @@
             </div>
         </aside>
         <main>
+            <div class="pagination-controls">
+                <label for="productos-por-pagina">Productos por página:</label>
+                <select id="productos-por-pagina">
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
             <h1>Nuestros Productos</h1>
             <div id="productos-grid" class="productos-grid"></div>
+            <div id="paginacion"></div>
         </main>
     </div>
 
@@ -68,13 +77,13 @@
         <div class="container">
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="assets/img/logos/lapp-1.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+                    <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/belden.png" alt="Belden" onclick="redirectToBrand('Marca2')">
+                    <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/nord.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
+                    <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
                 </div>
                 <!-- Agrega más colaboradores aquí -->
             </div>
@@ -161,91 +170,125 @@
     </script> <!-- FIN DE SCRIPTS -->
 
     <script>
-        let productos = [];
-        const precioSlider = document.getElementById('precio-slider');
-        const precioMaximoSpan = document.getElementById('precio-maximo');
-        const categoriasFiltro = document.getElementById('categorias-filtro');
-        const productosGrid = document.getElementById('productos-grid');
+         let productos = [];
+let precioMaximo = 2000;
+let categoriasSeleccionadas = [];
+let productosPorPagina = 4; // Valor inicial
+let paginaActual = 1;
 
-        let precioMaximo = 2000;
-        let categoriasSeleccionadas = [];
+const precioSlider = document.getElementById('precio-slider');
+const precioMaximoSpan = document.getElementById('precio-maximo');
+const categoriasFiltro = document.getElementById('categorias-filtro');
+const productosGrid = document.getElementById('productos-grid');
+const paginacion = document.getElementById('paginacion');
+const productosPorPaginaSelect = document.getElementById('productos-por-pagina');
 
-        async function cargarProductos() {
-            try {
-                const response = await fetch('assets/scripts/productos.json');
-                productos = await response.json();
-                inicializarFiltros();
-                actualizarProductos();
-            } catch (error) {
-                console.error('Error al cargar los productos:', error);
-            }
-        }
+async function cargarProductos() {
+    try {
+        const response = await fetch('assets/scripts/productos.json');
+        productos = await response.json();
+        inicializarFiltros();
+        actualizarProductos();
+    } catch (error) {
+        console.error('Error al cargar los productos:', error);
+    }
+}
 
-        function inicializarFiltros() {
-            const categorias = [...new Set(productos.map(p => p.name.split('.')[0]))];
-            categorias.forEach(categoria => {
-                const categoriaElement = document.createElement('div');
-                categoriaElement.className = 'categoria-checkbox';
-                categoriaElement.innerHTML = `
-                    <input type="checkbox" id="${categoria}" value="${categoria}">
-                    <label for="${categoria}">${categoria}</label>
-                `;
-                categoriasFiltro.appendChild(categoriaElement);
-            });
-        }
+function inicializarFiltros() {
+    const categorias = [...new Set(productos.map(p => p.name.split('.')[0]))];
+    categorias.forEach(categoria => {
+        const categoriaElement = document.createElement('div');
+        categoriaElement.className = 'categoria-checkbox';
+        categoriaElement.innerHTML = `
+            <input type="checkbox" id="${categoria}" value="${categoria}">
+            <label for="${categoria}">${categoria}</label>
+        `;
+        categoriasFiltro.appendChild(categoriaElement);
+    });
+}
 
-        function actualizarProductos() {
-            const productosFiltrados = productos.filter(producto => {
-                const precio = parseFloat(producto.price.split(' - ')[0].replace('$', ''));
-                const categoria = producto.name.split('.')[0];
-                return precio <= precioMaximo &&
-                    (categoriasSeleccionadas.length === 0 || categoriasSeleccionadas.includes(categoria));
-            });
+function actualizarProductos() {
+    const productosFiltrados = productos.filter(producto => {
+        const precio = parseFloat(producto.price.split(' - ')[0].replace('$', ''));
+        const categoria = producto.name.split('.')[0];
+        return precio <= precioMaximo &&
+            (categoriasSeleccionadas.length === 0 || categoriasSeleccionadas.includes(categoria));
+    });
 
-            productosGrid.innerHTML = '';
-            productosFiltrados.forEach(producto => {
-                const productoElement = document.createElement('div');
-                productoElement.className = 'producto-card';
-                productoElement.setAttribute('onclick', `viewProductDetails(${producto.id})`);
-                productoElement.innerHTML = `
-                    <img src="${producto.images[0]}" alt="${producto.name}" class="producto-imagen">
-                    <div class="producto-info">
-                        <div class="producto-nombre">${producto.name}</div>
-                        <div class="producto-rating">${producto.rating}</div>
-                        <div class="producto-precio">${producto.price}</div>
-                        <div class="producto-descripcion">${producto.description.substring(0, 100)}...</div>
-                    </div>
-                `;
-                productosGrid.appendChild(productoElement);
-            });
-        }
+    const totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
+    paginaActual = Math.min(paginaActual, totalPaginas);
 
-        function viewProductDetails(id) {
-            const producto = productos.find(p => p.id === id);
-            if (producto) {
-    localStorage.setItem('productId', id);
-    window.location.href = 'detalle.html';
-            }
-        }
+    const inicio = (paginaActual - 1) * productosPorPagina;
+    const productosPagina = productosFiltrados.slice(inicio, inicio + productosPorPagina);
 
-        precioSlider.addEventListener('input', (e) => {
-            precioMaximo = parseInt(e.target.value);
-            precioMaximoSpan.textContent = precioMaximo;
+    productosGrid.innerHTML = '';
+    productosPagina.forEach(producto => {
+        const productoElement = document.createElement('div');
+        productoElement.className = 'producto-card';
+        productoElement.setAttribute('onclick', `viewProductDetails(${producto.id})`);
+        productoElement.innerHTML = `
+            <img src="${producto.images[0]}" alt="${producto.name}" class="producto-imagen">
+            <div class="producto-info">
+                <div class="producto-nombre">${producto.name}</div>
+                <div class="producto-rating">${producto.rating}</div>
+                <div class="producto-precio">${producto.price}</div>
+                <div class="producto-descripcion">${producto.description.substring(0, 100)}...</div>
+            </div>
+        `;
+        productosGrid.appendChild(productoElement);
+    });
+
+    actualizarPaginacion(totalPaginas);
+}
+
+function actualizarPaginacion(totalPaginas) {
+    paginacion.innerHTML = '';
+
+    for (let i = 1; i <= totalPaginas; i++) {
+        const paginaElement = document.createElement('button');
+        paginaElement.className = 'pagina-btn';
+        paginaElement.textContent = i;
+        paginaElement.disabled = i === paginaActual;
+        paginaElement.addEventListener('click', () => {
+            paginaActual = i;
             actualizarProductos();
         });
+        paginacion.appendChild(paginaElement);
+    }
+}
 
-        categoriasFiltro.addEventListener('change', (e) => {
-            if (e.target.type === 'checkbox') {
-                if (e.target.checked) {
-                    categoriasSeleccionadas.push(e.target.value);
-                } else {
-                    categoriasSeleccionadas = categoriasSeleccionadas.filter(c => c !== e.target.value);
-                }
-                actualizarProductos();
-            }
-        });
+function viewProductDetails(id) {
+    const producto = productos.find(p => p.id === id);
+    if (producto) {
+        localStorage.setItem('productId', id);
+        window.location.href = 'detalle.html';
+    }
+}
 
-        cargarProductos();
+precioSlider.addEventListener('input', (e) => {
+    precioMaximo = parseInt(e.target.value);
+    precioMaximoSpan.textContent = precioMaximo;
+    actualizarProductos();
+});
+
+categoriasFiltro.addEventListener('change', (e) => {
+    if (e.target.type === 'checkbox') {
+        if (e.target.checked) {
+            categoriasSeleccionadas.push(e.target.value);
+        } else {
+            categoriasSeleccionadas = categoriasSeleccionadas.filter(c => c !== e.target.value);
+        }
+        actualizarProductos();
+    }
+});
+
+productosPorPaginaSelect.addEventListener('change', (e) => {
+    productosPorPagina = parseInt(e.target.value);
+    paginaActual = 1;
+    actualizarProductos();
+});
+
+cargarProductos();
     </script>
 </body>
 </html>
