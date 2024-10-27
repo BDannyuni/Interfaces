@@ -50,6 +50,23 @@
                 ["05-403", "Pro-Res RF BarType 3 Physical Size: 57mmx47mm","Bar","0.5 - 14.3","30","5","0.05mm", "$1,145.00"]
             ]
         }
+    },
+    {
+        "id": 4,
+        "name": "Leaded Glass",
+        "rating": "★★★☆ (36 reseñas)",
+        "price": "$495.00 - 1,550.00",
+        "description": "Hurricane Glass rated for various missile impacts, bullet resistant glass, fire rated glass and both fire rated and bullet resistant glass. Call for pricing.",
+        "images": ["assets/img/productos/info/Leaded-Glass-1.jpg", "assets/img/productos/info/Leaded-Glass-2.jpg"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Type", "Range of Line Pairs/mm", "Number Of Groups", "Bars per Group", "Lead Thickness", "Your Price"],
+            "rows": [
+                ["RR1", "Pro-Res RF BarType 1 Physical Size: 50x50mm","Bar","0.6 - 5.0","20","3","0.05mm", "$950.00"],
+                ["05-402", "Pro-Res RF BarType 2 Physical Size: 57mmx47mm","Bar","0.5 - 5.0","21","5","0.10mm", "$895.00"],
+                ["05-403", "Pro-Res RF BarType 3 Physical Size: 57mmx47mm","Bar","0.5 - 14.3","30","5","0.05mm", "$1,145.00"]
+            ]
+        }
     }
     
 ]
