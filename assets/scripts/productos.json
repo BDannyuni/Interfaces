@@ -115,8 +115,8 @@
         "name": "Fluoro Resolution Test Tool",
         "rating": "★★★★★ (274 reseñas)",
         "price": "$395.00 - $515.00",
-        "description": "",
-        "images": ["assets/img/productos/info/c-1.jpg", "assets/img/productos/info/"],
+        "description": "The Fluoroscopic Resolution Test Tool is an acrylic plate containing eight groups of copper and brass mesh screening. Three models are offered, each with different resolution values. These mesh groups are purposely arranged in a non-sequential rotational pattern to permit better visualization of the sometimes subtle changes in mesh thickness. These test tools provide a quick general check on image intensifiers and can also be used to optimize television system focus as well as mirror optics and image intensifier settings.",
+        "images": ["assets/img/productos/info/Fluoroscopic Resolution Test Tool-1.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
             "headers": ["Stock #", "Description", "LPI?", "Your Price"],
