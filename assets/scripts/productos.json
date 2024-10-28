@@ -142,6 +142,21 @@
                 ["1104-C3", "Box style merchant board with arms to accommodate DR Panels up to 1-1/4 thick. SPECIFY your panel dimensions at time of order.", "$1,575.00"]
             ]
         }
+    },
+    {
+        "id": 9,
+        "name": "PNWX Light Duty Merchant Board for Film Cassettes",
+        "rating": "★★★☆☆ (192 reseñas)",
+        "price": "$825.00",
+        "description": "A top quality Merchant board constructed of solid oak (no plywood!) with a formica laminate top covering. The formica covering resists scratches and makes cleanup easy! This unit features a heavy base design which makes it very stable during merchant exams.",
+        "images": ["assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-1.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-2.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-3.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-4.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-5.jpg"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["1104", "$825.00"]
+            ]
+        }
     }
     
 ]
