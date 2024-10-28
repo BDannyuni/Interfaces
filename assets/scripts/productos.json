@@ -219,6 +219,21 @@
     },
     {
         "id": 13,
+        "name": "Adjustable Mobile X-ray Barrier",
+        "rating": "★★★☆☆ (72 reseñas)",
+        "price": "$5,704.62",
+        "description": "This window can be easily raised and lowered by hand as a result of the perfectly counter-balanced internal springs. The high quality steel construction and stainless springs provide a lifetime of trouble-free use",
+        "images": ["assets/img/productos/info/Adjustable Mobile X-ray Barrier-1.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["076993", "Technician Protection. Adjustable Mobile Screen", "$5,704.62"]
+            ]
+        }
+    },
+    {
+        "id": 14,
         "name": "Large Window Mobile Barrier",
         "rating": "★★★★★ (378 reseñas)",
         "price": "$150.00 - $12,276.92",
