@@ -134,7 +134,7 @@
         "price": "$1,575.00 - $2,146.85",
         "description": "An ultra sturdy solid-box-design X-Ray Merchant board intended for use with modern expensive DR digital panels and or plates.",
         "images": ["assets/img/productos/info/PNWX Merchant Board for DR Panels-1.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-2.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-3.jpg"],
-        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "brandLogo": "assets/img/logos/pnwx.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
@@ -150,7 +150,7 @@
         "price": "$825.00",
         "description": "A top quality Merchant board constructed of solid oak (no plywood!) with a formica laminate top covering. The formica covering resists scratches and makes cleanup easy! This unit features a heavy base design which makes it very stable during merchant exams.",
         "images": ["assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-1.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-2.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-3.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-4.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-5.jpg"],
-        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "brandLogo": "assets/img/logos/pnwx.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
@@ -182,7 +182,7 @@
     {
         "id": 11,
         "name": "Techno-Aide's Veterinary Immobilizers",
-        "rating": "★☆ ( reseñas)",
+        "rating": "★★★★★ (448 reseñas)",
         "price": "$36.00 - $1,242.67",
         "description": "Techno-Aide is proud to offer the number one option in veterinary positioning! Our premium radiolucent immobilizer troughs provide the ultimate solution for easy and reliable animal positioning*. These durable troughs features a comfortable foam sponge core completely sealed and sewn in our heavy-gauge, reinforced ''Techno-Tuff'' black vinyl. The unique v-shaped immobilizer design reduces motion and fall risks for animals during procedures. Each immobilizer includes four easy-to-use hook & loop strips that quickly and conveniently attach to a securely sewn hook & loop band along the entire trough. These straps can be positioned in endless ways to secure animal limbs for nearly any imaging need.",
         "images": ["assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-1.jpg","assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-2.jpg"],
