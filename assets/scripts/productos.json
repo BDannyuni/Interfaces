@@ -164,7 +164,7 @@
         "rating": "★★☆☆☆ (82 reseñas)",
         "price": "$2,675.00",
         "description": "ACR accredited phantoms; both Medium & LARGE for comprehensive evaluation of critical imaging parameters of magnetic resonance imaging (MRI) in a time efficient manner. The phantom can be used for the measurement of absolute values for calibration purposes. However, its design is optimized for time efficient daily quality assurance too.",
-        "images": ["assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-1.jpg", "assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-2.mp4",],
+        "images": ["assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-1.jpg", "assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-2.mp4"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Case Included?", "ACR Accredited?", "Your Price"],
