@@ -200,5 +200,21 @@
                 ["YCCD", "Coated Positioner", "X-Large", "14 x 36 x 9", "$1,242.67"]
             ]
         }
+    },
+    {
+        "id": 12,
+        "name": "Adjustable Physician Protection X-ray Mobile Barrier",
+        "rating": "★★☆☆☆ (192 reseñas)",
+        "price": "$8,095.38 - $9,692.31",
+        "description": "A unique new design that allows unparalleled protection for close-to-table studies. Sturdy, yet thoughtfully engineered with a small “Footprint” so it can easily be positioned exactly where you want it for maximum scatter radiation protection.",
+        "images": ["assets/img/productos/info/Adjustable Physician Protection X-ray Mobile Barrier-1.jpg", "assets/img/productos/info/Adjustable Physician Protection X-ray Mobile Barrier-2.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Description","Your Price"],
+            "rows": [
+                ["076994", "Physician Protection Mobile Screen", "$8,095.38"],
+                ["076994-IT", "Physician Protection Mobile Screen with 9''x24'' Stainless Steel Tray", "$9,692.31"]
+            ]
+        }
     }
 ]
