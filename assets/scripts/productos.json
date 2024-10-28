@@ -75,7 +75,7 @@
         "price": "$10.00 - $160.00",
         "description": "Infab's line of radiation protection curtains are custom manufactured to your exact specifications utilizing the same materials and expert craftsmanship found in their lead aprons. All curtains are manufactured from Infab's high quality lead vinyl core material and covered in your choice of any of their durable poly cloth colors and prints to match your decor (see color chart below).",
         "images": ["assets/img/productos/info/Infab's Solid Panel Mobile Curtain-1.jpg", "assets/img/productos/info/Infab's Solid Panel Mobile Curtain-2.jpg","assets/img/productos/info/Infab's Solid Panel Mobile Curtain-3.jpg"],
-        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "brandLogo": "assets/img/logos/INFAB.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
@@ -114,7 +114,7 @@
         "id": 7,
         "name": "Fluoro Resolution Test Tool",
         "rating": "★★★★★ (274 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$395.00 - $515.00",
         "description": "",
         "images": ["assets/img/productos/info/c-1.jpg", "assets/img/productos/info/"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -124,6 +124,23 @@
                 ["07-601", "Fluoro Resolution Test Tool", "16-60 LPI", "$395.00"],
                 ["07-618", "Fluoro Resolution Test Tool", "30-100 LPI", "$490.00"],
                 ["07-619", "Fluoro Resolution Test Tool", "60-100 LPI", "$515.00"]
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "PNWX Merchant Board for DR Panels",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "description": "",
+        "images": ["assets/img/productos/info/", ],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", , "Your Price"],
+            "rows": [
+                [],
+                [],
+                []
             ]
         }
     }
