@@ -130,17 +130,16 @@
     {
         "id": 8,
         "name": "PNWX Merchant Board for DR Panels",
-        "rating": "★☆ ( reseñas)",
-        "price": "$.00 - $.00",
-        "description": "",
-        "images": ["assets/img/productos/info/", ],
+        "rating": "★★★☆☆ (583 reseñas)",
+        "price": "$1,575.00 - $2,146.85",
+        "description": "An ultra sturdy solid-box-design X-Ray Merchant board intended for use with modern expensive DR digital panels and or plates.",
+        "images": ["assets/img/productos/info/PNWX Merchant Board for DR Panels-1.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-2.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-3.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
-            "headers": ["Stock #", "Description", , "Your Price"],
+            "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
-                [],
-                [],
-                []
+                ["1104-C3a", "Box style merchant board with arms to accommodate DR Panels up to 1-1/4 thick. SPECIFY your panel dimensions at time of order.", "$2,146.85"],
+                ["1104-C3", "Box style merchant board with arms to accommodate DR Panels up to 1-1/4 thick. SPECIFY your panel dimensions at time of order.", "$1,575.00"]
             ]
         }
     }
