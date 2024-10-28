@@ -157,6 +157,26 @@
                 ["1104", "$825.00"]
             ]
         }
-    }
-    
+    },
+    {
+        "id": 10,
+        "name": "Pro-MRI - ACR accredited Medium MRI phantom",
+        "rating": "★★☆☆☆ (82 reseñas)",
+        "price": "$2,675.00",
+        "description": "ACR accredited phantoms; both Medium & LARGE for comprehensive evaluation of critical imaging parameters of magnetic resonance imaging (MRI) in a time efficient manner. The phantom can be used for the measurement of absolute values for calibration purposes. However, its design is optimized for time efficient daily quality assurance too.",
+        "images": ["assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-1.jpg", "assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-2.mp4",],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Case Included?", "ACR Accredited?", "Your Price"],
+            "rows": [
+                ["09-301", "Pro-MRI ACR Medium MRI Phantom", "Yes", "Yes", "$2,675.00"],
+                ["09-302", "Pro-MRI ACR LARGE MRI Phantom", "Yes", "Yes", "$2,675.00"],
+                ["09-304", "Pro-MRI Detachable 3-axis spirit level", "NA", "NA", "$Call"],
+                ["09-102", "Pro-MRI Heavy Duty Carrying Case", "NA", "NA", "$Call"],
+                ["09-103", "Pro-MRI - 6 removable vials option with 6 extra vials (12 in total)", "NA", "NA", "$Call"],
+                ["09-201", "Pro-MRI SpineRect", "NA", "NA", "$Call"],
+                ["09-202", "Pro-MRI Agar", "NA", "NA", "$Call"]
+            ]
+        }
+    }    
 ]
