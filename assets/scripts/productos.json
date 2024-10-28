@@ -97,7 +97,7 @@
         "rating": "★★★☆☆ (19 reseñas)",
         "price": "$626.00 - $7,200.00",
         "description": "The R/F QC Phantom is designed to provide the diagnostic radiologic technologist with an accurate, easy-to-use tool for evaluating the image quality and performance of standard diagnostic radiographic and fluoroscopic imaging systems.",
-        "images": ["assets/img/productos/info/General R-F QC Phantom-1.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-4.jpg","assets/img/productos/info/General R-F QC Phantom-5.jpg","assets/img/productos/info/General R-F QC Phantom-.6jpg", "assets/img/productos/info/General R-F QC Phantom-7.jpg"],
+        "images": ["assets/img/productos/info/General R-F QC Phantom-1.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-4.jpg","assets/img/productos/info/General R-F QC Phantom-5.jpg","assets/img/productos/info/General R-F QC Phantom-6.jpg", "assets/img/productos/info/General R-F QC Phantom-7.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
