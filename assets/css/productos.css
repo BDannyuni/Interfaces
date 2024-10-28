@@ -343,33 +343,6 @@ body {
     }
 }
 
-.search-container {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
-}
-
-.autocomplete-items {
-    position: absolute;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    max-height: 200px;
-    overflow-y: auto;
-    width: 100%;
-    z-index: 1000;
-}
-
-.autocomplete-items div {
-    padding: 10px;
-    cursor: pointer;
-}
-
-.autocomplete-items div:hover {
-    background-color: #f0f0f0;
-}
-
-
 
 body {
     font-family: Arial, sans-serif;
@@ -538,6 +511,34 @@ h3 {
     border-radius: 5px;
 }
 
+.filters {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.filtro-grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtro-checkbox {
+    margin-bottom: 5px;
+}
+
+.filtro-checkbox label {
+    margin-left: 5px;
+    cursor: pointer;
+}
 
 #productos-destacados {
     padding: 50px 0;

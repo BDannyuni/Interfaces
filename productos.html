@@ -7,74 +7,77 @@
     <link rel="stylesheet" href="assets/css/productos.css">
 </head>
 <body>
-      <!-- BARRA DE NAVEGACIÓN -->
-<nav class="navbar">
-    <div class="logo-container">
-        <a href="index.html" class="logo">
-            <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-            <h1>Pacific Northwest X-RAY Inc.</h1>
-        </a>
-    </div>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
+                <h1>Pacific Northwest X-RAY Inc.</h1>
+            </a>
+        </div>
 
-    <div class="search-container">
-        <input type="text" id="search-input" placeholder="Buscar productos..." oninput="searchProducts()" autocomplete="off">
-        <button class="search-button">
-            <img src="assets/img/search.png" alt="Buscar" width="20">
-        </button>
-        <div id="autocomplete-list" class="autocomplete-items"></div>
-    </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+            <button class="search-button">
+                <img src="assets/img/search.png" alt="Buscar" width="20">
+            </button>
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="productos.html">Products</a></li>
-        <li><a href="marcas.html">Brands</a></li>
-        <li><a href="contacto.html">Contact Us</a></li> 
-    </ul>
-    <div class="menu-icon">
-        <span>&#9776;</span>
-    </div>
-</nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Products</a></li>
+            <li><a href="marcas.html">Brands</a></li>
+            <li><a href="contacto.html">Contact Us</a></li> 
+        </ul>
+        <div class="menu-icon">
+            <span>&#9776;</span>
+        </div>
+    </nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
 
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
-            <h2>WELCOME A NUESTRA<br> SECCIÓN DE PRODUCTOS</h2>
+            <h2>WELCOME TO OUR<br> PRODUCTS SECTION</h2>
         </div>
     </section> <!-- FIN DE INICIO -->
 
     <div class="container-products">
         <aside class="filters">
-            <h2>Filtros</h2>
+            <h2>Filters</h2>
             <div class="filter-section">
-                <h3>Precio máximo: $<span id="precio-maximo">2000</span></h3>
+                <h3>Maximum price: $<span id="precio-maximo">2000</span></h3>
                 <input type="range" id="precio-slider" min="0" max="2000" value="2000">
             </div>
             <div class="filter-section">
-                <h3>Categorías</h3>
-                <div id="categorias-filtro"></div>
+                <h3>Brand</h3>
+                <div id="marca-filtro"></div>
+            </div>
+            <div class="filter-section">
+                <h3>Material</h3>
+                <div id="material-filtro"></div>
             </div>
         </aside>
         <main>
             <div class="pagination-controls">
-                <label for="productos-por-pagina">Productos por página:</label>
+                <label for="productos-por-pagina">Products per page:</label>
                 <select id="productos-por-pagina">
-                    <option value="8">8</option>
-                    <option value="4">4</option>
                     <option value="12">12</option>
                     <option value="16">16</option>
+                    <option value="20">20</option>
+                    <option value="24">24</option>
                     <option value="100">Todos</option>
                 </select>
             </div>
-            <h1>Nuestros Productos</h1>
+            <h1>Our Products</h1>
             <div id="productos-grid" class="productos-grid"></div>
             <div id="paginacion"></div>
         </main>
     </div>
 
-    
       <!-- NUESTROS COLABORADORES -->
       <section>
-        <h2><span class="highlight">COLABO</span>RADORES</h2>
+        <h2><span class="highlight">CONTRI</span>BUTORS</h2>
         <div class="underline"></div>
         <div class="container">
             <div class="collaborators">
@@ -99,33 +102,34 @@
         <footer>
             <div class="footer-container">
                 <div class="footer-column" style="text-align: left;">
-                    <h3>Contacto</h3>
-                    <p>home@mifid.com</p>
-                    <p>+52 81 1418 6560</p>
+                    <h3>Contact Us</h3>
+                    <p>Phone: 1-503-667-3000</p>
+                    <p>Toll-Free (US): 800-827-XRAY</p>
+                    <p>(800-827-9729)</p>
                 </div>
                 <div class="footer-column" style="text-align: left;">
-                    <h3>Dirección</h3>
-                    <p>Rio Pánuco No.216</p>
+                    <h3>Address</h3>
+                    <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
                     <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                    <h3>Horario</h3>
-                    <p>LUN a VIE: 7AM a 5PM</p>
+                    <h3>Schedule</h3>
+                    <p>Phone Lines Open....</p>
+                    <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
                 </div>
                 <div class="footer-column" style="text-align: left;">
                     <h3>Páginas</h3>
-                    <p><a href="index.html">Inicio</a></p>
-                    <p><a href="#nosotros">Nosotros</a></p>
-                    <p><a href="productos.html">Productos</a></p>
-                    <p><a href="marcas.html">Marcas</a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contáctanos</a></p>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="#nosotros">About Us</a></p>
+                    <p><a href="productos.html">Products</a></p>
+                    <p><a href="marcas.html">Brands</a></p>
+                    <p><a href="contacto.html">Contac Us</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Copyright &copy; 2024 - <a href="#">GRUPO MIFID</a>. All Rights Reserved.</p>
-                <p>Desarrollado por - <a href="#">Brandon Alvarez</a></p>
+                <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
+                <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
             </div>
         </footer>
     </section> <!-- FIN DE FOOTER -->
-
 
     <!-- SCRIPTS -->
     <script src="assets/scripts/scripts.js"></script>
@@ -172,125 +176,150 @@
     </script> <!-- FIN DE SCRIPTS -->
 
     <script>
-         let productos = [];
-let precioMaximo = 2000;
-let categoriasSeleccionadas = [];
-let productosPorPagina = 12; // Valor inicial
-let paginaActual = 1;
+        let productos = [];
+        let precioMaximo = 2000;
+        let marcasSeleccionadas = [];
+        let materialesSeleccionados = [];
+        let productosPorPagina = 12; // Valor inicial
+        let paginaActual = 1;
 
-const precioSlider = document.getElementById('precio-slider');
-const precioMaximoSpan = document.getElementById('precio-maximo');
-const categoriasFiltro = document.getElementById('categorias-filtro');
-const productosGrid = document.getElementById('productos-grid');
-const paginacion = document.getElementById('paginacion');
-const productosPorPaginaSelect = document.getElementById('productos-por-pagina');
+        const precioSlider = document.getElementById('precio-slider');
+        const precioMaximoSpan = document.getElementById('precio-maximo');
+        const marcaFiltro = document.getElementById('marca-filtro');
+        const materialFiltro = document.getElementById('material-filtro');
+        const productosGrid = document.getElementById('productos-grid');
+        const paginacion = document.getElementById('paginacion');
+        const productosPorPaginaSelect = document.getElementById('productos-por-pagina');
 
-async function cargarProductos() {
-    try {
-        const response = await fetch('assets/scripts/productos.json');
-        productos = await response.json();
-        inicializarFiltros();
-        actualizarProductos();
-    } catch (error) {
-        console.error('Error al cargar los productos:', error);
-    }
-}
+        async function cargarProductos() {
+            try {
+                const response = await fetch('assets/scripts/productos.json');
+                productos = await response.json();
+                inicializarFiltros();
+                actualizarProductos();
+            } catch (error) {
+                console.error('Error al cargar los productos:', error);
+            }
+        }
 
-function inicializarFiltros() {
-    const categorias = [...new Set(productos.map(p => p.name.split('.')[0]))];
-    categorias.forEach(categoria => {
-        const categoriaElement = document.createElement('div');
-        categoriaElement.className = 'categoria-checkbox';
-        categoriaElement.innerHTML = `
-            <input type="checkbox" id="${categoria}" value="${categoria}">
-            <label for="${categoria}">${categoria}</label>
-        `;
-        categoriasFiltro.appendChild(categoriaElement);
-    });
-}
+        function inicializarFiltros() {
+            const marcas = [...new Set(productos.map(p => p.brand))];
+            const materiales = [...new Set(productos.map(p => p.material))];
 
-function actualizarProductos() {
-    const productosFiltrados = productos.filter(producto => {
-        const precio = parseFloat(producto.price.split(' - ')[0].replace('$', ''));
-        const categoria = producto.name.split('.')[0];
-        return precio <= precioMaximo &&
-            (categoriasSeleccionadas.length === 0 || categoriasSeleccionadas.includes(categoria));
-    });
+            marcas.forEach(marca => {
+                const marcaElement = document.createElement('div');
+                marcaElement.className = 'filtro-checkbox';
+                marcaElement.innerHTML = `
+                    <input type="checkbox" id="marca-${marca}" value="${marca}">
+                    <label for="marca-${marca}">${marca}</label>
+                `;
+                marcaFiltro.appendChild(marcaElement);
+            });
 
-    const totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
-    paginaActual = Math.min(paginaActual, totalPaginas);
+            materiales.forEach(material => {
+                const materialElement = document.createElement('div');
+                materialElement.className = 'filtro-checkbox';
+                materialElement.innerHTML = `
+                    <input type="checkbox" id="material-${material}" value="${material}">
+                    <label for="material-${material}">${material}</label>
+                `;
+                materialFiltro.appendChild(materialElement);
+            });
+        }
 
-    const inicio = (paginaActual - 1) * productosPorPagina;
-    const productosPagina = productosFiltrados.slice(inicio, inicio + productosPorPagina);
+        function actualizarProductos() {
+            const productosFiltrados = productos.filter(producto => {
+                const precio = parseFloat(producto.price.split(' - ')[0].replace('$', ''));
+                return precio <= precioMaximo &&
+                    (marcasSeleccionadas.length === 0 || marcasSeleccionadas.includes(producto.brand)) &&
+                    (materialesSeleccionados.length === 0 || materialesSeleccionados.includes(producto.material));
+            });
 
-    productosGrid.innerHTML = '';
-    productosPagina.forEach(producto => {
-        const productoElement = document.createElement('div');
-        productoElement.className = 'producto-card';
-        productoElement.setAttribute('onclick', `viewProductDetails(${producto.id})`);
-        productoElement.innerHTML = `
-            <img src="${producto.images[0]}" alt="${producto.name}" class="producto-imagen">
-            <div class="producto-info">
-                <div class="producto-nombre">${producto.name}</div>
-                <div class="producto-rating">${producto.rating}</div>
-                <div class="producto-precio">${producto.price}</div>
-                <div class="producto-descripcion">${producto.description.substring(0, 100)}...</div>
-            </div>
-        `;
-        productosGrid.appendChild(productoElement);
-    });
+            const totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
+            paginaActual = Math.min(paginaActual, totalPaginas);
 
-    actualizarPaginacion(totalPaginas);
-}
+            const inicio = (paginaActual - 1) * productosPorPagina;
+            const productosPagina = productosFiltrados.slice(inicio, inicio + productosPorPagina);
 
-function actualizarPaginacion(totalPaginas) {
-    paginacion.innerHTML = '';
+            productosGrid.innerHTML = '';
+            productosPagina.forEach(producto => {
+                const productoElement = document.createElement('div');
+                productoElement.className = 'producto-card';
+                productoElement.setAttribute('onclick', `viewProductDetails(${producto.id})`);
+                productoElement.innerHTML = `
+                    <img src="${producto.images[0]}" alt="${producto.name}" class="producto-imagen">
+                    <div class="producto-info">
+                        <div class="producto-nombre">${producto.name}</div>
+                        <div class="producto-rating">${producto.rating}</div>
+                        <div class="producto-precio">${producto.price}</div>
+                        <div class="producto-descripcion">${producto.description.substring(0, 100)}...</div>
+                    </div>
+                `;
+                productosGrid.appendChild(productoElement);
+            });
 
-    for (let i = 1; i <= totalPaginas; i++) {
-        const paginaElement = document.createElement('button');
-        paginaElement.className = 'pagina-btn';
-        paginaElement.textContent = i;
-        paginaElement.disabled = i === paginaActual;
-        paginaElement.addEventListener('click', () => {
-            paginaActual = i;
+            actualizarPaginacion(totalPaginas);
+        }
+
+        function actualizarPaginacion(totalPaginas) {
+            paginacion.innerHTML = '';
+
+            for (let i = 1; i <= totalPaginas; i++) {
+                const paginaElement = document.createElement('button');
+                paginaElement.className = 'pagina-btn';
+                paginaElement.textContent = i;
+                paginaElement.disabled = i === paginaActual;
+                paginaElement.addEventListener('click', () => {
+                    paginaActual = i;
+                    actualizarProductos();
+                });
+                paginacion.appendChild(paginaElement);
+            }
+        }
+
+        function viewProductDetails(id) {
+            const producto = productos.find(p => p.id === id);
+            if (producto) {
+                localStorage.setItem('productId', id);
+                window.location.href = 'detalle.html';
+            }
+        }
+
+        precioSlider.addEventListener('input', (e) => {
+            precioMaximo = parseInt(e.target.value);
+            precioMaximoSpan.textContent = precioMaximo;
             actualizarProductos();
         });
-        paginacion.appendChild(paginaElement);
-    }
-}
 
-function viewProductDetails(id) {
-    const producto = productos.find(p => p.id === id);
-    if (producto) {
-        localStorage.setItem('productId', id);
-        window.location.href = 'detalle.html';
-    }
-}
+        marcaFiltro.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                if (e.target.checked) {
+                    marcasSeleccionadas.push(e.target.value);
+                } else {
+                    marcasSeleccionadas = marcasSeleccionadas.filter(m => m !== e.target.value);
+                }
+                actualizarProductos();
+            }
+        });
 
-precioSlider.addEventListener('input', (e) => {
-    precioMaximo = parseInt(e.target.value);
-    precioMaximoSpan.textContent = precioMaximo;
-    actualizarProductos();
-});
+        materialFiltro.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                if (e.target.checked) {
+                    materialesSeleccionados.push(e.target.value);
+                } else {
+                    materialesSeleccionados = materialesSeleccionados.filter(m => m !== e.target.value);
+                }
+                actualizarProductos();
+            }
+        });
 
-categoriasFiltro.addEventListener('change', (e) => {
-    if (e.target.type === 'checkbox') {
-        if (e.target.checked) {
-            categoriasSeleccionadas.push(e.target.value);
-        } else {
-            categoriasSeleccionadas = categoriasSeleccionadas.filter(c => c !== e.target.value);
-        }
-        actualizarProductos();
-    }
-});
+        productosPorPaginaSelect.addEventListener('change', (e) => {
+            productosPorPagina = parseInt(e.target.value);
+            paginaActual = 1;
+            actualizarProductos();
+        });
 
-productosPorPaginaSelect.addEventListener('change', (e) => {
-    productosPorPagina = parseInt(e.target.value);
-    paginaActual = 1;
-    actualizarProductos();
-});
-
-cargarProductos();
+        cargarProductos();
     </script>
 </body>
 </html>

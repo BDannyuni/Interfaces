@@ -11,8 +11,8 @@
 	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
 </head>
 <body>
-    <!-- BARRA DE NAVEGACIÓN -->
-<nav class="navbar">
+   <!-- BARRA DE NAVEGACIÓN -->
+   <nav class="navbar">
     <div class="logo-container">
         <a href="index.html" class="logo">
             <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
@@ -21,7 +21,7 @@
     </div>
 
     <div class="search-container">
-        <input type="text" id="search-input" placeholder="Buscar productos..." oninput="searchProducts()" autocomplete="off">
+        <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
         <button class="search-button">
             <img src="assets/img/search.png" alt="Buscar" width="20">
         </button>
@@ -105,38 +105,61 @@
         </div><br><br>
     </section>
 
+  <!-- NUESTROS COLABORADORES -->
+  <section>
+    <h2><span class="highlight">CONTRI</span>BUTORS</h2>
+    <div class="underline"></div>
+    <div class="container">
+        <div class="collaborators">
+            <div class="collaborator">
+                <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+            </div>
+            <div class="collaborator">
+                <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
+            </div>
+            <div class="collaborator">
+                <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
+            </div>
+            <!-- Agrega más colaboradores aquí -->
+        </div>
+    </div>
+</section> <!-- FIN DE NUESTROS COLABORADORES -->
 
-    <!-- FOOTER -->
-    <section>
-        <footer>
-            <div class="footer-container">
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Contacto</h3>
-                    <p>home@mifid.com</p>
-                    <p>+52 81 1418 6560</p>
-                </div>
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Dirección</h3>
-                    <p>Rio Pánuco No.216</p>
-                    <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                    <h3>Horario</h3>
-                    <p>LUN a VIE: 7AM a 5PM</p>
-                </div>
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Páginas</h3>
-                    <p><a href="index.html">Inicio</a></p>
-                    <p><a href="#nosotros">Nosotros</a></p>
-                    <p><a href="productos.html">Productos</a></p>
-                    <p><a href="marcas.html">Marcas</a></p>
-                    <p><a href="https://api.whatsapp.com/send?phone=528114186560&text=Hola%21%20Quisiera%20más%20información%20sobre%20GRUPO%20MIFID.">Contáctanos</a></p>
-                </div>
+
+<br><br><br>
+<!-- FOOTER -->
+<section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column" style="text-align: left;">
+                <h3>Contact Us</h3>
+                <p>Phone: 1-503-667-3000</p>
+                <p>Toll-Free (US): 800-827-XRAY</p>
+                <p>(800-827-9729)</p>
             </div>
-            <div class="footer-bottom">
-                <p>Copyright &copy; 2024 - <a href="#">GRUPO MIFID</a>. All Rights Reserved.</p>
-                <p>Desarrollado por - <a href="#">Brandon Alvarez</a></p>
+            <div class="footer-column" style="text-align: left;">
+                <h3>Address</h3>
+                <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
+                <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
+                <h3>Schedule</h3>
+                <p>Phone Lines Open....</p>
+                <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
             </div>
-        </footer>
-    </section> <!-- FIN DE FOOTER -->
+            <div class="footer-column" style="text-align: left;">
+                <h3>Páginas</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="#nosotros">About Us</a></p>
+                <p><a href="productos.html">Products</a></p>
+                <p><a href="marcas.html">Brands</a></p>
+                <p><a href="contacto.html">Contac Us</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
+            <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
+        </div>
+    </footer>
+</section> <!-- FIN DE FOOTER -->
 
 
     <!-- SCRIPTS -->

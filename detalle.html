@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="assets/css/detalle.css">
 </head>
 <body>
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar">
-        <div class="logo-container">
-            <a href="index.html" class="logo">
-                <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-                <h1>Pacific Northwest X-RAY Inc.</h1>
-            </a>
-        </div>
+   <!-- BARRA DE NAVEGACIÓN -->
+   <nav class="navbar">
+    <div class="logo-container">
+        <a href="index.html" class="logo">
+            <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
+            <h1>Pacific Northwest X-RAY Inc.</h1>
+        </a>
+    </div>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productos.html">Products</a></li>
-            <li><a href="marcas.html">Brands</a></li>
-            <li><a href="contacto.html">Contact Us</a></li> 
-        </ul>
-    </nav>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+        <button class="search-button">
+            <img src="assets/img/search.png" alt="Buscar" width="20">
+        </button>
+        <div id="autocomplete-list" class="autocomplete-items"></div>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Products</a></li>
+        <li><a href="marcas.html">Brands</a></li>
+        <li><a href="contacto.html">Contact Us</a></li> 
+    </ul>
+    <div class="menu-icon">
+        <span>&#9776;</span>
+    </div>
+</nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
+
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
@@ -102,61 +114,61 @@
         </div><br><br>
     </section>
 
-       <!-- NUESTROS COLABORADORES -->
-       <section>
-        <h2><span class="highlight">COLABO</span>RADORES</h2>
-        <div class="underline"></div>
-        <div class="container">
-            <div class="collaborators">
-                <div class="collaborator">
-                    <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
-                </div>
-                <!-- Agrega más colaboradores aquí -->
-            </div>
-        </div>
-    </section> <!-- FIN DE NUESTROS COLABORADORES -->
-
-
-    <br><br><br>
-    <!-- FOOTER -->
-    <section>
-        <footer>
-            <div class="footer-container">
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Contact Us</h3>
-                    <p>Phone: 1-503-667-3000</p>
-                    <p>Toll-Free (US): 800-827-XRAY</p>
-                    <p>(800-827-9729)</p>
-                </div>
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Address</h3>
-                    <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
-                    <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
-                    <h3>Schedule</h3>
-                    <p>Phone Lines Open....</p>
-                    <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
-                </div>
-                <div class="footer-column" style="text-align: left;">
-                    <h3>Páginas</h3>
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="#nosotros">About Us</a></p>
-                    <p><a href="productos.html">Products</a></p>
-                    <p><a href="marcas.html">Brands</a></p>
-                    <p><a href="contacto.html">Contac Us</a></p>
+        <!-- NUESTROS COLABORADORES -->
+        <section>
+            <h2><span class="highlight">CONTRI</span>BUTORS</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="collaborators">
+                    <div class="collaborator">
+                        <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
+                    </div>
+                    <!-- Agrega más colaboradores aquí -->
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
-                <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
-            </div>
-        </footer>
-    </section> <!-- FIN DE FOOTER -->
+        </section> <!-- FIN DE NUESTROS COLABORADORES -->
+    
+    
+        <br><br><br>
+        <!-- FOOTER -->
+        <section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-column" style="text-align: left;">
+                        <h3>Contact Us</h3>
+                        <p>Phone: 1-503-667-3000</p>
+                        <p>Toll-Free (US): 800-827-XRAY</p>
+                        <p>(800-827-9729)</p>
+                    </div>
+                    <div class="footer-column" style="text-align: left;">
+                        <h3>Address</h3>
+                        <p>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
+                        <p>Col. Balcones de Santa Rosa, Apodaca, N.L., México</p><br>
+                        <h3>Schedule</h3>
+                        <p>Phone Lines Open....</p>
+                        <p>8 AM - 5 PM Monday-Friday (Pacific/West Coast Time)</p>
+                    </div>
+                    <div class="footer-column" style="text-align: left;">
+                        <h3>Páginas</h3>
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="#nosotros">About Us</a></p>
+                        <p><a href="productos.html">Products</a></p>
+                        <p><a href="marcas.html">Brands</a></p>
+                        <p><a href="contacto.html">Contac Us</a></p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright &copy; 2024 - <a href="#">Pacif Northwest X-Ray Inc.</a>. All Rights Reserved.</p>
+                    <p>Desarrollado por - Andrea Rivera, Karina Salazar, Arely Lopez y <a href="#">Brandon Alvarez</a></p>
+                </div>
+            </footer>
+        </section> <!-- FIN DE FOOTER -->
 
 
 <script>
