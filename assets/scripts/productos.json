@@ -178,5 +178,27 @@
                 ["09-202", "Pro-MRI Agar", "NA", "NA", "$Call"]
             ]
         }
-    }    
+    },
+    {
+        "id": 11,
+        "name": "Techno-Aide's Veterinary Immobilizers",
+        "rating": "★☆ ( reseñas)",
+        "price": "$36.00 - $1,242.67",
+        "description": "Techno-Aide is proud to offer the number one option in veterinary positioning! Our premium radiolucent immobilizer troughs provide the ultimate solution for easy and reliable animal positioning*. These durable troughs features a comfortable foam sponge core completely sealed and sewn in our heavy-gauge, reinforced ''Techno-Tuff'' black vinyl. The unique v-shaped immobilizer design reduces motion and fall risks for animals during procedures. Each immobilizer includes four easy-to-use hook & loop strips that quickly and conveniently attach to a securely sewn hook & loop band along the entire trough. These straps can be positioned in endless ways to secure animal limbs for nearly any imaging need.",
+        "images": ["assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-1.jpg","assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-2.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Size", "Dimensions", "Your Price"],
+            "rows": [
+                ["YFCA", "Positioner", "Small", "7 x 12.5 x 3", "$36.00"],
+                ["YCCA", "Coated Positioner", "Small", "7 x 12.5 x 3", "$249.33"],
+                ["YFCB", "Positioner", "Medium", "11.5 x 19.75 x 5", "$94.67"],
+                ["YCCB", "Coated Positioner", "Medium", "11.5 x 19.75 x 5", "$424.00"],
+                ["YFCC", "Positioner", "Large", "11 x 24 x 7", "$260.00"],
+                ["YCCC", "Coated Positioner", "Large", "11 x 24 x 7", "$689.14"],
+                ["YFCD", "Positioner", "X-Large", "14 x 36 x 9", "$316.00"],
+                ["YCCD", "Coated Positioner", "X-Large", "14 x 36 x 9", "$1,242.67"]
+            ]
+        }
+    }
 ]
