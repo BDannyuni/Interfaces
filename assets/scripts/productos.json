@@ -216,5 +216,22 @@
                 ["076994-IT", "Physician Protection Mobile Screen with 9''x24'' Stainless Steel Tray", "$9,692.31"]
             ]
         }
+    },
+    {
+        "id": 13,
+        "name": "Large Window Mobile Barrier",
+        "rating": "★★★★★ (378 reseñas)",
+        "price": "$150.00 - $12,276.92",
+        "description": "Powder coated steel frames, precision TIG welded for years of trouble free service completely enclosing the leaded glass panel for increased durability and safety. 2.0mm lead equivalent optically clear lead glass encased in clear Lexan to prevent shattering. Exclusive 1.5mm lead equivalent floor drape, the only barriers made with complete head to toe protection. 4 Hospital grade casters, two with locks for ease of movement and positive positioning.",
+        "images": ["assets/img/productos/info/Large Window Mobile Barrier-1.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Overall Dimensions", "Windows Dimensions", "Window Material", "LE Protection on Window","Your Price"],
+            "rows": [
+                ["683492", "80''H x 41''W x 25''D", "72''H x 36''W", "Lead Glass", "2.0mm", "$12,276.92"],
+                ["683492-AC", "80''H x 41''W x 25''D", "72''H x 36''W", "ACRYLIC", "0.50mm", "$8,907.69"],
+                ["color/frame", "NA", "NA", "NA", "NA", "$150.00"]
+            ]
+        }
     }
 ]
