@@ -184,7 +184,7 @@
         "name": "Techno-Aide's Veterinary Immobilizers",
         "rating": "★★★★★ (448 reseñas)",
         "price": "$36.00 - $1242.67",
-        "description": "Techno-Aide is proud to offer the number one option in veterinary positioning! Our premium radiolucent immobilizer troughs provide the ultimate solution for easy and reliable animal positioning*. These durable troughs features a comfortable foam sponge core completely sealed and sewn in our heavy-gauge, reinforced ''Techno-Tuff'' black vinyl. The unique v-shaped immobilizer design reduces motion and fall risks for animals during procedures. Each immobilizer includes four easy-to-use hook & loop strips that quickly and conveniently attach to a securely sewn hook & loop band along the entire trough. These straps can be positioned in endless ways to secure animal limbs for nearly any imaging need.",
+        "description": "Techno-Aide is proud to offer the number one option in veterinary positioning! Our premium radiolucent immobilizer troughs provide the ultimate solution for easy and reliable animal positioning*. These durable troughs features a comfortable foam sponge core completely sealed and sewn in our heavy-gauge, reinforced 'Techno-Tuff' black vinyl. The unique v-shaped immobilizer design reduces motion and fall risks for animals during procedures. Each immobilizer includes four easy-to-use hook & loop strips that quickly and conveniently attach to a securely sewn hook & loop band along the entire trough. These straps can be positioned in endless ways to secure animal limbs for nearly any imaging need.",
         "images": ["assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-1.jpg","assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-2.jpg"],
         "brandLogo": "assets/img/logos/TechnoAide.png",
         "specifications": {
@@ -248,5 +248,59 @@
                 ["color/frame", "NA", "NA", "NA", "NA", "$150.00"]
             ]
         }
-    }    
+    },
+    {
+        "id": 15,
+        "name": "Tilted Mobile Barrier with optional 'Reach-Thru' Curtain",
+        "rating": "★★☆☆☆ (82 reseñas)",
+        "price": "$150.00 - $3,941.54",
+        "description": "Powder coated steel frame. Precision TIG welded for years of trouble-free service completely enclosing the leaded glass panel for increased durability and safety",
+        "images": ["assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-1.jpg","assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-2.jpg","assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-3.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Reach-Thru Curtain?", "Overall Dimensions", "Your Price"],
+            "rows": [
+                ["683461", "Mobile Tilted Barrier", "NO", "34''wide X 70''high X 2'' deep", "$3,715.38"],
+                ["683462", "Mobile Tilted Barrier", "YES", "34''wide X 70''high X 2'' deep", "$3,941.54"],
+                ["color/frame", "Upgrade Frame to Custom Color", "NA", "NA", "$150.00"],
+                ["LOGO-BARRIER", "Add Logo To Opaque Area", "NA", "NA", "$275.00"],
+                ["LOGO-FRAME", "Frame Color Upgrade & Add Logo To Opaque Area", "NA", "NA", "$395.00"]
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Standard X-Ray Grids",
+        "rating": "★★★★★ (273 reseñas)",
+        "price": "$.00 - $.00",
+        "description": "Superior construction of lead strips and aluminum inter-spacers, with smooth, enameled aluminum covers, sealed against dirt and moisture. Grids may also be ordered with carbon fiber composite covers. For added protection of your valuable grids and convenience of handling and operation, these grids can be installed in various forms of grid encasement's: Flat Lexan® encasement's, grid caps, Lexan® encasement's with cassette channels and grid cassettes.",
+        "images": ["assets/img/productos/info/Standard X-Ray Grids-1.jpg","assets/img/productos/info/Standard X-Ray Grids-2.jpg"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Grid Size (Film Size)", "Ratio", "103lpi/34''-44'' focal (Stock # / Your Price)", "103lpi/40''-72'' focal (Stock # / Your Price)", "103lpi/62''-72'' (Stock # / Your Price)"],
+            "rows": [
+                ["9''x11'' (8''x10'')", "8:1", "11432 / $166.98", "11433 / $166.98", "11434 / $166.98"],
+                ["9''x11'' (8''x10'')", "10:1", "11442 / $187.47", "11443 / $187.47", "11444 / $187.47"],
+                ["9''x11'' (8''x10'')", "12:1", "11452 / $208.20", "11453 / $208.20", "11454 / $208.20"],
+                ["11''x13'' (10''x12'')", "8:1", "12432 / $195.16", "12433 / $195.16", "12434 / $195.16"],
+                ["11''x13'' (10''x12'')", "10:1", "12442 / $227.00", "12443 / $227.00", "12444 / $250.00"],
+                ["11''x13'' (10''x12'')", "12:1", "12452 / $238.33", "12453 / $238.33", "12454 / $238.33"],
+                ["12''x15'' (11''x14'')", "8:1", "16432 / $223.49", "16433 / $223.49", "16434 / $223.49"],
+                ["12''x15'' (11''x14'')", "10:1", "16442 / $241.45", "16443 / $241.45", "16444 / $241.45"],
+                ["12''x15'' (11''x14'')", "12:1", "16452 / $259.42", "16453 / $259.42", "16454 / $259.42"],
+                ["15''x18'' (14''x17'')", "8:1", "17432 / $319.05", "17433 / $319.05", "17434 / $319.05"],
+                ["15''x18'' (14''x17'')", "10:1", "17442 / $350.58", "17443 / $350.58", "17444 / $350.58"],
+                ["15''x18'' (14''x17'')", "12:1", "17452 / $368.76", "17453 / $368.76", "17454 / $368.76"],
+                ["17-1/4'' X 17-3/4''", "8:1", "18432 / $391.82", "18433 / $391.82", "18434 / $391.82"],
+                ["17-1/4'' X 17-3/4''", "10:1", "18442 / $405.22", "18443 / $405.22", "18444 / $405.22"],
+                ["17-1/4'' X 17-3/4''", "12:1", "18452 / $443.33", "18453 / $443.33", "18454 / $443.33"],
+                ["17-1/4'' X 18-7/8''", "8:1", "19432 / $391.82", "19433 / $391.82", "19434 / $391.82"],
+                ["17-1/4'' X 18-7/8''", "10:1", "19442 / $405.22", "19443 / $405.22", "19444 / $405.22"],
+                ["17-1/4'' X 18-7/8''", "12:1", "19452 / $443.33", "19453 / $443.33", "19454 / $443.33"],
+                ["15''x18'' (14''x36'')", "8:1", "110432 / $763.55", "110433 / $763.55", "110434 / $763.55"],
+                ["15''x18'' (14''x36'')", "10:1", "110442 / $840.73", "110443 / $840.73", "110444 / $840.73"],
+                ["15''x18'' (14''x36'')", "12:1", "110452 / $916.35", "110453 / $916.35", "110454 / $916.35"]                
+            ]
+        }
+    }
 ]
