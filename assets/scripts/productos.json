@@ -337,19 +337,49 @@
     },
     {
         "id": 17,
-        "name": "Rugged & Reliable Table-Top Automatic X-Ray Film Processor",
-        "rating": "★☆ ( reseñas)",
-        "price": "$Call",
-        "brand": "PROTECSIMPYX-RAY", 
+        "name": "Protec OPTIMAX Table Top Film Processor",
+        "rating": "★★★★☆ (321 reseñas)",
+        "price": "$7750.00",
+        "brand": "PROTECSIMPYX-RAY",
         "material": "Plastic",
         "description": "The OPTIMAX is the world's premier 90 second automatic x-ray film processor. Designed as a rugged workhorse, the OPTIMAX can handle film volumes from very low to a higher capacity. The proven design of the OPTIMAX is efficient with energy, water & chemical use, saving the OPTIMAX owner money while delivering outstanding quality images.",
-        "images": ["assets/img/productos/info/Rugged & Reliable Table-Top Automatic X-Ray Film Processor.jpg"],
+        "images": ["assets/img/productos/info/Protec OPTIMAX Table Top Film Processor.jpg"],
         "brandLogo": "assets/img/logos/logos/PROTECSIMPYX-RAY.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
-                ["OPTIMAX", "$Call"],
+                ["OPTIMAX", "$7750.00"],
                 ["OPTIMAX-STAND", "$Call"]
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "IS-199 Chemical Mixers",
+        "rating": "★★★★☆ (200 reseñas)",
+        "price": "$1045.00",
+        "brand": "WMI", 
+        "material": "Plastic",
+        "description": "The IS-199 incorporates a unique combination of features which make it the Mixer of Choice for both the user and the serviceman. The Specific Gravity Mixing System allows the user to start a mix anytime. The mixer responds to the addition of concentrated chemicals and adds the correct amount of water automatically. All Electronic Components have been chosen for dependability. Straight-forward circuit designs eliminate the need for circuit boards thereby increasing reliability. The Low Level Warning System indicates that solution level is 2.0 gallons or less. The warning system resets",
+        "images": ["assets/img/productos/info/IS-199 Chemical Mixers.jpg"],
+        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Chemistry Type", "Your Price"],
+            "rows": [
+                ["19945", "Standard 12.5 Gal", "T2 Developer/T2 Fixer", "$1,045.00"],
+                ["19946-SS", "Space Saver 7.5 Gal", "T2 Developer/T2 Fixer", "$1,045.00"],
+                ["19948", "Standard 12.5 Gal", "WMI Cine Dev. & Fix.", "$1,045.00"],
+                ["19949-SS", "Space Saver 7.5 Gal", "WMI Cine Dev. & Fix.", "$1,045.00"],
+                ["19950", "Standard 12.5 Gal", "Autex/Simon Dev. & Fix.", "$1,045.00"],
+                ["19951-SS", "Space Saver 7.5 Gal", "Autex/Simon Dev. & Fix.", "$1,045.00"],
+                ["19952", "Standard 12.5 Gal", "E.Kodak Dev./T2 Fix.", "$1,045.00"],
+                ["19953-SS", "Space Saver 7.5 Gal", "E.Kodak Dev./T2 Fix.", "$1,045.00"],
+                ["19956", "Standard 12.5 Gal", "E.Kodak RP Dev./RPLO Fix.", "$1,045.00"],
+                ["19957-SS", "Space Saver 7.5 Gal", "E.Kodak RP Dev./RPLO Fix.", "$1,045.00"],
+                ["19960", "Standard 12.5 Gal", "A.G. Dev./A.G. Fix.", "$1,045.00"],
+                ["19961-SS", "Space Saver 7.5 Gal", "A.G. Dev./A.G. Fix.", "$1,045.00"],
+                ["19966-FNDT", "Standard 12.5 Gal", "Fuji Audel Dev./Universal Fix.", "$1,045.00"],
+                ["19967-FNDT-SS", "Space Saver 7.5 Gal", "Fuji Audel Dev./Universal Fix.", "$1,045.00"]
             ]
         }
     }
