@@ -70,9 +70,9 @@
         "specifications": {
             "headers": ["Stock #", "Window Size in Inches", "Physical Thickness", "Ship Weight", "Ship Dimensions", "Lead Protection", "Your Price"],
             "rows": [
-                ["14307", "8x10", "9mm", "7#", "17''x18''x5''", "2.0mm", "$495.00"],
-                ["14315", "12x16", "7mm", "23#", "18''x24''x5''", "1.6mm", "$850.00"],
-                ["14316", "16x24", "9mm", "43#", "22''x30''x5''", "2.0mm", "$1,550.00"]
+                ["14307", "8x10", "9mm", "7#", "17\"x18\"x5\"", "2.0mm", "$495.00"],
+                ["14315", "12x16", "7mm", "23#", "18\"x24\"x5\"", "1.6mm", "$850.00"],
+                ["14316", "16x24", "9mm", "43#", "22\"x30\"x5\"", "2.0mm", "$1,550.00"]
             ]
         }
     },
@@ -237,7 +237,7 @@
             "headers": ["Stock #", "Description","Your Price"],
             "rows": [
                 ["076994", "Physician Protection Mobile Screen", "$8,095.38"],
-                ["076994-IT", "Physician Protection Mobile Screen with 9''x24'' Stainless Steel Tray", "$9,692.31"]
+                ["076994-IT", "Physician Protection Mobile Screen with 9\"x24\" Stainless Steel Tray", "$9,692.31"]
             ]
         }
     },
@@ -271,8 +271,8 @@
         "specifications": {
             "headers": ["Stock #", "Overall Dimensions", "Windows Dimensions", "Window Material", "LE Protection on Window","Your Price"],
             "rows": [
-                ["683492", "80''H x 41''W x 25''D", "72''H x 36''W", "Lead Glass", "2.0mm", "$12,276.92"],
-                ["683492-AC", "80''H x 41''W x 25''D", "72''H x 36''W", "ACRYLIC", "0.50mm", "$8,907.69"],
+                ["683492", "80\"H x 41\"W x 25\"D", "72\"H x 36\"W", "Lead Glass", "2.0mm", "$12,276.92"],
+                ["683492-AC", "80\"H x 41\"W x 25\"D", "72\"H x 36\"W", "ACRYLIC", "0.50mm", "$8,907.69"],
                 ["color/frame", "NA", "NA", "NA", "NA", "$150.00"]
             ]
         }
@@ -290,8 +290,8 @@
         "specifications": {
             "headers": ["Stock #", "Description", "Reach-Thru Curtain?", "Overall Dimensions", "Your Price"],
             "rows": [
-                ["683461", "Mobile Tilted Barrier", "NO", "34''wide X 70''high X 2'' deep", "$3,715.38"],
-                ["683462", "Mobile Tilted Barrier", "YES", "34''wide X 70''high X 2'' deep", "$3,941.54"],
+                ["683461", "Mobile Tilted Barrier", "NO", "34\"wide X 70\"high X 2\" deep", "$3,715.38"],
+                ["683462", "Mobile Tilted Barrier", "YES", "34\"wide X 70\"high X 2\" deep", "$3,941.54"],
                 ["color/frame", "Upgrade Frame to Custom Color", "NA", "NA", "$150.00"],
                 ["LOGO-BARRIER", "Add Logo To Opaque Area", "NA", "NA", "$275.00"],
                 ["LOGO-FRAME", "Frame Color Upgrade & Add Logo To Opaque Area", "NA", "NA", "$395.00"]
@@ -309,29 +309,29 @@
         "images": ["assets/img/productos/info/Standard X-Ray Grids-1.jpg","assets/img/productos/info/Standard X-Ray Grids-2.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
         "specifications": {
-            "headers": ["Grid Size (Film Size)", "Ratio", "103lpi/34''-44'' focal (Stock # / Your Price)", "103lpi/40''-72'' focal (Stock # / Your Price)", "103lpi/62''-72'' (Stock # / Your Price)"],
+            "headers": ["Grid Size (Film Size)", "Ratio", "103lpi/34\"-44\" focal (Stock # / Your Price)", "103lpi/40\"-72\" focal (Stock # / Your Price)", "103lpi/62\"-72\" (Stock # / Your Price)"],
             "rows": [
-                ["9''x11'' (8''x10'')", "8:1", "11432 / $166.98", "11433 / $166.98", "11434 / $166.98"],
-                ["9''x11'' (8''x10'')", "10:1", "11442 / $187.47", "11443 / $187.47", "11444 / $187.47"],
-                ["9''x11'' (8''x10'')", "12:1", "11452 / $208.20", "11453 / $208.20", "11454 / $208.20"],
-                ["11''x13'' (10''x12'')", "8:1", "12432 / $195.16", "12433 / $195.16", "12434 / $195.16"],
-                ["11''x13'' (10''x12'')", "10:1", "12442 / $227.00", "12443 / $227.00", "12444 / $250.00"],
-                ["11''x13'' (10''x12'')", "12:1", "12452 / $238.33", "12453 / $238.33", "12454 / $238.33"],
-                ["12''x15'' (11''x14'')", "8:1", "16432 / $223.49", "16433 / $223.49", "16434 / $223.49"],
-                ["12''x15'' (11''x14'')", "10:1", "16442 / $241.45", "16443 / $241.45", "16444 / $241.45"],
-                ["12''x15'' (11''x14'')", "12:1", "16452 / $259.42", "16453 / $259.42", "16454 / $259.42"],
-                ["15''x18'' (14''x17'')", "8:1", "17432 / $319.05", "17433 / $319.05", "17434 / $319.05"],
-                ["15''x18'' (14''x17'')", "10:1", "17442 / $350.58", "17443 / $350.58", "17444 / $350.58"],
-                ["15''x18'' (14''x17'')", "12:1", "17452 / $368.76", "17453 / $368.76", "17454 / $368.76"],
-                ["17-1/4'' X 17-3/4''", "8:1", "18432 / $391.82", "18433 / $391.82", "18434 / $391.82"],
-                ["17-1/4'' X 17-3/4''", "10:1", "18442 / $405.22", "18443 / $405.22", "18444 / $405.22"],
-                ["17-1/4'' X 17-3/4''", "12:1", "18452 / $443.33", "18453 / $443.33", "18454 / $443.33"],
-                ["17-1/4'' X 18-7/8''", "8:1", "19432 / $391.82", "19433 / $391.82", "19434 / $391.82"],
-                ["17-1/4'' X 18-7/8''", "10:1", "19442 / $405.22", "19443 / $405.22", "19444 / $405.22"],
-                ["17-1/4'' X 18-7/8''", "12:1", "19452 / $443.33", "19453 / $443.33", "19454 / $443.33"],
-                ["15''x18'' (14''x36'')", "8:1", "110432 / $763.55", "110433 / $763.55", "110434 / $763.55"],
-                ["15''x18'' (14''x36'')", "10:1", "110442 / $840.73", "110443 / $840.73", "110444 / $840.73"],
-                ["15''x18'' (14''x36'')", "12:1", "110452 / $916.35", "110453 / $916.35", "110454 / $916.35"]                
+                ["9\"x11\" (8\"x10\")", "8:1", "11432 / $166.98", "11433 / $166.98", "11434 / $166.98"],
+                ["9\"x11\" (8\"x10\")", "10:1", "11442 / $187.47", "11443 / $187.47", "11444 / $187.47"],
+                ["9\"x11\" (8\"x10\")", "12:1", "11452 / $208.20", "11453 / $208.20", "11454 / $208.20"],
+                ["11\"x13\" (10\"x12\")", "8:1", "12432 / $195.16", "12433 / $195.16", "12434 / $195.16"],
+                ["11\"x13\" (10\"x12\")", "10:1", "12442 / $227.00", "12443 / $227.00", "12444 / $250.00"],
+                ["11\"x13\" (10\"x12\")", "12:1", "12452 / $238.33", "12453 / $238.33", "12454 / $238.33"],
+                ["12\"x15\" (11\"x14\")", "8:1", "16432 / $223.49", "16433 / $223.49", "16434 / $223.49"],
+                ["12\"x15\" (11\"x14\")", "10:1", "16442 / $241.45", "16443 / $241.45", "16444 / $241.45"],
+                ["12\"x15\" (11\"x14\")", "12:1", "16452 / $259.42", "16453 / $259.42", "16454 / $259.42"],
+                ["15\"x18\" (14\"x17\")", "8:1", "17432 / $319.05", "17433 / $319.05", "17434 / $319.05"],
+                ["15\"x18\" (14\"x17\")", "10:1", "17442 / $350.58", "17443 / $350.58", "17444 / $350.58"],
+                ["15\"x18\" (14\"x17\")", "12:1", "17452 / $368.76", "17453 / $368.76", "17454 / $368.76"],
+                ["17-1/4\" X 17-3/4\"", "8:1", "18432 / $391.82", "18433 / $391.82", "18434 / $391.82"],
+                ["17-1/4\" X 17-3/4\"", "10:1", "18442 / $405.22", "18443 / $405.22", "18444 / $405.22"],
+                ["17-1/4\" X 17-3/4\"", "12:1", "18452 / $443.33", "18453 / $443.33", "18454 / $443.33"],
+                ["17-1/4\" X 18-7/8\"", "8:1", "19432 / $391.82", "19433 / $391.82", "19434 / $391.82"],
+                ["17-1/4\" X 18-7/8\"", "10:1", "19442 / $405.22", "19443 / $405.22", "19444 / $405.22"],
+                ["17-1/4\" X 18-7/8\"", "12:1", "19452 / $443.33", "19453 / $443.33", "19454 / $443.33"],
+                ["15\"x18\" (14\"x36\")", "8:1", "110432 / $763.55", "110433 / $763.55", "110434 / $763.55"],
+                ["15\"x18\" (14\"x36\")", "10:1", "110442 / $840.73", "110443 / $840.73", "110444 / $840.73"],
+                ["15\"x18\" (14\"x36\")", "12:1", "110452 / $916.35", "110453 / $916.35", "110454 / $916.35"]                
             ]
         }
     },
@@ -380,6 +380,94 @@
                 ["19961-SS", "Space Saver 7.5 Gal", "A.G. Dev./A.G. Fix.", "$1,045.00"],
                 ["19966-FNDT", "Standard 12.5 Gal", "Fuji Audel Dev./Universal Fix.", "$1,045.00"],
                 ["19967-FNDT-SS", "Space Saver 7.5 Gal", "Fuji Audel Dev./Universal Fix.", "$1,045.00"]
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "name": "Spill Tray for IS-199 Chemical Mixers",
+        "rating": "★★★☆☆ (42 reseñas)",
+        "price": "$189.00",
+        "brand": "WMI", 
+        "material": "Plastic",
+        "description": "The IS-199 Spill Tray conveniently fits under the IS-199 Chemical Mixer to provide secondary containment for potential leaks or spills. Tray is 26\"L x 18\"W x 5\"H.",
+        "images": ["assets/img/productos/info/Spill Tray for IS-199 Chemical Mixers.jpg"],
+        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["1923", "189.00"]
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "name": "Floating Lid for IS-199 Chemical Mixers",
+        "rating": "★★☆☆☆ (182 reseñas)",
+        "price": "$37.00",
+        "brand": "WMI", 
+        "material": "Metal",
+        "description": "The IS-199 Floating Lid is designed to extend developer life by reducing aerial oxidation. The IS-199 Floating Lid is especially useful in low volume situations where premature oxidation may occur.",
+        "images": ["assets/img/productos/info/Floating Lid for IS-199 Chemical Mixers.jpg"],
+        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["1924", "$37.00"]
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "name": "X-Port X-Ray Film Portfolio",
+        "rating": "★★★★★ (943 reseñas)",
+        "price": "$120.00",
+        "brand": "RTINNOVATIONS", 
+        "material": "Fabric",
+        "description": "The X-Port X-Ray Portfolio is designed exclusively for transporting radiology films and patient files. The zipperless portfolio allows films to be handled easily and efficiently while protecting them from the rain and snow. The X-Port saves time in loading and unloading film, saves space in storage, and saves money by lasting longer than conventional zippered portfolios and conference cases.",
+        "images": ["assets/img/productos/info/X-Port X-Ray Film Portfolio.jpg"],
+        "brandLogo": "assets/img/logos/RTINNOVATIONS.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Your Price"],
+            "rows": [
+                ["XP-01", "Black", "$120.00"]
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "name": "The X-Port Rolling X-ray Case",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "RTINNOVATIONS", 
+        "material": "Fabric",
+        "description": "Transport your facility's fillms, cassettes, patient record, and supplies with increased efficiency and reduced effort. The X-Port® All-In-One Rolling X-Ray Case gives your facility a convenient and protective way of carrying those heavy loads!",
+        "images": ["assets/img/productos/info/The X-Port Rolling X-ray Case.jpg"],
+        "brandLogo": "assets/img/logos/RTINNOVATIONS.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Quantity", "Your Price"],
+            "rows": [
+                ["RC-02/1-5", "Black", "1 - 5 Units", "$291.67"],
+                ["RC-02/6+", "Black", "6 + Units", "$266.67"]
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "name": "Wolf Radiology Film Duplicator",
+        "rating": "★★★★☆ (93 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Steel",
+        "description": "Wolf manufactures three sizes of x-ray duplicators, with screen sizes of 14\" x 17\", 10\" x 12\" and 6\" x 12\" respectively. Constructed of steel finished in durable baked enamel, our duplicators can be used with any available duplicating film, (which is not the same as regular x-ray film.) To operate the duplicators, (in a dark room) simply place the film to be duplicated on the plexiglass screen with a sheet of duplicating film on top, close the cover, set the exposure time and push the button. The red light will signal you when exposure is complete. The 14\" x 17\" surface of the #21524 accommodates all x-rays up to 14\" x 17\". The 10\" x 12\" surface of the #21522 is perfect for duplicating mammographs and podiatric radiographs, and the 6\" x 12\" #21520 duplicates any size up to 6\" x 12\".",
+        "images": ["assets/img/productos/info/Wolf Radiology Film Duplicator.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Maximum Film Size", "Your Price"],
+            "rows": [
+                ["21524", "14\" x 17\"", "$1,018.77"],
+                ["21522", "10\" x 12\"", "$667.85"],
+                ["21520", "6\" x 12\"", "$621.85"]
             ]
         }
     }
