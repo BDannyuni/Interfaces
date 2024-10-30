@@ -437,8 +437,8 @@
     {
         "id": 22,
         "name": "The X-Port Rolling X-ray Case",
-        "rating": "★☆ ( reseñas)",
-        "price": "$.00 - $.00",
+        "rating": "★★★★☆ (4 reseñas)",
+        "price": "$266.67 - $291.67",
         "brand": "RTINNOVATIONS", 
         "material": "Fabric",
         "description": "Transport your facility's fillms, cassettes, patient record, and supplies with increased efficiency and reduced effort. The X-Port® All-In-One Rolling X-Ray Case gives your facility a convenient and protective way of carrying those heavy loads!",
@@ -456,7 +456,7 @@
         "id": 23,
         "name": "Wolf Radiology Film Duplicator",
         "rating": "★★★★☆ (93 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$621.85.00 - $1018.77",
         "brand": "WOLF X-RAY CORPORATION", 
         "material": "Steel",
         "description": "Wolf manufactures three sizes of x-ray duplicators, with screen sizes of 14\" x 17\", 10\" x 12\" and 6\" x 12\" respectively. Constructed of steel finished in durable baked enamel, our duplicators can be used with any available duplicating film, (which is not the same as regular x-ray film.) To operate the duplicators, (in a dark room) simply place the film to be duplicated on the plexiglass screen with a sheet of duplicating film on top, close the cover, set the exposure time and push the button. The red light will signal you when exposure is complete. The 14\" x 17\" surface of the #21524 accommodates all x-rays up to 14\" x 17\". The 10\" x 12\" surface of the #21522 is perfect for duplicating mammographs and podiatric radiographs, and the 6\" x 12\" #21520 duplicates any size up to 6\" x 12\".",
@@ -468,6 +468,135 @@
                 ["21524", "14\" x 17\"", "$1,018.77"],
                 ["21522", "10\" x 12\"", "$667.85"],
                 ["21520", "6\" x 12\"", "$621.85"]
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "name": "Wolf Film Identification Printers",
+        "rating": "★★★★☆ (475 reseñas)",
+        "price": "$288.15 - $381.38",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "Automatic: ID Printers allow you to quickly and easily expose patient information onto your extraoral film prior to processing. The Wolf \"Auto Printer\" has an adjustable exposure timer. Set the timer, insert ID card and press the exposure plate. Manual: Just insert the film and ID card, hold down the exposure plate, and release. Compatible with Kodak and Wolf ID cards.",
+        "images": ["assets/img/productos/info/Wolf Film Identification Printers.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Voltage", "Exposure Type", "Your Price"],
+            "rows": [
+                ["17105", "110 Vac", "Automatic", "$381.38"],
+                ["17104", "110 Vac", "Manual", "$288.15"]
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "name": "Swivel Safelight",
+        "rating": "★★☆☆☆ (29 reseñas)",
+        "price": "$9.00 - $184.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "Perfect for direct spotlighting, this wall mounted unit swivels to any position. Easy to install via 2 keyholes, the Swivel Safelight includes a GBX type filter, 7 watt light bulb, and a 6 foot cord with a three prong plug. Specifications: 7\"H x 6\"W. Face is 5\" in Diameter. Approximate shipping weight 5 lbs. Also available with an optional SENSOR that turns the safelight on automatically when the regular light is shut off (the unit can still be shut off permanently with the on/off switch).",
+        "images": ["assets/img/productos/info/Swivel Safelight.jpg"],
+        "brandLogo": "assets/img/logos/.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["19198", "Without Sensor", "$162.31"],
+                ["19298", "With Sensor", "$184.00"],
+                ["19103-11", "7-Watt Replacement Bulb", "$9.00"],
+                ["19198-27", "Replacement Filter", "$51.23"]
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "name": "Angular Safelight",
+        "rating": "★★★★★ (93 reseñas)",
+        "price": "$9.00 - $170.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "The Angular Safelight is ideal where a direct light is wanted. Easy to install via 2 keyholes, the Angular Safelight includes a GBX type filter, 7 watt light bulb, and a 6 foot cord with a three prong plug. Specifications: 10\"H x 7\"W x 5\"D. Approximate shipping weight 5 lbs. Also available with an Optional SENSOR that turns the safelight on automatically when the regular light is shut off (the unit can still be shut off permanently with the on/off switch).",
+        "images": ["assets/img/productos/info/Angular Safelight.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["19103", "Without Sensor", "$162.31"],
+                ["19203", "With Sensor", "$170.62"],
+                ["19103-11", "7 Watt Replacement Bulb", "$9.00"]
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "name": "Circular Safelight",
+        "rating": "★★★☆☆ (4 reseñas)",
+        "price": "$96.92",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "Our economy model screws into any existing outlet. Made of aluminum, filtration is from a GBX type filter that unscrews for 7 watt bulb replacement. Specifications: 5-1/4\"L x 4-1/8\"D. Approximate shipping weight 5 lbs.",
+        "images": ["assets/img/productos/info/Circular Safelight.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["19104", "$96.92"]
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "name": "Wolf Fluorescent Safelight",
+        "rating": "★★★★★ (532 reseñas)",
+        "price": "$129.54 - $368.62",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "The Fluorescent tube safelight is perfect for all darkrooms because it is available with either a green or red filter. The Tube Safelight is shipped complete with installation kit. Specifications: 24\"L x 3\"W x 6\"H. Approximate shipping weight 8 lbs.",
+        "images": ["assets/img/productos/info/Fluorescent Safelight.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["19109R", "Red", "$368.62"],
+                ["19109G", "Green", "$368.62"],
+                ["19109R-B", "Bulb Only", "$129.54"],
+                ["19109G-B", "Bulb Only", "$129.54"]
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "name": "Angular Safelight",
+        "rating": "★★☆☆☆ (5 reseñas)",
+        "price": "$272.77",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Plastic",
+        "description": "This unique two-compartment unit features a safelight at the bottom and a normal incandescent room light at the top. The safelight is filtered by our 8\" x 10\" GBX type filter and comes with a 6 foot cord and a 3 prong plug. Specification: 15-1/2\"L x 10\"W x 2-1/2\"D. Approximate shipping weight 12 lbs.",
+        "images": ["assets/img/productos/info/Angular Safelight.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["19106", "$272.77"]
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "name": "Darkroom Flashlights",
+        "rating": "★★★★☆ (1 reseñas)",
+        "price": "$38.31",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "Metal",
+        "description": "Wolf's new GBX type filtered flashlights are a handy item for any darkroom. Perfect for technicians to spotlight items in a darkroom or for service technicians working in a darkroom environment. Available in 2 types, both are 6 inches long.",
+        "images": ["assets/img/productos/info/Darkroom Flashlights.jpg"],
+        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Type", "Your Price"],
+            "rows": [
+                ["21615", "Mini Maglite", "$38.31"],
+                ["21616", "Rayovac", "$38.31"]
             ]
         }
     }
