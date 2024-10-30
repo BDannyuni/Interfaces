@@ -700,5 +700,97 @@
                 ["QNPV-09E", "$19.01"]
             ]
         }
+    },
+    {
+        "id": 36,
+        "name": "Engraved Signs",
+        "rating": "★★★★★ (932 reseñas)",
+        "price": "$15.00 - $20.00",
+        "brand": "TECHNOAIDE", 
+        "material": "PAPER",
+        "description": "All signs are constructed of 1/8\" (3mm) thick Trovicel®. Available in White letters on Red or Black board. Double-faced tape attached to the back for mounting. Large Signs are 8\"x10\" (203 x 254mm). Small Signs are 4\"x10\" (102 x 254mm). NOTE: Custom engraved signs are available.",
+        "images": ["assets/img/productos/info/Engraved Signs.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Board Color", "Text Color", "Your Price"],
+            "rows": [
+                ["NCP-24B", "English: Please Turn Off CellPhone", "Black", "White", "$15.00"],
+                ["NCP-24R", "English: Please Turn Off CellPhone", "Red", "White", "$15.00"],
+                ["NFD-22B", "English: No Food, Drink, Cellphone", "Black", "White", "$20.00"],
+                ["NFD-22R", "English: No Food, Drink, Cellphone", "Red", "White", "$20.00"],
+                ["PS-04EB", "English: PREGNANT", "Black", "White", "$20.00"],
+                ["PS-04ER", "English: PREGNANT", "Red", "White", "$20.00"],
+                ["PS-04SB", "Spanish: EMBARAZO", "Black", "White", "$20.00"],
+                ["PS-04SR", "Spanish: EMBARAZO", "Red", "White", "$20.00"],
+                ["PS-08B", "English & Spanish: PREGNANT/EMBARAZO", "Black", "White", "$20.00"],
+                ["PS-08R", "English & Spanish: PREGNANT/EMBARAZO", "Red", "White", "$20.00"],
+                ["VS-10EB", "English: VALUABLES", "Black", "White", "$20.00"],
+                ["VS-10ER", "English: VALUABLES", "Red", "White", "$20.00"],
+                ["XRR-19B", "English: X-RAY ROOM", "Black", "White", "$15.00"],
+                ["XRR-19R", "English: X-RAY ROOM", "Red", "White", "$15.00"],
+                ["CXR-13EB", "English: CAUTION X-RAY IN USE", "Black", "White", "$15.00"],
+                ["CXR-13ER", "English: CAUTION X-RAY IN USE", "Red", "White", "$15.00"],
+                ["CXR-13SB", "Spanish: PRECAUCION", "Black", "White", "$15.00"],
+                ["CXR-13SR", "Spanish: PRECAUCION", "Red", "White", "$15.00"],
+                ["CDK-11B", "English: DARKROOM.. DO NOT ENTER", "Black", "White", "$15.00"],
+                ["CDK-11R", "English: DARKROOM.. DO NOT ENTER", "Red", "White", "$15.00"],
+                ["CDR-12B", "Spanish: CUARTO DE REVELAR", "Black", "White", "$15.00"],
+                ["CDR-12R", "Spanish: CUARTO DE REVELAR", "Red", "White", "$15.00"]
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "name": "Darkroom Thermometers",
+        "rating": "★★★☆☆ (3 reseñas)",
+        "price": "$13.38 - $66.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "METAL",
+        "description": "Dial Thermometer: Calibrated from 0-140°F, made of stainless steel, and comes with a cup for floating in the tank. Glass Thermometer: Wolf's glass thermometer floats in the developing tank. It is calibrated from 0° to 100° Fahrenheit. Stainless Steel Thermometer: Features a stainless steel shell and hook for hanging on the tank. Wolf's Stainless Steel Thermometer is calibrated for accuracy between 20° and 150° Fahrenheit. Digital Thermometer: Runs on a standard watch battery (included) and comes with a lifetime warranty. Registers temperatures from -40° to 300°F. Just place it in the solution and press the button. The temperature is digitally displayed on a LCD.",
+        "images": ["assets/img/productos/info/Darkroom Thermometers.jpg"],
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Thermometer Type", "Your Price"],
+            "rows": [
+                ["18903", "Dial Clip On", "$55.23"],
+                ["18904", "Glass Floating", "$13.38"],
+                ["18905", "Stainless Steel Clip-On", "$26.15"],
+                ["19107", "Digital", "$66.00"]
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "name": "Large Analog Swept Hand Darkroom Timer",
+        "rating": "★★☆☆☆ (392 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "PLASTIC",
+        "description": "Wolf's large faced analog timer features a giant 8\" diameter dial that gives you minute and second timing from 1 second to 60 minutes. It automatically shuts-off a duplicator or other electrical appliances, and has a clear buzzer signal.",
+        "images": ["assets/img/productos/info/Large Analog Swept Hand Darkroom Timer.jpg"],
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Approx. Ship. Weight", "Your Price"],
+            "rows": [
+                ["18900", "6 lbs.", "$325.54"]
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "name": "Electronic Darkroom Timer",
+        "rating": "★★★★☆ (1294 reseñas)",
+        "price": "$52.31",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "PLASTIC",
+        "description": "Wolf's Digital Timer is a pocket sized 2-5/16\" wide x 2-1/16\" high x ½\" thick. It attaches to anything - includes a spring-loaded clip that converts into a stand, a magnet for metal surfaces, and a hanging hole. Times from 100 minutes down to 1 second and emits a tone when timing period is completed.",
+        "images": ["assets/img/productos/info/Electronic Darkroom Timer.jpg"],
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Approx. Ship. Weight", "Your Price"],
+            "rows": [
+                ["18906", "1 lb.", "$52.31"]
+            ]
+        }
     }
 ]
