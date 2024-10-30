@@ -947,5 +947,57 @@
                 ["BW-1400", "Triple Shelf Blanket Warmer", "14.2", "50 Single Blankets", "19\" x 25\" x 26\"", "22\" x 29\" x 70\"", "350#", "400#", "$Call"]
             ]
         }
+    },
+    {
+        "id": 49,
+        "name": "Brewer Phlebotomy/Blood Drawing Chair",
+        "rating": "★★★★☆ (92 reseñas)",
+        "price": "$168.33 - $681.67",
+        "brand": "BREWER COMPANIES", 
+        "material": "FABRIC",
+        "description": "350 lb. weight capacity Work surfaces covered in a bacteriological, chemical, & fungal resistant material Meets BIFMA (Business & Institutional Furniture Manufacturer's Association) standard",
+        "images": ["assets/img/productos/info/Brewer Phlebotomy-Blood Drawing Chair.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Color", "Your Price"],
+            "rows": [
+                ["1500-01", "Blood Draw Chair", "SPECIFY AT TIME OF ORDER", "$681.67"],
+                ["101059", "Optional Drawer for Blood Draw Chair", "N/A", "$168.33"]
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "name": "Exam Cape",
+        "rating": "★★★★★ (942 reseñas)",
+        "price": "$106.67",
+        "brand": "TECHNOAIDE", 
+        "material": "FABRIC",
+        "description": "Maintains patient modesty and confidence. Provides protection against cross-contamination. Comfortable, non-irritating materials. Eliminates laundry and replacement costs. 100 Pink Capes per case.",
+        "images": ["assets/img/productos/info/Exam Cape.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Your Price"],
+            "rows": [
+                ["GMC-22", "Pink", "$106.67"]
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "name": "Exam Gown",
+        "rating": "★★★★★ (1039 reseñas)",
+        "price": "$144.00",
+        "brand": "TECHNOAIDE", 
+        "material": "FABRIC",
+        "description": "Maintains patient modesty and confidence. Provides protection against cross-contamination. Comfortable, non-irritating materials. Soft tissue/poly/tissue. Open front/back with ties. Eliminates laundry and replacement costs. Color: BLUE.",
+        "images": ["assets/img/productos/info/Exam Gown.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Size", "# per case", "Your Price"],
+            "rows": [
+                ["GXE-55", "Blue", "Average 30\"x42\"", "50", "$144.00"]
+            ]
+        }
     }
 ]
