@@ -645,7 +645,7 @@
         "brand": "TECHNOAIDE", 
         "material": "METAL",
         "description": "Lighted sign focuses attention on exam room status. Enhances Radiation Safety by suggesting the risk of accidental entry into an active exam room. NOT a plug-in sign! Must be hardwired to 120VAC!. Standard Fluorescent, NOT LED. Words are silk screened on Plexiglas. Single side only. 110 Volts Only. Shipping weight of each sign: 4 lbs. (1.8 kg).",
-        "images": ["assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs.jpg", "assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs-2.jpg" ],
+        "images": ["assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs.jpg", "assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs-2.jpg"],
         "brandLogo": "assets/img/logos/TechnoAide.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Sign", "Your Price"],
