@@ -683,5 +683,22 @@
                 ["MBN-16S", "Textual/Symbolic", "Same as MBN-15E only in SPANISH", "Red/White Sign, Black, Red and White Letters.", "4\"x10\"", "$41.00"]
             ]
         }
+    },
+    {
+        "id": 35,
+        "name": "Veterinary Specific Sign",
+        "rating": "★★★★★ (27 reseñas)",
+        "price": "$19.01",
+        "brand": "TECHNOAIDE", 
+        "material": "PAPER",
+        "description": "Constructed of 1/8\" thick Trovicel®. Double-faced tape is attached to the back for mounting. 8\" x 10\"",
+        "images": ["assets/img/productos/info/Veterinary Specific Sign.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["QNPV-09E", "$19.01"]
+            ]
+        }
     }
 ]
