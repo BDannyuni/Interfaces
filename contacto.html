@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>PNXR-Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/contacto.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
 </head>
 <body>
 
@@ -19,6 +23,7 @@
 
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+            <button class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
             <button class="search-button">
                 <img src="assets/img/search.png" alt="Buscar" width="20">
             </button>
@@ -36,43 +41,35 @@
         </div>
     </nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
 
-
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
-            <h2>WELCOME A NUESTRA<br> SECCIÓN DE PRODUCTOS</h2>
+            <h2>Contact Us For <br> More Information</h2>
         </div>
     </section> <!-- FIN DE INICIO -->
 
 
-    <section class="contact-section">
-        <div class="contact-form">
-            <h2>Contáctanos</h2>
-            <form action="#" method="POST">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="subject">Asunto:</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Enviar</button>
+    <section class="contacto-seccion">
+        <div class="contacto-contenedor">
+            <div class="contacto-info">
+                <h2>Contact Us</h2>
+                <p class="contacto-direccion">P.O. Box 625 * Gresham, OR 97030 * U.S.A.</p>
+                <p class="contacto-telefono">Phone: 1-503-667-3000 & Toll-Free (US): 800-827-XRAY</p>
+                <p class="contacto-email">info@pacificnwxr.com</p>
+            </div>
+            <form id="formulario-contacto" class="contacto-formulario">
+                <input type="text" name="nombre" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Menssage" required></textarea>
+                <button type="submit">Send Menssage</button>
             </form>
         </div>
-        
-        <div class="contact-map">
-            <h2>Ubicación</h2>
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317714.7544104161!2d-99.27664350614646!3d19.33747913710239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff362f9dbb6f%3A0x68b64e453c46af69!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1615574744532!5m2!1ses!2sus" 
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contacto-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44738.35433571581!2d-122.51242543054073!3d45.507116441404214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54959862444fdee9%3A0xc159bec8581d73ec!2sGresham%2C%20Oreg%C3%B3n%2097030%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1730258177962!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
+      
     <section id="productos-destacados">
         <h2>Most Popular Products</h2>
         <div class="productos-container">
@@ -108,26 +105,64 @@
         </div><br><br>
     </section>
 
-
-      <!-- NUESTROS COLABORADORES -->
-      <section>
-        <h2><span class="highlight">CONTRI</span>BUTORS</h2>
-        <div class="underline"></div>
+       <!-- NUESTROS COLABORADORES -->
+    <section>
         <div class="container">
-            <div class="collaborators">
-                <div class="collaborator">
-                    <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+            <div class="header">
+                <h2><span class="highlight">BRA</span>NDS</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="collaborator">
+                        <img src="assets/img/logos/Diagnomatic.png" alt="Diagnomatic" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/INFAB.png" alt="INFAB" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/ProGuard.png" alt="ProGuard" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PEDIGO.png" alt="PEDIGO" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="PHILLIPS SAFETY PRODUCTS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/pnwx.png" alt="PNWX" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="PROTECSIMPYX-RAY" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/RTINNOVATIONS.png" alt="RTINNOVATIONS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/TechnoAide.png" alt="TechnoAide" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/WMI.png" alt="WMI" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="WOLF X-RAY CORPORATION" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/bar-ray.png" alt="Bar-Ray" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/rds.png" alt="RDS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/beasy.png" alt="Beasy" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/brewer.png" alt="Brewer" onclick="window.location.href='productos.html'">
+                    </div>
                 </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
-                </div>
-                <!-- Agrega más colaboradores aquí -->
             </div>
         </div>
-    </section> <!-- FIN DE NUESTROS COLABORADORES -->
+    </section><!-- FIN DE NUESTROS COLABORADORES -->
 
 
     <br><br><br>
@@ -166,48 +201,147 @@
     </section> <!-- FIN DE FOOTER -->
 
 
-    <!-- SCRIPTS -->
-    <script src="assets/scripts/scripts.js"></script>
-    <!-- Link to Swiper's JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+<!-- SCRIPTS -->
+<script src="assets/scripts/scripts.js"></script>
     <script>
-       var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                1024: {
-                    slidesPerView: 4,
-                },
-                768: {
-                    slidesPerView: 3,
-                },
-                640: {
-                    slidesPerView: 2,
-                },
-                320: {
-                    slidesPerView: 1,
-                }
-            }
+        // Inicializa EmailJS con tu User ID
+        (function() {
+            emailjs.init("EnNVyvofcvpVFTg4G");
+        })();
+
+        document.getElementById('formulario-contacto').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Obtén los valores del formulario
+            var nombre = this.nombre.value;
+            var email = this.email.value;
+            var mensaje = this.mensaje.value;
+
+            // Envía el correo electrónico usando EmailJS
+            emailjs.send("service_chn5veo", "template_6qtzwop", {
+                from_name: nombre,
+                from_email: email,
+                message: mensaje
+            }).then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Mensaje enviado con éxito!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Error al enviar el mensaje. Por favor, intenta de nuevo.');
+            });
+
+            // Limpia el formulario
+            this.reset();
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuIcon = document.querySelector('.menu-icon');
-            const navLinks = document.querySelector('.nav-links');
 
-            menuIcon.addEventListener('click', () => {
-                navLinks.classList.toggle('show');
-            });
+<script>
+    const carousel = document.querySelector('.carousel');
+    const collaborators = document.querySelectorAll('.collaborator');
+    let isDragging = false;
+    let startPosition = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID = 0;
+    let currentIndex = 0;
+
+    function setCarouselWidth() {
+        const containerWidth = document.querySelector('.carousel-container').offsetWidth;
+        const visibleItems = containerWidth < 768 ? (containerWidth < 480 ? 1 : 2) : 3;
+        const itemWidth = containerWidth / visibleItems;
+        carousel.style.width = `${itemWidth * collaborators.length}px`;
+        collaborators.forEach(collaborator => {
+            collaborator.style.width = `${itemWidth}px`;
         });
-    </script> <!-- FIN DE SCRIPTS -->
+        return itemWidth;
+    }
+
+    let collaboratorWidth = setCarouselWidth();
+
+    collaborators.forEach((collaborator, index) => {
+        collaborator.addEventListener('dragstart', (e) => e.preventDefault());
+        
+        // Touch events
+        collaborator.addEventListener('touchstart', touchStart(index));
+        collaborator.addEventListener('touchend', touchEnd);
+        collaborator.addEventListener('touchmove', touchMove);
+
+        // Mouse events
+        collaborator.addEventListener('mousedown', touchStart(index));
+        collaborator.addEventListener('mouseup', touchEnd);
+        collaborator.addEventListener('mouseleave', touchEnd);
+        collaborator.addEventListener('mousemove', touchMove);
+    });
+
+    function touchStart(index) {
+        return function(event) {
+            currentIndex = index;
+            startPosition = getPositionX(event);
+            isDragging = true;
+            animationID = requestAnimationFrame(animation);
+            carousel.style.cursor = 'grabbing';
+        }
+    }
+
+    function touchEnd() {
+        isDragging = false;
+        cancelAnimationFrame(animationID);
+        const movedBy = currentTranslate - prevTranslate;
+        if (movedBy < -100 && currentIndex < collaborators.length - 1) currentIndex += 1;
+        if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
+        setPositionByIndex();
+        carousel.style.cursor = 'grab';
+    }
+
+    function touchMove(event) {
+        if (isDragging) {
+            const currentPosition = getPositionX(event);
+            currentTranslate = prevTranslate + currentPosition - startPosition;
+        }
+    }
+
+    function getPositionX(event) {
+        return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    }
+
+    function animation() {
+        setSliderPosition();
+        if (isDragging) requestAnimationFrame(animation);
+    }
+
+    function setSliderPosition() {
+        carousel.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    function setPositionByIndex() {
+        currentTranslate = currentIndex * -collaboratorWidth;
+        prevTranslate = currentTranslate;
+        setSliderPosition();
+    }
+
+    // Auto-scroll
+    function autoScroll() {
+        if (!isDragging) {
+            if (currentIndex < collaborators.length - 3) {
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+            setPositionByIndex();
+        }
+    }
+
+    setInterval(autoScroll, 3000);
+
+    // Responsive adjustment
+    function adjustCarousel() {
+        collaboratorWidth = setCarouselWidth();
+        setPositionByIndex();
+    }
+
+    window.addEventListener('resize', adjustCarousel);
+    adjustCarousel();
+</script>
 </body>
 </html>

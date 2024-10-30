@@ -62,18 +62,27 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error al cargar los productos:', error));
 });
 
+
 function searchProducts() {
     const input = document.getElementById('search-input');
     const filter = input.value.toLowerCase();
     const autocompleteList = document.getElementById('autocomplete-list');
+    const clearButton = document.querySelector('.clear-button');
+
+    // Mostrar o esconder el botón de limpiar según el texto en el input
+    clearButton.style.display = filter ? 'inline' : 'none';
 
     // Limpiar sugerencias previas
     autocompleteList.innerHTML = '';
 
     if (!filter) return;
 
-    // Filtrar productos según el texto ingresado
-    const filteredProducts = products.filter(product => product.name.toLowerCase().includes(filter));
+    // Filtrar productos según el nombre, la marca o el material
+    const filteredProducts = products.filter(product =>
+        product.name.toLowerCase().includes(filter) ||
+        product.brand.toLowerCase().includes(filter) ||
+        product.material.toLowerCase().includes(filter)
+    );
 
     // Mostrar sugerencias de autocompletado
     filteredProducts.forEach(product => {
@@ -84,11 +93,8 @@ function searchProducts() {
     });
 }
 
-function selectProduct(product) {
-    // Guarda los datos del producto en localStorage para la página de detalles
-    localStorage.setItem('productId', product.id);
-
-    // Redirigir a la página de detalles
-    window.location.href = 'detalle.html';
+function clearInput() {
+    const input = document.getElementById('search-input');
+    input.value = '';
+    searchProducts(); // Actualizar resultados
 }
-

@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Productos</title>
+    <title>PNXR-Products</title>
     <link rel="stylesheet" href="assets/css/productos.css">
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
 </head>
 <body>
     <!-- BARRA DE NAVEGACIÓN -->
@@ -18,12 +20,13 @@
 
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+            <button class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
             <button class="search-button">
                 <img src="assets/img/search.png" alt="Buscar" width="20">
             </button>
             <div id="autocomplete-list" class="autocomplete-items"></div>
         </div>
-
+        
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="productos.html">Products</a></li>
@@ -38,7 +41,7 @@
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
-            <h2>WELCOME TO OUR<br> PRODUCTS SECTION</h2>
+            <h2 id="text-hero">WELCOME TO OUR<br> PRODUCTS SECTION</h2>
         </div>
     </section> <!-- FIN DE INICIO -->
 
@@ -62,11 +65,11 @@
             <div class="pagination-controls">
                 <label for="productos-por-pagina">Products per page:</label>
                 <select id="productos-por-pagina">
-                    <option value="12">12</option>
-                    <option value="16">16</option>
+                    <option value="15">15</option>
                     <option value="20">20</option>
-                    <option value="24">24</option>
-                    <option value="100">Todos</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="200">Todos</option>
                 </select>
             </div>
             <h1>Our Products</h1>
@@ -75,25 +78,64 @@
         </main>
     </div>
 
-      <!-- NUESTROS COLABORADORES -->
-      <section>
-        <h2><span class="highlight">CONTRI</span>BUTORS</h2>
-        <div class="underline"></div>
+       <!-- NUESTROS COLABORADORES -->
+    <section>
         <div class="container">
-            <div class="collaborators">
-                <div class="collaborator">
-                    <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="redirectToBrand('Marca1')">
+            <div class="header">
+                <h2><span class="highlight">BRA</span>NDS</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="collaborator">
+                        <img src="assets/img/logos/Diagnomatic.png" alt="Diagnomatic" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/INFAB.png" alt="INFAB" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/ProGuard.png" alt="ProGuard" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PEDIGO.png" alt="PEDIGO" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="PHILLIPS SAFETY PRODUCTS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/pnwx.png" alt="PNWX" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="PROTECSIMPYX-RAY" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/RTINNOVATIONS.png" alt="RTINNOVATIONS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/TechnoAide.png" alt="TechnoAide" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/WMI.png" alt="WMI" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="WOLF X-RAY CORPORATION" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/bar-ray.png" alt="Bar-Ray" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/rds.png" alt="RDS" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/beasy.png" alt="Beasy" onclick="window.location.href='productos.html'">
+                    </div>
+                    <div class="collaborator">
+                        <img src="assets/img/logos/brewer.png" alt="Brewer" onclick="window.location.href='productos.html'">
+                    </div>
                 </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="redirectToBrand('Marca2')">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="redirectToBrand('Marca3')">
-                </div>
-                <!-- Agrega más colaboradores aquí -->
             </div>
         </div>
-    </section> <!-- FIN DE NUESTROS COLABORADORES -->
+    </section><!-- FIN DE NUESTROS COLABORADORES -->
 
 
     <br><br><br>
@@ -180,7 +222,7 @@
         let precioMaximo = 100000;
         let marcasSeleccionadas = [];
         let materialesSeleccionados = [];
-        let productosPorPagina = 12; // Valor inicial
+        let productosPorPagina = 15; // Valor inicial
         let paginaActual = 1;
 
         const precioSlider = document.getElementById('precio-slider');
@@ -321,5 +363,113 @@
 
         cargarProductos();
     </script>
+
+<script>
+    const carousel = document.querySelector('.carousel');
+    const collaborators = document.querySelectorAll('.collaborator');
+    let isDragging = false;
+    let startPosition = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID = 0;
+    let currentIndex = 0;
+
+    function setCarouselWidth() {
+        const containerWidth = document.querySelector('.carousel-container').offsetWidth;
+        const visibleItems = containerWidth < 768 ? (containerWidth < 480 ? 1 : 2) : 3;
+        const itemWidth = containerWidth / visibleItems;
+        carousel.style.width = `${itemWidth * collaborators.length}px`;
+        collaborators.forEach(collaborator => {
+            collaborator.style.width = `${itemWidth}px`;
+        });
+        return itemWidth;
+    }
+
+    let collaboratorWidth = setCarouselWidth();
+
+    collaborators.forEach((collaborator, index) => {
+        collaborator.addEventListener('dragstart', (e) => e.preventDefault());
+        
+        // Touch events
+        collaborator.addEventListener('touchstart', touchStart(index));
+        collaborator.addEventListener('touchend', touchEnd);
+        collaborator.addEventListener('touchmove', touchMove);
+
+        // Mouse events
+        collaborator.addEventListener('mousedown', touchStart(index));
+        collaborator.addEventListener('mouseup', touchEnd);
+        collaborator.addEventListener('mouseleave', touchEnd);
+        collaborator.addEventListener('mousemove', touchMove);
+    });
+
+    function touchStart(index) {
+        return function(event) {
+            currentIndex = index;
+            startPosition = getPositionX(event);
+            isDragging = true;
+            animationID = requestAnimationFrame(animation);
+            carousel.style.cursor = 'grabbing';
+        }
+    }
+
+    function touchEnd() {
+        isDragging = false;
+        cancelAnimationFrame(animationID);
+        const movedBy = currentTranslate - prevTranslate;
+        if (movedBy < -100 && currentIndex < collaborators.length - 1) currentIndex += 1;
+        if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
+        setPositionByIndex();
+        carousel.style.cursor = 'grab';
+    }
+
+    function touchMove(event) {
+        if (isDragging) {
+            const currentPosition = getPositionX(event);
+            currentTranslate = prevTranslate + currentPosition - startPosition;
+        }
+    }
+
+    function getPositionX(event) {
+        return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    }
+
+    function animation() {
+        setSliderPosition();
+        if (isDragging) requestAnimationFrame(animation);
+    }
+
+    function setSliderPosition() {
+        carousel.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    function setPositionByIndex() {
+        currentTranslate = currentIndex * -collaboratorWidth;
+        prevTranslate = currentTranslate;
+        setSliderPosition();
+    }
+
+    // Auto-scroll
+    function autoScroll() {
+        if (!isDragging) {
+            if (currentIndex < collaborators.length - 3) {
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+            setPositionByIndex();
+        }
+    }
+
+    setInterval(autoScroll, 3000);
+
+    // Responsive adjustment
+    function adjustCarousel() {
+        collaboratorWidth = setCarouselWidth();
+        setPositionByIndex();
+    }
+
+    window.addEventListener('resize', adjustCarousel);
+    adjustCarousel();
+</script>
 </body>
 </html>

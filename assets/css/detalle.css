@@ -1,3 +1,14 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Asegurando que no haya desbordamiento en el body */
+body {
+    overflow-x: hidden;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -165,10 +176,29 @@
     }
 }
 
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding-right: 30px; /* Espacio para el botón de limpiar */
+}
+
+.clear-button {
+    position: absolute;
+    right: 40px; /* Ajusta según el tamaño del input */
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: gray;
+}
 
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero-productos.avif');
     background-size: cover;
     background-position: center;
     height: 10vh;
@@ -183,8 +213,9 @@
 .hero h1 {
     margin: 0;
     margin-top: 20px;
-    font-size: 2.7em;
+    font-size: 2.5rem;
 }
+
 .hero h3 {
     font-size: 1.5rem;
     margin: 0;
@@ -243,7 +274,11 @@
 
     .hero-content {
         max-width: 90%; /* Asegurar que el contenido no se salga de la pantalla */
-        margin-top: 20px; /* Añadir margen superior para separar del borde superior */
+        margin-top: 50px; /* Añadir margen superior para separar del borde superior */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
     }
 
     .hero p {
@@ -267,6 +302,10 @@
         margin: 5px 0; /* Añadir margen vertical entre botones */
     }
 
+    .hero h1 {
+        font-size: 2rem; /* Reducir aún más el tamaño del texto */
+    }
+
     .hero p {
         font-size: 1rem; /* Reducir aún más el tamaño del texto */
     }
@@ -279,17 +318,18 @@
 
 
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #EBF8FF;
-    color: #2B6CB0;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    color: #2B6CB0;
 }
 .product-detail {
     display: flex;
@@ -454,12 +494,98 @@ tr:hover {
 
 
 
+#nosotros p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding-right: 30px;
+}
+
+
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la sección Nosotros */
+#nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+}
+
+
+/* Media Queries para dispositivos móviles y tabletas */
+@media (max-width: 1007px) {
+    #nosotros {
+        flex-direction: column;
+        top: 50vh; /* Ajusta esta posición según necesites */
+        padding: 50px;
+    }
+
+    #nosotros .content {
+        text-align: center;
+    }
+}
+
+/* Ajustes para la sección "Nosotros" */
+#nosotros {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.nosotros-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.nosotros-item {
+    max-width: 900px;
+    text-align: left;
+}
+
+.nosotros-item h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.nosotros-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .nosotros-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .nosotros-item {
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
 
 #productos-destacados {
     padding: 50px 0;
     background-color: #fff;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/productos-destacados.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/productos-destacados.jpg');
     background-size: cover;
     background-position: center;
     text-decoration: none; /* Elimina la línea debajo del texto */
@@ -589,6 +715,7 @@ tr:hover {
     }
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -604,80 +731,53 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-.header h1 {
+.header h2 {
     margin: 0;
     font-size: 2.5em;
 }
-.collaborators {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-}
-.collaborator img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    max-height: 150px; /* Ajusta la altura máxima */
-}
-@media (max-width: 1200px) {
-    .collaborators {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (max-width: 992px) {
-    .collaborators {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (max-width: 768px) {
-    .collaborators {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width: 576px) {
-    .collaborators {
-        grid-template-columns: 1fr;
-    }
-}
-
-h2 {
-    margin-top: 50px;
-    font-size: 2.5rem;
-    text-align: center;
-}
-h2 .highlight {
-    color: #25B0EB;
+.highlight {
+    color: #007bff;
 }
 .underline {
-    width: 200px; /* Ajusta el ancho de la línea según sea necesario */
-    height: 4px;
-    background-color: #25B0EB;
-    margin: 10px auto 0; /* Centra la línea y ajusta el margen */
+    width: 100px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 10px auto;
 }
-
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    cursor: grab;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.collaborator {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 0 10px;
+}
 .collaborator img {
     max-width: 100%;
-    height: auto;
-    display: block;
-    max-height: 150px;
-    filter: grayscale(100%); /* Hace que el logo aparezca en gris */
-    transition: filter 0.3s ease, transform 0.3s ease; /* Suaviza la transición al color */
-    cursor: pointer; /* Cambia el cursor a pointer para indicar que es clicable */
+    max-height: 100%;
+    object-fit: contain;
 }
-
-.collaborator img:hover {
-    filter: grayscale(0%); /* Vuelve a colorear el logo al pasar el ratón */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño del logo al pasar el ratón */
-}
-
-
-@media (max-width: 1200px) {
-    h2 {
-        font-size: 1.9rem;
+@media (max-width: 768px) {
+    .collaborator {
+        width: 50%;
     }
 }
+@media (max-width: 480px) {
+    .collaborator {
+        width: 100%;
+    }
+}
+
 
 footer {
     background-color: #1D4A67;
