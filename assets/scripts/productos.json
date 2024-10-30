@@ -5,7 +5,7 @@
         "rating": "★★★☆☆ (128 reseñas)",
         "price": "$98.00 - $595.00",
         "brand": "INFAB", 
-        "material": "Fabric",
+        "material": "FABRIC",
         "description": "0.50mm LE full front panel for maximum protection that distributes weight between waist and shoulder. 6 nylon color options. 5 sizing options.Ki-Armor Lead Free. With or without Thyroid Collar",
         "images": ["assets/img/productos/info/Infab-lightning-1.jpg", "assets/img/productos/info/Infab-lightning-2.jpg", "assets/img/productos/info/Infab-lightning-3.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -25,8 +25,8 @@
         "name": "Exam and Surgical Radiation Reducing Gloves.",
         "rating": "★★★★★ (150 reseñas)",
         "price": "$44.00 - $47.00",
-        "brand": "ProGuard", 
-        "material": "Plastic",
+        "brand": "PROGUARD", 
+        "material": "PLASTIC",
         "description": "Developed with the physician in mind, these radiation reducing gloves offer the best protection with the greatest dexterity, sensitivity and comfort compared to similar products. Ideal for Radiology, Cath/Electro Physiology, Orthopedic Surgery, Endoscopy, Urology, and Pain Management. Ideal for all high exposure procedures where sensitivity and protection are essential. Color - warm gray. Order as many or as few as one pair at a time.",
         "images": ["assets/img/productos/info/ExamandSurgicalRadiationReducingGloves-1.png", "assets/img/productos/info/ExamandSurgicalRadiationReducingGloves-2.png"],
         "brandLogo": "assets/img/logos/ProGuard.png",
@@ -43,8 +43,8 @@
         "name": "Resolution Test Patterns, Easily Customized At Your Request.",
         "rating": "★★★★☆ (120 reseñas)",
         "price": "$950.00 - $1975.00",
-        "brand": "Diagnomatic", 
-        "material": "Metal",
+        "brand": "DIAGNOMATIC", 
+        "material": "METAL",
         "description": "Resolution Test Patterns Pro-Project offers a wide range of test patterns for two and three dimensional resolution evaluation. Because they do not depend on other companies, and each pattern is developed and manufactured in-house, they offer all combination of shapes, layouts, templates and materials. Their cutting-edge technology allows them to obtain unmatched precision and resolution range in many types of materials and they can easily manufacture different sizes per your requirement. Call for pricing on your needs if you don't see them mentioned here.",
         "images": ["assets/img/productos/info/ResolutionTestPatterns-1.png", "assets/img/productos/info/ResolutionTestPatterns-2.png"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -62,8 +62,8 @@
         "name": "Leaded Glass",
         "rating": "★★★☆ (36 reseñas)",
         "price": "$495.00 - 1550.00",
-        "brand": "Diagnomatic", 
-        "material": "Glass",
+        "brand": "DIAGNOMATIC", 
+        "material": "GLASS",
         "description": "Hurricane Glass rated for various missile impacts, bullet resistant glass, fire rated glass and both fire rated and bullet resistant glass. Call for pricing.",
         "images": ["assets/img/productos/info/Leaded-Glass-1.jpg", "assets/img/productos/info/Leaded-Glass-2.jpg", "assets/img/productos/info/Leaded-Glass-3.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -82,7 +82,7 @@
         "rating": "★★★★★ (421 reseñas)",
         "price": "$10.00 - $160.00",
         "brand": "INFAB", 
-        "material": "Fabric",
+        "material": "FABRIC",
         "description": "Infab's line of radiation protection curtains are custom manufactured to your exact specifications utilizing the same materials and expert craftsmanship found in their lead aprons. All curtains are manufactured from Infab's high quality lead vinyl core material and covered in your choice of any of their durable poly cloth colors and prints to match your decor (see color chart below).",
         "images": ["assets/img/productos/info/Infab's Solid Panel Mobile Curtain-1.jpg", "assets/img/productos/info/Infab's Solid Panel Mobile Curtain-2.jpg","assets/img/productos/info/Infab's Solid Panel Mobile Curtain-3.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -106,8 +106,8 @@
         "name": "General R/F QC Phantom",
         "rating": "★★★☆☆ (19 reseñas)",
         "price": "$626.00 - $7200.00",
-        "brand": "Diagnomatic", 
-        "material": "Plastic",
+        "brand": "DIAGNOMATIC", 
+        "material": "PLASTIC",
         "description": "The R/F QC Phantom is designed to provide the diagnostic radiologic technologist with an accurate, easy-to-use tool for evaluating the image quality and performance of standard diagnostic radiographic and fluoroscopic imaging systems.",
         "images": ["assets/img/productos/info/General R-F QC Phantom-1.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-3.jpg","assets/img/productos/info/General R-F QC Phantom-4.jpg","assets/img/productos/info/General R-F QC Phantom-5.jpg","assets/img/productos/info/General R-F QC Phantom-6.jpg", "assets/img/productos/info/General R-F QC Phantom-7.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -127,8 +127,8 @@
         "name": "Fluoro Resolution Test Tool",
         "rating": "★★★★★ (274 reseñas)",
         "price": "$395.00 - $515.00",
-        "brand": "Diagnomatic", 
-        "material": "Plastic",
+        "brand": "DIAGNOMATIC", 
+        "material": "PLASTIC",
         "description": "The Fluoroscopic Resolution Test Tool is an acrylic plate containing eight groups of copper and brass mesh screening. Three models are offered, each with different resolution values. These mesh groups are purposely arranged in a non-sequential rotational pattern to permit better visualization of the sometimes subtle changes in mesh thickness. These test tools provide a quick general check on image intensifiers and can also be used to optimize television system focus as well as mirror optics and image intensifier settings.",
         "images": ["assets/img/productos/info/Fluoroscopic Resolution Test Tool-1.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -147,7 +147,7 @@
         "rating": "★★★☆☆ (583 reseñas)",
         "price": "$1575.00 - $2146.85",
         "brand": "PNWX", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "An ultra sturdy solid-box-design X-Ray Merchant board intended for use with modern expensive DR digital panels and or plates.",
         "images": ["assets/img/productos/info/PNWX Merchant Board for DR Panels-1.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-2.jpg", "assets/img/productos/info/PNWX Merchant Board for DR Panels-3.jpg"],
         "brandLogo": "assets/img/logos/pnwx.png",
@@ -165,7 +165,7 @@
         "rating": "★★★☆☆ (192 reseñas)",
         "price": "$825.00",
         "brand": "PNWX", 
-        "material": "Wood",
+        "material": "WOOD",
         "description": "A top quality Merchant board constructed of solid oak (no plywood!) with a formica laminate top covering. The formica covering resists scratches and makes cleanup easy! This unit features a heavy base design which makes it very stable during merchant exams.",
         "images": ["assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-1.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-2.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-3.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-4.jpg", "assets/img/productos/info/PNWX Light Duty Merchant Board for Film Cassettes-5.jpg"],
         "brandLogo": "assets/img/logos/pnwx.png",
@@ -182,7 +182,7 @@
         "rating": "★★☆☆☆ (82 reseñas)",
         "price": "$2675.00",
         "brand": "DIAGNOMATIC", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "ACR accredited phantoms; both Medium & LARGE for comprehensive evaluation of critical imaging parameters of magnetic resonance imaging (MRI) in a time efficient manner. The phantom can be used for the measurement of absolute values for calibration purposes. However, its design is optimized for time efficient daily quality assurance too.",
         "images": ["assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-1.jpg", "assets/img/productos/info/Pro-MRI - ACR accredited Medium MRI phantom-2.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -205,7 +205,7 @@
         "rating": "★★★★★ (448 reseñas)",
         "price": "$36.00 - $1242.67",
         "brand": "TECHNOAIDE", 
-        "material": "Fabric",
+        "material": "FABRIC",
         "description": "Techno-Aide is proud to offer the number one option in veterinary positioning! Our premium radiolucent immobilizer troughs provide the ultimate solution for easy and reliable animal positioning*. These durable troughs features a comfortable foam sponge core completely sealed and sewn in our heavy-gauge, reinforced 'Techno-Tuff' black vinyl. The unique v-shaped immobilizer design reduces motion and fall risks for animals during procedures. Each immobilizer includes four easy-to-use hook & loop strips that quickly and conveniently attach to a securely sewn hook & loop band along the entire trough. These straps can be positioned in endless ways to secure animal limbs for nearly any imaging need.",
         "images": ["assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-1.jpg","assets/img/productos/info/Techno-Aide's Veterinary Immobilizers-2.jpg"],
         "brandLogo": "assets/img/logos/TechnoAide.png",
@@ -229,7 +229,7 @@
         "rating": "★★☆☆☆ (192 reseñas)",
         "price": "$8095.38 - $9692.31",
         "brand": "INFAB", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "A unique new design that allows unparalleled protection for close-to-table studies. Sturdy, yet thoughtfully engineered with a small “Footprint” so it can easily be positioned exactly where you want it for maximum scatter radiation protection.",
         "images": ["assets/img/productos/info/Adjustable Physician Protection X-ray Mobile Barrier-1.jpg", "assets/img/productos/info/Adjustable Physician Protection X-ray Mobile Barrier-2.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -247,7 +247,7 @@
         "rating": "★★★☆☆ (72 reseñas)",
         "price": "$5704.62",
         "brand": "INFAB", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "This window can be easily raised and lowered by hand as a result of the perfectly counter-balanced internal springs. The high quality steel construction and stainless springs provide a lifetime of trouble-free use",
         "images": ["assets/img/productos/info/Adjustable Mobile X-ray Barrier-1.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -264,7 +264,7 @@
         "rating": "★★★★★ (378 reseñas)",
         "price": "$150.00 - $12276.92",
         "brand": "INFAB", 
-        "material": "Glass",
+        "material": "GLASS",
         "description": "Powder coated steel frames, precision TIG welded for years of trouble free service completely enclosing the leaded glass panel for increased durability and safety. 2.0mm lead equivalent optically clear lead glass encased in clear Lexan to prevent shattering. Exclusive 1.5mm lead equivalent floor drape, the only barriers made with complete head to toe protection. 4 Hospital grade casters, two with locks for ease of movement and positive positioning.",
         "images": ["assets/img/productos/info/Large Window Mobile Barrier-1.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -283,7 +283,7 @@
         "rating": "★★☆☆☆ (82 reseñas)",
         "price": "$150.00 - $3941.54",
         "brand": "INFAB", 
-        "material": "Glass",
+        "material": "GLASS",
         "description": "Powder coated steel frame. Precision TIG welded for years of trouble-free service completely enclosing the leaded glass panel for increased durability and safety",
         "images": ["assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-1.jpg","assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-2.jpg","assets/img/productos/info/Tilted Mobile Barrier with optional 'Reach-Thru' Curtain-3.jpg"],
         "brandLogo": "assets/img/logos/INFAB.png",
@@ -304,7 +304,7 @@
         "rating": "★★★★★ (273 reseñas)",
         "price": "$166.98 - $916.35",
         "brand": "DIAGNOMATIC", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "Superior construction of lead strips and aluminum inter-spacers, with smooth, enameled aluminum covers, sealed against dirt and moisture. Grids may also be ordered with carbon fiber composite covers. For added protection of your valuable grids and convenience of handling and operation, these grids can be installed in various forms of grid encasement's: Flat Lexan® encasement's, grid caps, Lexan® encasement's with cassette channels and grid cassettes.",
         "images": ["assets/img/productos/info/Standard X-Ray Grids-1.jpg","assets/img/productos/info/Standard X-Ray Grids-2.jpg"],
         "brandLogo": "assets/img/logos/Diagnomatic.png",
@@ -341,10 +341,10 @@
         "rating": "★★★★☆ (321 reseñas)",
         "price": "$7750.00",
         "brand": "PROTECSIMPYX-RAY",
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "The OPTIMAX is the world's premier 90 second automatic x-ray film processor. Designed as a rugged workhorse, the OPTIMAX can handle film volumes from very low to a higher capacity. The proven design of the OPTIMAX is efficient with energy, water & chemical use, saving the OPTIMAX owner money while delivering outstanding quality images.",
         "images": ["assets/img/productos/info/Protec OPTIMAX Table Top Film Processor.jpg"],
-        "brandLogo": "assets/img/logos/logos/PROTECSIMPYX-RAY.png",
+        "brandLogo": "assets/img/logos/PROTECSIMPYX-RAY.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
@@ -359,10 +359,10 @@
         "rating": "★★★★☆ (200 reseñas)",
         "price": "$1045.00",
         "brand": "WMI", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "The IS-199 incorporates a unique combination of features which make it the Mixer of Choice for both the user and the serviceman. The Specific Gravity Mixing System allows the user to start a mix anytime. The mixer responds to the addition of concentrated chemicals and adds the correct amount of water automatically. All Electronic Components have been chosen for dependability. Straight-forward circuit designs eliminate the need for circuit boards thereby increasing reliability. The Low Level Warning System indicates that solution level is 2.0 gallons or less. The warning system resets",
         "images": ["assets/img/productos/info/IS-199 Chemical Mixers.jpg"],
-        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "brandLogo": "assets/img/logos/WMI.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Chemistry Type", "Your Price"],
             "rows": [
@@ -389,10 +389,10 @@
         "rating": "★★★☆☆ (42 reseñas)",
         "price": "$189.00",
         "brand": "WMI", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "The IS-199 Spill Tray conveniently fits under the IS-199 Chemical Mixer to provide secondary containment for potential leaks or spills. Tray is 26\"L x 18\"W x 5\"H.",
         "images": ["assets/img/productos/info/Spill Tray for IS-199 Chemical Mixers.jpg"],
-        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "brandLogo": "assets/img/logos/WMI.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
@@ -406,10 +406,10 @@
         "rating": "★★☆☆☆ (182 reseñas)",
         "price": "$37.00",
         "brand": "WMI", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "The IS-199 Floating Lid is designed to extend developer life by reducing aerial oxidation. The IS-199 Floating Lid is especially useful in low volume situations where premature oxidation may occur.",
         "images": ["assets/img/productos/info/Floating Lid for IS-199 Chemical Mixers.jpg"],
-        "brandLogo": "assets/img/logos/logos/WMI.png",
+        "brandLogo": "assets/img/logos/WMI.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
@@ -423,7 +423,7 @@
         "rating": "★★★★★ (943 reseñas)",
         "price": "$120.00",
         "brand": "RTINNOVATIONS", 
-        "material": "Fabric",
+        "material": "FABRIC",
         "description": "The X-Port X-Ray Portfolio is designed exclusively for transporting radiology films and patient files. The zipperless portfolio allows films to be handled easily and efficiently while protecting them from the rain and snow. The X-Port saves time in loading and unloading film, saves space in storage, and saves money by lasting longer than conventional zippered portfolios and conference cases.",
         "images": ["assets/img/productos/info/X-Port X-Ray Film Portfolio.jpg"],
         "brandLogo": "assets/img/logos/RTINNOVATIONS.png",
@@ -440,7 +440,7 @@
         "rating": "★★★★☆ (4 reseñas)",
         "price": "$266.67 - $291.67",
         "brand": "RTINNOVATIONS", 
-        "material": "Fabric",
+        "material": "FABRIC",
         "description": "Transport your facility's fillms, cassettes, patient record, and supplies with increased efficiency and reduced effort. The X-Port® All-In-One Rolling X-Ray Case gives your facility a convenient and protective way of carrying those heavy loads!",
         "images": ["assets/img/productos/info/The X-Port Rolling X-ray Case.jpg"],
         "brandLogo": "assets/img/logos/RTINNOVATIONS.png",
@@ -458,10 +458,10 @@
         "rating": "★★★★☆ (93 reseñas)",
         "price": "$621.85.00 - $1018.77",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Steel",
+        "material": "STEEL",
         "description": "Wolf manufactures three sizes of x-ray duplicators, with screen sizes of 14\" x 17\", 10\" x 12\" and 6\" x 12\" respectively. Constructed of steel finished in durable baked enamel, our duplicators can be used with any available duplicating film, (which is not the same as regular x-ray film.) To operate the duplicators, (in a dark room) simply place the film to be duplicated on the plexiglass screen with a sheet of duplicating film on top, close the cover, set the exposure time and push the button. The red light will signal you when exposure is complete. The 14\" x 17\" surface of the #21524 accommodates all x-rays up to 14\" x 17\". The 10\" x 12\" surface of the #21522 is perfect for duplicating mammographs and podiatric radiographs, and the 6\" x 12\" #21520 duplicates any size up to 6\" x 12\".",
         "images": ["assets/img/productos/info/Wolf Radiology Film Duplicator.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Maximum Film Size", "Your Price"],
             "rows": [
@@ -477,10 +477,10 @@
         "rating": "★★★★☆ (475 reseñas)",
         "price": "$288.15 - $381.38",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "Automatic: ID Printers allow you to quickly and easily expose patient information onto your extraoral film prior to processing. The Wolf \"Auto Printer\" has an adjustable exposure timer. Set the timer, insert ID card and press the exposure plate. Manual: Just insert the film and ID card, hold down the exposure plate, and release. Compatible with Kodak and Wolf ID cards.",
         "images": ["assets/img/productos/info/Wolf Film Identification Printers.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Voltage", "Exposure Type", "Your Price"],
             "rows": [
@@ -495,7 +495,7 @@
         "rating": "★★☆☆☆ (29 reseñas)",
         "price": "$9.00 - $184.00",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "Perfect for direct spotlighting, this wall mounted unit swivels to any position. Easy to install via 2 keyholes, the Swivel Safelight includes a GBX type filter, 7 watt light bulb, and a 6 foot cord with a three prong plug. Specifications: 7\"H x 6\"W. Face is 5\" in Diameter. Approximate shipping weight 5 lbs. Also available with an optional SENSOR that turns the safelight on automatically when the regular light is shut off (the unit can still be shut off permanently with the on/off switch).",
         "images": ["assets/img/productos/info/Swivel Safelight.jpg"],
         "brandLogo": "assets/img/logos/.png",
@@ -515,10 +515,10 @@
         "rating": "★★★★★ (93 reseñas)",
         "price": "$9.00 - $170.00",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "The Angular Safelight is ideal where a direct light is wanted. Easy to install via 2 keyholes, the Angular Safelight includes a GBX type filter, 7 watt light bulb, and a 6 foot cord with a three prong plug. Specifications: 10\"H x 7\"W x 5\"D. Approximate shipping weight 5 lbs. Also available with an Optional SENSOR that turns the safelight on automatically when the regular light is shut off (the unit can still be shut off permanently with the on/off switch).",
         "images": ["assets/img/productos/info/Angular Safelight.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
@@ -534,10 +534,10 @@
         "rating": "★★★☆☆ (4 reseñas)",
         "price": "$96.92",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "Our economy model screws into any existing outlet. Made of aluminum, filtration is from a GBX type filter that unscrews for 7 watt bulb replacement. Specifications: 5-1/4\"L x 4-1/8\"D. Approximate shipping weight 5 lbs.",
         "images": ["assets/img/productos/info/Circular Safelight.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
@@ -551,10 +551,10 @@
         "rating": "★★★★★ (532 reseñas)",
         "price": "$129.54 - $368.62",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "The Fluorescent tube safelight is perfect for all darkrooms because it is available with either a green or red filter. The Tube Safelight is shipped complete with installation kit. Specifications: 24\"L x 3\"W x 6\"H. Approximate shipping weight 8 lbs.",
         "images": ["assets/img/productos/info/Fluorescent Safelight.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
@@ -571,14 +571,14 @@
         "rating": "★★☆☆☆ (5 reseñas)",
         "price": "$272.77",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Plastic",
+        "material": "PLASTIC",
         "description": "This unique two-compartment unit features a safelight at the bottom and a normal incandescent room light at the top. The safelight is filtered by our 8\" x 10\" GBX type filter and comes with a 6 foot cord and a 3 prong plug. Specification: 15-1/2\"L x 10\"W x 2-1/2\"D. Approximate shipping weight 12 lbs.",
         "images": ["assets/img/productos/info/Angular Safelight.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Your Price"],
             "rows": [
-                ["19106", "$272.77"]
+                ["SIGN-LED-XRAY", "$272.77"]
             ]
         }
     },
@@ -588,15 +588,99 @@
         "rating": "★★★★☆ (1 reseñas)",
         "price": "$38.31",
         "brand": "WOLF X-RAY CORPORATION", 
-        "material": "Metal",
+        "material": "METAL",
         "description": "Wolf's new GBX type filtered flashlights are a handy item for any darkroom. Perfect for technicians to spotlight items in a darkroom or for service technicians working in a darkroom environment. Available in 2 types, both are 6 inches long.",
         "images": ["assets/img/productos/info/Darkroom Flashlights.jpg"],
-        "brandLogo": "assets/img/logos/logos/WOLF X-RAY CORPORATION.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Type", "Your Price"],
             "rows": [
                 ["21615", "Mini Maglite", "$38.31"],
                 ["21616", "Rayovac", "$38.31"]
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "name": "Phillips Safety LED X-Ray In Use Lighted Door Sign",
+        "rating": "★★★☆☆ (821 reseñas)",
+        "price": "$423.00",
+        "brand": "PHILLIPS SAFETY PRODUCTS", 
+        "material": "METAL",
+        "description": "The X-Ray In Use LED Radiation Warning Sign is a sign designed as a warning to radiation rooms and is made of high-quality metal. It features the warning message “X-Ray In Use”, in a red background with white writing. Plus, its bright LED lights provide effective warning during procedures, thereby improving safety for both patients and staff. This wall-mounted LED warning sign is energy efficient and economical. In addition, it features a 120 VAC hardwired design (not plug-in), ensuring consistent power and safety.",
+        "images": ["assets/img/productos/info/Phillips Safety LED X-Ray In Use Lighted Door Sign.jpg"],
+        "brandLogo": "assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg",
+        "specifications": {
+            "headers": ["Stock #", "Sign Title", "Single or Double Sided", "Size", "Background/Text", "Lamp Type", "Plug or Hardwired", "Your Price"],
+            "rows": [
+                ["SIGN-LED-XRAY", "X-Ray IN USE", "Single", "7.6\" H x 11.5\" W x 2.05\" D", "White/Red", "LED", "Hardwired Only", "$423.00"]
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "name": "Wolf Electric X-Ray In Use Sign",
+        "rating": "★★☆☆☆ (73 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "PLASTIC",
+        "description": "Manufactured of steel and lit by two 15-watt energy efficient tubular bulbs, the 12\"L x 7\"H x 2\"D box has your message on both sides for hanging projected over the door (or against the wall). The unit is finished with a white polyester powder finish and comes with pigtails for direct wiring. Ships ready to be hard-wired in by a qualified electrician.",
+        "images": ["assets/img/productos/info/Wolf Electric X-Ray In Use Sign.jpg"],
+        "brandLogo": "assets/img/logos/.png",
+        "specifications": {
+            "headers": ["Stock #", "Sign Text", "Your Price"],
+            "rows": [
+                ["19110-XR", "X-Ray In Use", "$142.15"],
+                ["19110-MR", "MRI In Use", "$142.15"],
+                ["19110-DR", "Darkroom In Use", "$142.15"],
+                ["19110-CT", "CT In Use", "$142.15"]
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "name": "Techno-Aide Incandescent Illuminated Door Signs",
+        "rating": "★★★★☆ (203 reseñas)",
+        "price": "$5200.00",
+        "brand": "TECHNOAIDE", 
+        "material": "METAL",
+        "description": "Lighted sign focuses attention on exam room status. Enhances Radiation Safety by suggesting the risk of accidental entry into an active exam room. NOT a plug-in sign! Must be hardwired to 120VAC!. Standard Fluorescent, NOT LED. Words are silk screened on Plexiglas. Single side only. 110 Volts Only. Shipping weight of each sign: 4 lbs. (1.8 kg).",
+        "images": ["assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs.jpg", "assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs-2.jpg" ],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Sign", "Your Price"],
+            "rows": [
+                ["SLU-XR", "X-RAY IN USE", "$5200.00"]
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "name": "Yellow Warning Sticker Signs",
+        "rating": "★★★★★ (9421 reseñas)",
+        "price": "$20.00 - $65.95",
+        "brand": "TECHNOAIDE", 
+        "material": "PAPER",
+        "description": "Signs give critical imformation to patients and technologists. Many states adapt certain signs as law. Check your local laws or program requirements! Enhances safety with a front line written warning. Part of a good quality assurance program.",
+        "images": ["assets/img/productos/info/Yellow Warning Sticker Signs-1.jpg", "assets/img/productos/info/Yellow Warning Sticker Signs-2.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Sign Type", "Description", "Color", "Size", "Your Price"],
+            "rows": [
+                ["CMM-06", "Symbolic Only", "No Metal Objects.", "Yellow Sign, Black Symbols/Magenta Slash.", "8\"x10\"", "$30.00"],
+                ["CRA-15", "Textual/Symbolic", "CAUTION RADIATION w/ Rad Symbol.", "Yellow Sign, Magenta Letters and Symbol.", "8\"x10\"", "$25.00"],
+                ["CRA-16", "Textual/Symbolic", "Spanish CAUTION RADIATION w/ Rad Symbol.", "Yellow Sign, Magenta Letters and Symbol.", "8\"x10\"", "$25.00"],
+                ["CMF-01", "Textual/Symbolic", "DANGER MAGNETIC FIELD w/ Magnetic Symbol.", "Yellow Sign, Magenta Letters and Symbol.", "8\"x10\"", "$20.00"],
+                ["CMR-02", "Symbolic Only", "Warning about RF & Magnetic Fields.", "Yellow Sign, Magenta Letters and Symbol.", "8\"x10\"", "$20.00"],
+                ["2931-PL-10", "Textual/Symbolic", "CAUTION RADIATION AREA w/ Rad Symbol.", "Yellow Sign, Magenta Letters and Symbol.", "4\"x10\"", "$47.06"],
+                ["2931-PL-13", "Textual", "Bilingual Pregnancy X-Ray Signs", "Red Background, White Text", "10\"x7'", "$37.00"],
+                ["2931-PL-12", "Textual", "Bilingual Pregnancy X-Ray Signs", "BLACK Background, White Text", "10\"x7'", "$40.00"],
+                ["CBH-14", "Textual/Symbolic", "CAUTION BIOHAZARD w/ Bio-Haz Symbol.", "Yellow Sign, Magenta Letters and Symbol.", "4\"x10\"", "$13.00"],
+                ["CRE-18", "Textual Only", "CAUTION THIS MACHINE PRODUCES...", "Yellow Sign, Magenta Letters.", "4\"x10\"", "$13.00"],
+                ["MBN-13E", "Textual/Symbolic", "DANGER! RESTRICTED ACCESS with magnet symbol", "Red/White Sign, Black, Red and White Letters.", "12\"x18\"", "$62.54"],
+                ["MBN-14S", "Textual/Symbolic", "Same as MBN-13E only in SPANISH", "Red/White Sign, Black, Red and White Letters.", "12\"x18\"", "$65.95"],
+                ["MBN-15E", "Textual/Symbolic", "DANGER! MAGNET ALWAYS ON! with magnet symbol", "Red/White Sign, Black, Red and White Letters.", "4\"x10\"", "$40.00"],
+                ["MBN-16S", "Textual/Symbolic", "Same as MBN-15E only in SPANISH", "Red/White Sign, Black, Red and White Letters.", "4\"x10\"", "$41.00"]
             ]
         }
     }
