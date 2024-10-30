@@ -648,7 +648,7 @@
         "images": ["assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs.jpg", "assets/img/productos/info/Techno-Aide Incandescent Illuminated Door Signs-2.jpg"],
         "brandLogo": "assets/img/logos/TechnoAide.png",
         "specifications": {
-            "headers": ["Stock #", "Description", "Sign", "Your Price"],
+            "headers": ["Stock #", "Sign", "Your Price"],
             "rows": [
                 ["SLU-XR", "X-RAY IN USE", "$5200.00"]
             ]
