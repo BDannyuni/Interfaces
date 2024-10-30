@@ -621,7 +621,7 @@
         "id": 32,
         "name": "Wolf Electric X-Ray In Use Sign",
         "rating": "★★☆☆☆ (73 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$142.15",
         "brand": "WOLF X-RAY CORPORATION", 
         "material": "PLASTIC",
         "description": "Manufactured of steel and lit by two 15-watt energy efficient tubular bulbs, the 12\"L x 7\"H x 2\"D box has your message on both sides for hanging projected over the door (or against the wall). The unit is finished with a white polyester powder finish and comes with pigtails for direct wiring. Ships ready to be hard-wired in by a qualified electrician.",
@@ -763,7 +763,7 @@
         "id": 38,
         "name": "Large Analog Swept Hand Darkroom Timer",
         "rating": "★★☆☆☆ (392 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$325.54",
         "brand": "WOLF X-RAY CORPORATION", 
         "material": "PLASTIC",
         "description": "Wolf's large faced analog timer features a giant 8\" diameter dial that gives you minute and second timing from 1 second to 60 minutes. It automatically shuts-off a duplicator or other electrical appliances, and has a clear buzzer signal.",
@@ -790,6 +790,161 @@
             "headers": ["Stock #", "Approx. Ship. Weight", "Your Price"],
             "rows": [
                 ["18906", "1 lb.", "$52.31"]
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "name": "Standard Blanket Warming Cabinet",
+        "rating": "★★★★★ (14 reseñas)",
+        "price": "$4644.72",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Analog temperature control Approximate capacity 7 blankets This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. Solid door Ideal for countertop use Max. warming temp. 200°",
+        "images": ["assets/img/productos/info/Standard Blanket Warming Cabinet.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2010-S", "Blanket Warming Cabinet", "$4,644.72"]
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★☆ (298 reseñas)",
+        "price": "$5416.25",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Window door Approximate capacity: 7 blankets. This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. 4-digit LED display Units can be stacked Max warming temp: 200° 126# product weight",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2010", "Blanket Warming Cabinet", "$5,416.25"]
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "name": "Blanket Warmer Cart",
+        "rating": "★★★☆☆ (17 reseñas)",
+        "price": "$945.80",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Stainless steel Ergonomic Push/Pull handles 4\" casters with brake and swivel lock 300 lbs. total weight capacity - 100 lbs. per shelf Compatible with the P-2010, P-2010-S and P-2110",
+        "images": ["assets/img/productos/info/Blanket Warmer Cart.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2010-TC", "Blanket Warmer Cart", "$945.80"]
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★★ (3 reseñas)",
+        "price": "$8844.58",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Compartment Size: 3.4 cu.ft. Window door Approximate capacity: 10-15 blankets This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. Perimeter bumper optional 4-digit LED display Units can be stacked 5\" casters Max warming temp: 200°",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2020", "Blanket Warming Cabinet", "$8,844.58"]
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★★ (1 reseñas)",
+        "price": "$9412.08",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Compartment Size: 7.7 cu.ft. Window door Approximate capacity: 30 blankets This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. Perimeter bumper optional 4-digit LED display Units can be stacked 5\" casters Max warming temp: 200°",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2030", "Blanket Warming Cabinet", "$9,412.08"]
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★☆ (10 reseñas)",
+        "price": "$17824.10",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Compartment Size: 7.7 cu.ft. per compartment, 15.4 cu.ft. total. Two compartments with individual controls Approximate capacity: 50-60 blankets This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. Window doors Perimeter bumper optional 4-digit LED display 5\" casters Max warming temp: 200°",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet-3.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2040", "Blanket Warming Cabinet", "$17,824.10"]
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★★ (219 reseñas)",
+        "price": "$12066.07",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Compartment Size: 21.8 cu.ft. One compartment with two doors Approximate capacity: 80-90 blankets This is approximate as blanket thickness & dims vary. To determine cubit feet of your blanket/s: fold and multiply width x length x depth, and divide by 1728. Window doors Perimeter bumper included 4-digit LED display 6\" casters Max warming temp: 200°",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet-4.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2050", "Blanket Warming Cabinet", "$12,066.07"]
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "name": "Deluxe Blanket Warming Cabinet",
+        "rating": "★★★★★ (34 reseñas)",
+        "price": "$15409.50",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Compartment Size: 20.6 cu.ft. Two window doors with one compartment. New 24\" depth ideal for built-in use. 4-digit LED display. Control lock programming and auto time programming. 6\" casters or optional legs. Max warming temp: 200°",
+        "images": ["assets/img/productos/info/Deluxe Blanket Warming Cabinet-5.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-2055", "Blanket Warming Cabinet", "$15,409.50"]
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "name": "Single, Double, or Triple Shelf Blanket Warmers",
+        "rating": "★★★☆☆ (5 reseñas)",
+        "price": "$1200",
+        "brand": "TECHNOAIDE", 
+        "material": "METAL",
+        "description": "Commercial grade Table-Top Blanket Warmer for Radiology departments, Interventional Suites, ER & OR’s, Mammography, Ultrasound, Outpatient Clinics, and Surgery Centers.",
+        "images": ["assets/img/productos/info/Single, Double, or Triple Shelf Blanket Warmers.jpg", "assets/img/productos/info/Single, Double, or Triple Shelf Blanket Warmers-1.jpg", "assets/img/productos/info/Single, Double, or Triple Shelf Blanket Warmers-2.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Cubic Feet", "MAX Blankets", "Inside Dims", "Outside Dims", "Net Weight", "Ship Weight", "Your Price"],
+            "rows": [
+                ["BW-210", "Single Shelf Blanket Warmer", "2.1", "7 Single Blankets", "13\" x 21\" x 13\"", "16\" x 24\" x 20\"", "70#", "90#", "$1200"],
+                ["BW-710", "Double Shelf Blanket Warmer", "7.1", "25 Single Blankets", "19\" x 25\" x 26\"", "22\" x 29\" x 40\"", "170#", "210#", "$Call"],
+                ["BW-1400", "Triple Shelf Blanket Warmer", "14.2", "50 Single Blankets", "19\" x 25\" x 26\"", "22\" x 29\" x 70\"", "350#", "400#", "$Call"]
             ]
         }
     }
