@@ -498,7 +498,7 @@
         "material": "PLASTIC",
         "description": "Perfect for direct spotlighting, this wall mounted unit swivels to any position. Easy to install via 2 keyholes, the Swivel Safelight includes a GBX type filter, 7 watt light bulb, and a 6 foot cord with a three prong plug. Specifications: 7\"H x 6\"W. Face is 5\" in Diameter. Approximate shipping weight 5 lbs. Also available with an optional SENSOR that turns the safelight on automatically when the regular light is shut off (the unit can still be shut off permanently with the on/off switch).",
         "images": ["assets/img/productos/info/Swivel Safelight.jpg"],
-        "brandLogo": "assets/img/logos/.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Description", "Your Price"],
             "rows": [
@@ -626,7 +626,7 @@
         "material": "PLASTIC",
         "description": "Manufactured of steel and lit by two 15-watt energy efficient tubular bulbs, the 12\"L x 7\"H x 2\"D box has your message on both sides for hanging projected over the door (or against the wall). The unit is finished with a white polyester powder finish and comes with pigtails for direct wiring. Ships ready to be hard-wired in by a qualified electrician.",
         "images": ["assets/img/productos/info/Wolf Electric X-Ray In Use Sign.jpg"],
-        "brandLogo": "assets/img/logos/.png",
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
         "specifications": {
             "headers": ["Stock #", "Sign Text", "Your Price"],
             "rows": [
@@ -997,6 +997,286 @@
             "headers": ["Stock #", "Color", "Size", "# per case", "Your Price"],
             "rows": [
                 ["GXE-55", "Blue", "Average 30\"x42\"", "50", "$144.00"]
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "name": "Wolf X-Ray Utility File",
+        "rating": "★★★★☆ (65 reseñas)",
+        "price": "$246.92 - $352.92",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "PAPER",
+        "description": "Wolf X-Ray Utility File Easily wall mounted via 2 keyholes, the X-Ray Utility File's generous size will hold your largest cassettes, films, jackets, files or whatever else you need to keep conveniently at hand. The Wolf X-Ray Utility File is manufactured of steel with a baked on white finish. The individual bins have plexiglas front panels that allow you to see at a glance what is in them. Uniquely our X-Ray Utility File has a rubber mat on the bottom of the bin that cushions anything placed in it. This means no more damage to expensive cassettes. The X-Ray Utility File is available in single and double tiers. Dimensions and stock numbers are shown below.",
+        "images": ["assets/img/productos/info/Wolf X-Ray Utility File.jpg"],
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Configuration", "Dimensions", "Your Price"],
+            "rows": [
+                ["21609", "Single", "22-1/4\"W x 22-3/8\"H x 5-1/4\"D", "$246.92"],
+                ["21610", "Double", "22-1/4\"W x 43\"H x 5-1/4\"D", "$352.92"]
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "name": "Pedigo's Mayo Stands",
+        "rating": "★★★★★ (64 reseñas)",
+        "price": "$769.880 - $1115.02",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Removable, stainless steel trays for easy cleaning Convenient foot-pedal operated or hand operated lock adjusts height from 36\" to 62\" Base designed to move under low clearance equipment with maximum stability All welded stainless steel construction 2\" double ball bearing swivel casters",
+        "images": ["assets/img/productos/info/Pedigo's Mayo Stands.jpg", "Pedigo's Mayo Stands-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Tray Size", "Height Adjust", "Base Design", "Your Price"],
+            "rows": [
+                ["P-1065-SS", "20\" x 25\"", "Foot operated", "Low clearance", "$1,115.02"],
+                ["P-1066-SS", "16-1/4\" x 21-1/4\"", "Foot operated", "Low clearance", "$858.55"],
+                ["P-1066-A-SS", "16-1/4\" x 21-1/4\"", "Hand operated", "Low clearance", "$811.08"],
+                ["P-1068-SS", "12-5/8\" x 19-1/8\"", "Foot operated", "Low clearance", "$816.28"],
+                ["P-1068-A-SS", "12-5/8\" x 19-1/8\"", "Hand operated", "Low clearance", "$769.88"],
+                ["P-1069-SS", "16-1/4\" x 21-1/4\"", "Foot operated", "3-Leg/Caster", "$997.00"],
+                ["P-1069-A-SS", "16-1/4\" x 21-1/4\"", "Hand operated", "3-Leg/Caster", "$935.28"]
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "name": "Pedigo's P-66 Mayo Stand",
+        "rating": "★★★★☆ (73 reseñas)",
+        "price": "$99.83 - $301.67",
+        "brand": "PEDIGO",
+        "material": "METAL",
+        "description": "Removable 19-1/8\"L x 12-5/8\"W stainless steel tray on chrome plated frame Hand operated, friction lock adjusts height from 32\" to 53\" 2\" double ball bearing swivel casters",
+        "images": ["assets/img/productos/info/Pedigo's P-66 Mayo Stand.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-66", "Mayo Stand", "$301.67"],
+                ["19", "Extra Tray for P-66, 12-5/8\" x 19-1/8\"", "$99.83"]
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "name": "Pedigo's P-65 Medical Tray Unit",
+        "rating": "★★★★★ (385 reseñas)",
+        "price": "$99.83 - $293.97",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Removable 19-1/8\"L x 12-5/8\"W stainless steel tray on chrome plated frame Hand operated, friction lock adjusts height from 30\" to 40\" 2\" double ball bearing swivel casters",
+        "images": ["assets/img/productos/info/Pedigo's P-65 Medical Tray Unit.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-65", "Mayo Stand", "$293.97"],
+                ["19", "Extra Tray for P-65, 12-5/8\" x 19-1/8\"", "$99.83"]
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "name": "Mayo Instrument Stand",
+        "rating": "★★★★☆ (11 reseñas)",
+        "price": "$107.27 - $287.27",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Designed for convenience during surgical procedures 1\" chrome plated steel tubing Easy placement over patient Removable stainless steel tray 19.25\" x 12.62\" x .75\" Two rubber wheel, ball bearing casters Secure height adjustment from 32\" to 50\" Base 19\" Wheels, 21\" diameter U-shaped base minimizes interference with other equipment Additional replacement trays available Weight: 14 lbs. 48461 is Stainless Steel, non-corrisive, same dimensions as above",
+        "images": ["assets/img/productos/info/Mayo Instrument Stand.jpg", "assets/img/productos/info/Mayo Instrument Stand-1.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Metal Type", "Your Price"],
+            "rows": [
+                ["43460", "Complete Mayo Stand.", "Chrome Plated Steel.", "$287.27"],
+                ["48461", "Complete Mayo Stand.", "Stainless Steel.", "$635.00"],
+                ["09412", "Mayo Tray Only (11\" x 17 1/2\" x 3/4\")", "Stainless Steel", "$107.27"]
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "name": "Entree Mayo Instrument Stand",
+        "rating": "★★★☆☆ (43 reseñas)",
+        "price": "$325.45",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "1\" Chrome plated steel tubing Removable stainless steel tray 12\" x 19\" x 3/4\" \"California\" style base for easy positioning around patients Secure height adjustment Height range: 34\" to 53\" 2 Rubber wheel, ball bearing casters Weight: 11 lbs.",
+        "images": ["assets/img/productos/info/Entree Mayo Instrument Stand.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["11100", "$325.45"]
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "name": "Mobile Instrument Stand",
+        "rating": "★★★★★ (12 reseñas)",
+        "price": "$310.91",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Designed for limited space environments Adjustable height for comfortable use while sitting or standing Stable 5-leg cast aluminum base Removable stainless steel tray, 19.25\" x 12.62\" x .75\" Dual wheel nylon casters Additional replacement trays available Weight: 14 lbs.",
+        "images": ["assets/img/productos/info/Mobile Instrument Stand.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Height Range", "Casters", "Base", "Floor Area", "Your Price"],
+            "rows": [
+                ["43465", "27-1/2\" to 48\"", "Dual Wheel Nylon", "5-Leg", "22\" Diameter", "$310.91"]
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "name": "Hyfrecator Stand",
+        "rating": "★★★★☆ (6 reseñas)",
+        "price": "$161.43",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Will accommodate add-a-tray accessory 43431 with clamp 43433 Sturdy, stable for easy room-to-room portability and storage Angled mounting panel for easy viewing measuring: 6-3/4\" x 10\" x 9/16\"< Five dual wheel nylon castors Stable five-leg cast aluminum base measuring 22\" Includes convenient cord and treadle hooks. (1 each) Gray epoxy coating on post Height: 38-1/2\" Weight: 11 lbs.",
+        "images": ["assets/img/productos/info/Hyfrecator Stand.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["43577", "$161.43"]
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "name": "MRI Safe - Stainless Steel Instrument Stand",
+        "rating": "★★★★☆ (93 reseñas)",
+        "price": "$2533.33",
+        "brand": "TECHNOAIDE", 
+        "material": "METAL",
+        "description": "Constructed of non-magnetic stainless steel and is safe to use in an MRI environment. Height adjusts from 31\" to 51\". 2\" Swivel Casters. Shipping weight: 33 lbs. 13\" x 19\" stainless tray.",
+        "images": ["assets/img/productos/info/MRI Safe - Stainless Steel Instrument Stand.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "MRI Safe?", "Your Price"],
+            "rows": [
+                ["MBM-80", "Yes, to 3 Tesla", "$2,533.33"]
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "name": "Healthcare grade Polymer Plastic Construction MRI Safe Mayo Stand",
+        "rating": "★★★★★ (96 reseñas)",
+        "price": "$324.0",
+        "brand": "TECHNOAIDE", 
+        "material": "METAL",
+        "description": "Tested according to ASTM F2503-05 Standard Practice for Marking Medical Devices for Safety in the Magnetic Resonance Environment and were found to be MRI Conditional up to 3T.",
+        "images": ["assets/img/productos/info/Healthcare grade Polymer Plastic Construction MRI Safe Mayo Stand.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["MBM-90", "$324.00"]
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "name": "Instrument Tables, Mid-Sized with Shelf",
+        "rating": "★★★★☆ (84 reseñas)",
+        "price": "$4.97 - $1657.32",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Instrument Tables FEATURES: Stainless steel Steril-Gard™ construction eliminates full sub-tops where undesirable substances can collect Lightweight but strong Attractive design Easy to clean Soundproofed reinforcing channels for quiet use 3\" rubber, double ball bearing casters for silent mobility",
+        "images": ["assets/img/productos/info/Instrument Tables, Mid-Sized with Shelf.jpg", "assets/img/productos/info/Instrument Tables, Mid-Sized with Shelf-1.jpg", "assets/img/productos/info/Instrument Tables, Mid-Sized with Shelf-2.jpg", "assets/img/productos/info/Instrument Tables, Mid-Sized with Shelf-3.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Table Type Description", "Dimensions", "Your Price"],
+            "rows": [
+                ["SG-82-SS", "Mid-Sized with Shelf", "16\"D x 20\"L x 34\"H", "$540.82"],
+                ["SG-84-SS", "Mid-Sized with Shelf", "16\"D x 30\"L x 34\"H", "$601.02"],
+                ["SG-86-SS", "Mid-Sized with Shelf", "18\"D x 33\"L x 34\"H", "$702.68"],
+                ["SG-88-SS", "Mid-Sized with Shelf", "20\"D x 36\"L x 34\"H", "$711.78"],
+                ["SG-83-SS", "Mid-Sized without Shelf", "16\"D x 20\"L x 34\"H", "$579.00"],
+                ["SG-85-SS", "Mid-Sized without Shelf", "16\"D x 30\"L x 34\"H", "$614.20"],
+                ["SG-87-SS", "Mid-Sized without Shelf", "18\"D x 33\"L x 34\"H", "$619.85"],
+                ["SG-87-80249", "Mid-Sized without Shelf", "18\"D x 33\"L x 45\"H", "$579.00"],
+                ["SG-89-SS", "Mid-Sized without Shelf", "20\"D x 36\"L x 34\"H", "$660.60"],
+                ["SG-90-SS", "Large-Sized with Shelf", "20\"D x 48\"L x 34\"H", "$873.32"],
+                ["SG-92-SS", "Large-Sized with Shelf", "24\"D x 48\"L x 34\"H", "$980.20"],
+                ["SG-94-SS", "Large-Sized with Shelf", "24\"D x 60\"L x 34\"H", "$1,419.67"],
+                ["SG-96-SS", "Large-Sized with Shelf", "24\"D x 72\"L x 34\"H", "$1,657.32"],
+                ["SG-98-SS", "Large-Sized with Shelf", "24\"D x 36\"L x 34\"H", "$829.28"],
+                ["SG-91-SS", "Large-Sized without Shelf", "20\"D x 48\"L x 34\"H", "$742.02"],
+                ["SG-93-SS", "Large-Sized without Shelf", "24\"D x 48\"L x 34\"H", "$828.32"],
+                ["SG-95-SS", "Large-Sized without Shelf", "24\"D x 60\"L x 34\"H", "$1,182.57"],
+                ["SG-97-SS", "Large-Sized without Shelf", "24\"D x 72\"L x 34\"H", "$1,341.53"],
+                ["SG-EL", "Tall Leg Option for SG Series Instrument Tables (built at factory)", "Max. Table Height: 40\"", "$151.02"],
+                ["SG-LE", "Height Extensions for SG Series Instrument Tables (shipped post initial sale)", "Max. Table Height: 40\", (4\" min. required.)", "$151.02"],
+                ["46-A", "Drawer for SG tables, installed at time of order", "NA", "$435.87"],
+                ["46-B", "Drawer LOCK for SG tables, installed at time of order", "NA", "$69.60"],
+                ["P-7202-1", "Accessory: IV Rod", "", "$153.05"],
+                ["52", "Side Rail", "Per Inch", "$4.97"],
+                ["CDS-TB-5", "All Instrument Tables, 5\" Deep Tote Box", "", "$40.85"],
+                ["CDS-TB-10", "All Instrument Tables, 10\" Deep Tote Box", "", "$80.73"],
+                ["SG-TBH-1", "All Instrument Tables, Tote Box Hanger, for 16\"D SG Tables", "", "$46.70"],
+                ["SG-TBH-2", "All Instrument Tables, Tote Box Hanger, for 18\"D SG Tables", "", "$37.58"],
+                ["SG-TBH-3", "All Instrument Tables, Tote Box Hanger, for 20\"D SG Tables", "", "$39.03"],
+                ["SG-TBH-4", "All Instrument Tables, Tote Box Hanger, for 24\"D SG Tables", "", "$39.03"]
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "name": "Over-Operating Room Table",
+        "rating": "★★★★☆ (54 reseñas)",
+        "price": "$3914.73",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "DIMENSIONS: 34\"W x 42\"L FEATURES\" Constructed of stainless steel 3\" total lock casters, with brakes and swivel locks Easy, one-hand height adjustment Optional removable extension leaf adds 10\" to the length of the top Adjustable height from 39\" to 54\" high from the floor 27 3/8\" clearance between legs Other sizes available upon request",
+        "images": ["assets/img/productos/info/Over-Operating Room Table.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-5182", "Over Operating Room Table (Special Sizes available upon request.)", "$3,914.73"]
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "name": "Space Station Large Sized Instrument Tables",
+        "rating": "★★★★☆ (23 reseñas)",
+        "price": "$4692.20 - $4961.93",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "MAIN TABLE DIMENSIONS: 30\"D x 72\"W x 34\"H TOP SHELF DIMENSION: 20\"D x 72\"W",
+        "images": ["assets/img/productos/info/Space Station Large Sized Instrument Tables-1.jpg", "assets/img/productos/info/Space Station Large Sized Instrument Tables-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["CDS-3072", "Operating Room Space Station, 72\"", "$4,961.93"],
+                ["CDS-3060", "Operating Room Space Station, Smaller version of 3072, only 60\" wide", "$4,692.20"]
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "name": "Space Station Disposal Drape",
+        "rating": "★★★★★ (8 reseñas)",
+        "price": "$862.03 - $910.00",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "A single piece disposable drape that covers both surfaces of the sterile field. Sold by the case - 12x covers.",
+        "images": ["assets/img/productos/info/Space Station Disposal Drape.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Your Price"],
+            "rows": [
+                ["CDS-3060-DD", "$862.03"],
+                ["CDS-3072-DD", "$910.00"]
             ]
         }
     }
