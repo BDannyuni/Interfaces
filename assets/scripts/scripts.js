@@ -98,3 +98,11 @@ function clearInput() {
     input.value = '';
     searchProducts(); // Actualizar resultados
 }
+
+function selectProduct(product) {
+    // Si deseas redirigir a una página de detalles
+    viewProductDetails(product.id);
+
+    // O para mostrar detalles en la misma página
+    showProductDetails(product.name, product.price);
+}
