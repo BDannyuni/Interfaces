@@ -1632,7 +1632,7 @@
     {
         "id": 85,
         "name": "Wolf's Compression Paddle",
-        "rating": "★★☆☆☆(46 reseñas)",
+        "rating": "★★★★★ (46 reseñas)",
         "price": "$70.50 - $415.00",
         "brand": "WOLF X-RAY CORPORATION", 
         "material": "FABRIC",
@@ -1651,7 +1651,7 @@
     {
         "id": 86,
         "name": "Mobile X-Ray Imaging Caddy",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★★★☆☆ (28 reseñas)",
         "price": "$70.50 - $415.00",
         "brand": "TECHNOAIDE", 
         "material": "METAL",
@@ -1668,7 +1668,7 @@
     {
         "id": 87,
         "name": "21 Step Aluminum Wedge for X-Ray Radiography Systems.",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★★★★★ (28 reseñas)",
         "price": "$485.50 - $770.00",
         "brand": "DIAGNOMATIC", 
         "material": "METAL",
@@ -1686,7 +1686,7 @@
     {
         "id": 88,
         "name": "Superflex Lead Gloves.",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★★★☆☆ (12 reseñas)",
         "price": "$215.05 - $266.62",
         "brand": "WOLF X-RAY CORPORATION", 
         "material": "PLASTIC",
@@ -1707,7 +1707,7 @@
     {
         "id": 89,
         "name": "Revolution Maxi-Flex 5 Finger Lead Gloves Including Cool Wear™.",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★☆☆☆☆(40 reseñas)",
         "price": "$125.00 - $495.00",
         "brand": "INFAB", 
         "material": "PLASTIC",
@@ -1726,7 +1726,7 @@
     {
         "id": 90,
         "name": "Infab’s Exclusive Revolution Radiation Protection Gloves with Tactile Gripability",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★★★☆☆ (15 reseñas)",
         "price": "$65.00 - $75.00",
         "brand": "INFAB", 
         "material": "PLASTIC",
@@ -1745,7 +1745,7 @@
     {
         "id": 91,
         "name": "Infabs Exclusive Revolution Radiation Protection Gloves with Tactile Gripability",
-        "rating": "★☆☆☆☆(28 reseñas)",
+        "rating": "★★★★★ (93 reseñas)",
         "price": "$105.00",
         "brand": "INFAB", 
         "material": "PLASTIC",
@@ -1765,6 +1765,47 @@
         }
     },
     {
+        "id": 92,
+        "name": "Maxi-flex Lead Mittens.",
+        "rating": "★★★☆☆ (28 reseñas)",
+        "price": "$120.00 - $346.15",
+        "brand": "INFAB", 
+        "material": "PLASTIC",
+        "description": "The most flexible, comfortable radiation protection mitten on the market. Precision molded one piece cores are a full .50mm Pb lead equivalency. Tough, durable expanded vinyl outer coverings are available in 3 great colors. Inner liners are fully removable, washable and replaceable. The perfect way to protect your hands and lower arm. Full 15 length.",
+        "images": ["assets/img/productos/info/Maxi-flex Lead Mittens.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+        "headers": ["Stock #", "Description", "Your Price"],
+        "rows": [
+            ["683303", "5 finger mittens, 15\" length, Pair", "$346.15"],
+            ["683304", "5 finger mitten, 15\" length, Right Hand only", "$177.29"],
+            ["683305", "5 finger mitten, 15\" length, Left Hand only", "$177.29"],
+            ["683308", "5 finger mitten, Replacement Liners, Pair", "$83.08"],
+            ["683309", "5 finger mitten, Outer Covers, Pair", "$120.00"]
+        ]
+    }
+    
+    },
+    {
+        "id": 93,
+        "name": "Open Palm Mittens.",
+        "rating": "★★★☆☆ (54 reseñas)",
+        "price": "$242.09 - $500.00",
+        "brand": "INFAB", 
+        "material": "PLASTIC",
+        "description": "Infab's special open palm mitten gives you the freedom of genuine tactile feel by allowing your fingers to be exposed for complete sensitivity during any procedure requiring a delicate touch. You can enjoy complete peace of mind knowing you have a full 15 inches of .5mm protection for your entire hand and arm even under the direct beam. Why risk exposure using a flat hand shield should you need to turn your hand during any special positioning maneuvers! Specify color choice when ordering. Colors available: Blue/#108, Burgundy/#111, and Gray/#112.",
+        "images": ["assets/img/productos/info/Open Palm Mittens.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+        "headers": ["Stock #", "Description", "Your Price"],
+        "rows": [
+            ["683700", "Open palm mittens, Pair", "$500.00"],
+            ["683701", "Open palm mittens, RIGHT hand only", "$242.09"],
+            ["683702", "Open palm mittens, LEFT hand only", "$242.09"]
+        ]
+    }
+    },
+    {
         "id": 223,
         "name": "Pro-MAM High Contrast Resolution Pattern.",
         "rating": "★★★★☆ (321 reseñas)",
@@ -1781,7 +1822,6 @@
             ]
         }
     },
-    
     
     {
         "id": 224,
@@ -2278,6 +2318,26 @@
                 ["07-629-220V", "L-629 Rotating Spoke Test Tool, 220v", "$906.00"]
             ]
         }
+    },
+    {
+    
+        "id": 94,
+        "name": "Open Palm Mittens With Flap.",
+        "rating": "★★★★☆ (96 reseñas)",
+        "price": "$242.09 - $595.00",
+        "brand": "INFAB", 
+        "material": "Plastic",
+        "description": "All the same features found in our open palm mittens, but with the added feature of a special flap to close the opening in the mitten when finger extension is not desired. A universal product, well suited for a busy radiology department where hand protection is shared for a variety of different procedures. Specify color choice when ordering. Colors available: Blue/#108, Burgundy/#111, and Gray/#112.",
+        "images": ["assets/img/productos/info/Open Palm Mittens With Flap.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+            "specifications": {
+        "headers": ["Stock #", "Description", "Your Price"],
+        "rows": [
+            ["683710", "Open palm mittens with flap, Pair", "$595.00"],
+            ["683711", "Open palm mittens with flap, Right Hand only", "$242.09"],
+            ["683712", "Open palm mittens with flap, Left Hand only", "$242.09"]
+        ]
+    }
     }
 
 ]
