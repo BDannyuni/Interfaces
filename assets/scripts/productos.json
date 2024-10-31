@@ -1604,5 +1604,27 @@
                 ["QNTA-OZ", "500", "$192.00"]
             ]
         }
+        {
+            "id": 84,
+            "name": "Radiation Badge Storage Boards",
+            "rating": "★★★☆☆ (30 reseñas)",
+            "price": "$166.67 - $268.57",
+            "brand": "TECHNOAIDE", 
+            "material": "FABRIC",
+            "description": "Enhances current tracking methods. Complements your Quality Assurance program. Provides a central location for all badge related activity. Eliminates hours of tracking employees. Exposure record display area.",
+            "images": ["assets/img/productos/info/Radiation Badge Storage Boards.jpg"],
+            "brandLogo": "assets/img/logos/TechnoAide.png",
+                "specifications": {
+                    "headers": ["Stock #", "Badge Style", "Board Size", "Quantity of Badge Positions", "Your Price"],
+                    "rows": [
+                        ["FB-10N", "Rectangle", "12\" x 5\"", "10", "$Call"],
+                        ["FB-20N", "Rectangle", "12\" x 9 1/4\"", "20", "$Call"],
+                        ["FB-40N", "Rectangle", "12\" x 19\"", "40", "$Call"],
+                        ["FB-10W", "Square/Hex", "12\" x 9 1/4\"", "10", "$166.67"],
+                        ["FB-20W", "Square/Hex", "12\" x 18\"", "20", "$177.14"],
+                        ["FB-40W", "Square/Hex", "12\" x 18\" (Comes as two 20 badge boards.)", "40", "$268.57"],
+                        ["FB-10R", "Ring", "12\" x 5\"", "10", "$Call"]
+                    ]
+                }
     }
 ]
