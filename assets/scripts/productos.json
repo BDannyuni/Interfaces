@@ -1632,7 +1632,7 @@
                 {
                     "id": 85,
                     "name": "Wolf's Compression Paddle",
-                    "rating": "★★☆☆☆(48 reseñas)",
+                    "rating": "★★☆☆☆(46 reseñas)",
                     "price": "$70.50 - $415.00",
                     "brand": "WOLF X-RAY CORPORATION", 
                     "material": "FABRIC",
@@ -1653,18 +1653,16 @@
                             "name": "Mobile X-Ray Imaging Caddy",
                             "rating": "★☆☆☆☆(28 reseñas)",
                             "price": "$70.50 - $415.00",
-                            "brand": "WOLF X-RAY CORPORATION", 
-                            "material": "FABRIC",
-                            "description": "Designed for applying compression during G.I. series. A metal circle in the bladder ring fluoroscopically indicates the area under compression. Wall mounting brackets are included. Specifications 25",
+                            "brand": "TECHNOAIDE", 
+                            "material": "METAL",
+                            "description": "Keeps everything at your fingertips for mobile imaging. Conveniently hangs from portable x-ray tubestand. Large pouch for CR Cassettes/Film Cassettes. Medium pouch for accessories. Two smaller pouches for items like markers, pens, and other small items. Heavy gauge, reinforced vinyl with clear outer pockets.",
                             "images": ["assets/img/productos/info/Mobile X-Ray Imaging Caddy.jpg"],
-                            "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+                            "brandLogo": "assets/img/logos/TechnoAide.png",
                                 "specifications": {
-                                    "headers": ["Stock #", "Description", "Your Price"],
+                                    "headers": ["Stock #", "Your Price"],
                                     "rows": [
-                                        ["14107", "Compression Paddle", "$415.00"],
-                                        ["14107-08", "Replacement Bladder", "$154.00"],
-                                        ["14123", "Replacement Bulb", "$70.50"]
+                                        ["PMA-C4", "$173.02"]
                                     ]
-                                }   
+                                }
                             }   
 ]
