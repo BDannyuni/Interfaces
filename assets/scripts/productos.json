@@ -1604,6 +1604,8 @@
                 ["QNTA-OZ", "500", "$192.00"]
             ]
         }
+    },
+
         {
             "id": 84,
             "name": "Radiation Badge Storage Boards",
@@ -1626,14 +1628,15 @@
                         ["FB-10R", "Ring", "12\" x 5\"", "10", "$Call"]
                     ]
                 }
+            },
                 {
                     "id": 85,
-                    "name": "Wolf's Compression Paddle.",
+                    "name": "Wolf's Compression Paddle",
                     "rating": "★★★★☆ (15 reseñas)",
                     "price": "$70.50 - $415.00",
                     "brand": "WOLF X-RAY CORPORATION", 
                     "material": "FABRIC",
-                    "description": "Designed for applying compression during G.I. series. A metal circle in the bladder ring fluoroscopically indicates the area under compression. Wall mounting brackets are included. Specifications 25"
+                    "description": "Designed for applying compression during G.I. series. A metal circle in the bladder ring fluoroscopically indicates the area under compression. Wall mounting brackets are included. Specifications 25",
                     "images": ["assets/img/productos/info/Wolf's Compression Paddle.jpg"],
                     "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
                         "specifications": {
@@ -1644,5 +1647,25 @@
                                 ["14123", "Replacement Bulb", "$70.50"]
                             ]
                         }
+                    },
+                        {
+                            "id": 86,
+                            "name": "Mobile X-Ray Imaging Caddy",
+                            "rating": "★★★★☆ (15 reseñas)",
+                            "price": "$70.50 - $415.00",
+                            "brand": "WOLF X-RAY CORPORATION", 
+                            "material": "FABRIC",
+                            "description": "Designed for applying compression during G.I. series. A metal circle in the bladder ring fluoroscopically indicates the area under compression. Wall mounting brackets are included. Specifications 25",
+                            "images": ["assets/img/productos/info/Wolf's Compression Paddle.jpg"],
+                            "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+                                "specifications": {
+                                    "headers": ["Stock #", "Description", "Your Price"],
+                                    "rows": [
+                                        ["14107", "Compression Paddle", "$415.00"],
+                                        ["14107-08", "Replacement Bladder", "$154.00"],
+                                        ["14123", "Replacement Bulb", "$70.50"]
+                                    ]
+                                }
+                            
     }
 ]
