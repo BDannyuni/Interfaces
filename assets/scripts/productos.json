@@ -1557,7 +1557,7 @@
         "id": 81,
         "name": "Vet Wrap",
         "rating": "★★★★☆ (255 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$154.27",
         "brand": "TECHNOAIDE", 
         "material": "WOOD",
         "description": "Used to drape equipment, exam tables, et. Blue tissue provides clean work surface. Roll size: 38\"W x 100 yards. Packed in a convenient dispense case.",
@@ -1574,7 +1574,7 @@
         "id": 82,
         "name": "Barrier Gown",
         "rating": "★★★★★ (255 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$128.56",
         "brand": "TECHNOAIDE", 
         "material": "FABRIC",
         "description": "All-purpose, fluid resistant barrier gown. Coverall back closure with waist ties. Long sleeves with elastic cuffs keep you clean. Non-woven, blue material in two sizes.",
@@ -1592,7 +1592,7 @@
         "id": 83,
         "name": "Vet Wrap",
         "rating": "★★★★☆ (42 reseñas)",
-        "price": "$.00 - $.00",
+        "price": "$192.00",
         "brand": "TECHNOAIDE", 
         "material": "FABRIC",
         "description": "All-purpose, liquid-proof utility apron. Bib style with ties in the back. One size: 28\"W x 46\"L. One piece, white plastic.",
@@ -1601,7 +1601,7 @@
         "specifications": {
             "headers": ["Stock #", "Qty", "Your Price"],
             "rows": [
-                ["QNTA-OZ", "500", "$Call"]
+                ["QNTA-OZ", "500", "$192.00"]
             ]
         }
     }
