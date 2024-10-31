@@ -1666,6 +1666,105 @@
         }
     },
     {
+        "id": 87,
+        "name": "21 Step Aluminum Wedge for X-Ray Radiography Systems.",
+        "rating": "★☆☆☆☆(28 reseñas)",
+        "price": "$485.50 - $770.00",
+        "brand": "DIAGNOMATIC", 
+        "material": "METAL",
+        "description": "Pro-RF Step Aluminium Wedges For determination of the dose reproducibility and sensitometric curve shape, speed and mid-gradient of X-Ray screen-film radiography systems.",
+        "images": ["assets/img/productos/info/21 Step Aluminum Wedge for X-Ray Radiography Systems.jpg"],
+        "brandLogo": "assets/img/logos/Diagnomatic.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Dimensions", "Step Dims", "Material", "Your Price"],
+            "rows": [
+                ["02-305", "21 Step Wedge", "231mm x 110mm x 31.5mm", "1.5mm graduation per step with copper markers numbers", "High Purity Aluminum", "$770.00"],
+                ["02-306", "11 Step Wedge", "140mm x 60mm x 35.2mm", "3.2mm high and 12.7mm deep", "High Purity Aluminum", "$485.00"]
+            ]
+        }
+    },
+    {
+        "id": 88,
+        "name": "Superflex Lead Gloves.",
+        "rating": "★☆☆☆☆(28 reseñas)",
+        "price": "$215.05 - $266.62",
+        "brand": "WOLF X-RAY CORPORATION", 
+        "material": "PLASTIC",
+        "description": "Wolf gloves are a five finger molded lead glove covered in resilient brown Naugahyde. These protective gloves are manufactured with one piece flexible lead rubber covered with high quality Naugahyde. Stock numbers 12425 and 12426 have flared cuffs. Comes in pairs. Gloves available in size 9 as standard. NOTE: Size 10 (Large) no longer available. Approximately width around widest part of palm area is 5\".",
+        "images": ["assets/img/productos/info/Superflex Lead Gloves.jpg"],
+        "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
+        "specifications": {
+            "headers": ["Stock #", "Length", "Cuff", "Lead Equ.Prot.", "Your Price"],
+            "rows": [
+                ["12420", "12\"", "Regular", "0.25 mm", "$228.46"],
+                ["12419", "12\"", "Regular", "0.5 mm", "$266.62"],
+                ["12422", "15\"", "Regular", "0.5 mm", "$323.23"],
+                ["12426", "15\"", "Flared", "0.25 mm", "$205.00"],
+                ["12425", "15\"", "Flared", "0.5 mm", "$266.15"]
+            ]
+        }
+    },
+    {
+        "id": 89,
+        "name": "Revolution Maxi-Flex 5 Finger Lead Gloves Including Cool Wear™.",
+        "rating": "★☆☆☆☆(28 reseñas)",
+        "price": "$125.00 - $495.00",
+        "brand": "INFAB", 
+        "material": "PLASTIC",
+        "description": "The perfect way to insure your hands and lower forearms are fully protected by the most flexible, comfortable radiation protection gloves on the market. Comfortable fit with maximum dexterity. Soft removable, washable and replaceable inner liners* reduce odors and permit frequent laundering. Expanded durable vinyl outer covers are removable for inspection of lead core and permit replacement when they become worn. The lead vinyl cores are precision molded for consistent 0.5 mm lead equivalency and long life.",
+        "images": ["assets/img/productos/info/Revolution Maxi-Flex 5 Finger Lead Gloves Including Cool Wear.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Qty.", "Description", "Color", "Your Price"],
+            "rows": [
+                ["683300-700", "Pair", "Gloves", "Specify Color from Chart Above", "$495.00"],
+                ["683307", "Pair", "Outer Replacement Covers", "Specify Color from Chart Above", "$160.00"],
+                ["683306", "Pair", "INNER Replacement Liners", "NA", "$125.00"]
+            ]
+        }
+    },
+    {
+        "id": 90,
+        "name": "Infab’s Exclusive Revolution Radiation Protection Gloves with Tactile Gripability",
+        "rating": "★☆☆☆☆(28 reseñas)",
+        "price": "$65.00 - $75.00",
+        "brand": "INFAB", 
+        "material": "PLASTIC",
+        "description": "Designed to be the most comfortable, flexible, lightweight and protective gloves on the market. Latex-free Powder-free Every pair of Revolution Radiation Protection Gloves is completely latex and powder free.",
+        "images": ["assets/img/productos/info/Infab’s Exclusive Revolution Radiation Protection Gloves with Tactile Gripability.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Protection", "Qty", "Specify SIZE: 6.5, 7, 7.5, 8, 8.5, 9", "Your Price"],
+            "rows": [
+                ["700165", "0.20mm", "Pair", "Specify", "$65.00"],
+                ["735065", "0.32mm", "Pair", "Specify", "$70.00"],
+                ["775065", "0.42mm", "Pair", "Specify", "$75.00"]
+            ]
+        }
+    },
+    {
+        "id": 91,
+        "name": "Infabs Exclusive Revolution Radiation Protection Gloves with Tactile Gripability",
+        "rating": "★☆☆☆☆(28 reseñas)",
+        "price": "$105.00",
+        "brand": "INFAB", 
+        "material": "PLASTIC",
+        "description": "Designed to reduce the amount of scattered radiation exposure to the hands from the primary x-ray beam during radiological procedures. High sensitivity Maximum radiation protection Latex-Free 30% reduction of direct beam radiation transmitted at 100KvP Packed in Sterile pouch",
+        "images": ["assets/img/productos/info/Infab’s Latex-Free, Lead-Free Neoprene Gloves with High Sensitivity.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+        "specifications": {
+            "headers": ["Stock #", "Protection", "Qty", "SIZE", "Your Price"],
+            "rows": [
+                ["683310", "0.23mm", "Pair", "6.5", "$105.00"],
+                ["683315", "0.23mm", "Pair", "7", "$105.00"],
+                ["683320", "0.23mm", "Pair", "7.5", "$105.00"],
+                ["683325", "0.23mm", "Pair", "8", "$105.00"],
+                ["683330", "0.23mm", "Pair", "8", "$105.00"],
+                ["683335", "0.23mm", "Pair", "9", "$105.00"]
+            ]
+        }
+    },
+    {
         "id": 223,
         "name": "Pro-MAM High Contrast Resolution Pattern.",
         "rating": "★★★★☆ (321 reseñas)",
