@@ -1279,5 +1279,150 @@
                 ["CDS-3072-DD", "$910.00"]
             ]
         }
+    },
+    {
+        "id": 66,
+        "name": "Adjustable Folding Linen Hamper",
+        "rating": "★★★★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Wide stable base Adjusts to hold 18\", 22\" or 25\" diameter bags Durable chrome plated finish Can be folded for compact storage Bag rest affords maximum air circulation Weight: 17 lbs.",
+        "images": ["assets/img/productos/info/Adjustable Folding Linen Hamper.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions-Open", "Number of Casters", "Casters", "Your Price"],
+            "rows": [
+                ["33395", "39-1/2\"H x 20\"W x 20\"D", "4", "3\" Rubber Wheel Ball Bearing", "$267.27"]
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "name": "Pedigo Chrome Linen Hampers",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Chrome plated steel construction Triangular frame for efficient use of space Strong, heavy-gauge shelf keeps bag from touching floor and simplifies bag removal 3\" double ball bearing, swivel casters for easy mobility Foot operated reinforced stainless steel lid helps control airborne bacteria and odors (P-120-L and P-121-L only) Easy to use",
+        "images": ["assets/img/productos/info/Pedigo Chrome Linen Hampers.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions", "Bag Size", "Lid", "Your Price"],
+            "rows": [
+                ["P-120", "32\"H, 57-1/4\" perimeter", "18\" bags", "No", "$244.12"],
+                ["P-121", "35\"H, 78-5/8\" perimeter", "25\" bags", "No", "$266.65"],
+                ["P-120-L", "32\"H, 57-1/4\" perimeter", "18\" bags", "Yes", "$473.53"],
+                ["P-121-L", "35\"H, 78-5/8\" perimeter", "25\" bags", "Yes", "$543.73"]
+            ]
+        }
+    },
+    {
+        "id": 68,
+        "name": "Tilt-Top Square Linen Hamper",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "The Brewer Company! Open design for easy unloading & minimal lifting Step-on pedal for hands free use Steel prop for keeping lid open Gray epoxy coated steel lid Built-in bag holder for heavy-duty bad support Locking rubber wheel casters Weight: 23 lbs",
+        "images": ["assets/img/productos/info/Tilt-Top Square Linen Hamper.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions-Open", "Number of Casters", "Casters", "Your Price"],
+            "rows": [
+                ["11410", "37-3/4\"H x 18-5/8\"W x 19-1/2\"D", "4", "3\" Rubber Wheel Ball Bearing", "$298.33"]
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "name": "18\" Tilt-Top Round Linen Hamper",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Durable chrome plated steel lid and frame Step-on pedal for hands fee use \"M\" style base for stability Spring loaded lid for easy opening Weight: 21 lbs. Some assembly required",
+        "images": ["assets/img/productos/info/18 Tilt-Top Round Linen Hamper.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions-Open", "Number of Casters", "Casters", "Your Price"],
+            "rows": [
+                ["33334", "36\" Height, 19\" outside Diameter", "4", "2\" Rubber Wheel Ball Bearing", "$448.33"]
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "name": "18\" Round Linen Hamper.",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Durable chrome plated steel Weight: 11 lbs. Some assembly required",
+        "images": ["assets/img/productos/info/18 Round Linen Hamper.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions-Open", "Number of Casters", "Casters", "Your Price"],
+            "rows": [
+                ["33330", "35\" Height, 19\" Outside Diameter", "3", "2\" Rubber Wheel Ball Bearing", "$343.64"]
+            ]
+        }
+    },
+    {
+        "id": 71,
+        "name": "Hamper Accessories",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "BREWER COMPANIES", 
+        "material": "METAL",
+        "description": "Vinyl coated split rings for tight grip on plastic bags Chrome plated steel components Fits inside round linen hampers Weight: 2 lbs.",
+        "images": ["assets/img/productos/info/Hamper Accessories.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["34000", "Plastic Bag Holder (Pictured)", "$103.64"],
+                ["31331", "18\" Rope style cotton hamper bag.", "$56.67"],
+                ["31341", "25\" Rope style cotton hamper bag.", "$69.09"]
+            ]
+        }
+    },
+    {
+        "id": 72,
+        "name": "Pedigo Stainless Steel Linen Hampers",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Heavy gauge stainless steel construction Triangular shape for efficient use of space Strong, heavy-gauge shelf keeps bag from touching floor and simplifies bag removal 3\" double ball bearing swivel casters for easy mobility Foot operated reinforced stainless steel lid helps control airborne bacteria and odors (P-1120-L-SS and P-1121-L-SS only) Easy to use Rolling bumpers for wall protection",
+        "images": ["assets/img/productos/info/Pedigo Stainless Steel Linen Hampers-1.jpg", "assets/img/productos/info/Pedigo Stainless Steel Linen Hampers-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Dimensions", "Bag Size", "Lid", "Your Price"],
+            "rows": [
+                ["P-1120-SS", "32\"H, 57-1/4\" perimeter", "18\" bags", "No", "$394.50"],
+                ["P-1121-SS", "35\"H, 78-5/8\" perimeter", "25\" bags", "No", "$432.42"],
+                ["P-1120-L-SS", "32\"H, 57-1/4\" perimeter", "18\" bags", "Yes", "$659.18"],
+                ["P-1121-L-SS", "35\"H, 78-5/8\" perimeter", "25\" bags", "Yes", "$717.63"]
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "name": "MRI Safe, 18\" Hamper Stand",
+        "rating": "★☆ ( reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "TECHNOAIDE", 
+        "material": "METAL",
+        "description": "Constructed of non-magnetic stainless steel and is safe to use in an MRI environment. Uses Standard Hamper Bags. 2\" Swivel Casters. 18\" Diameter Ring. Rated safe to 3-Tesla. Shipping weight: 15 lbs.",
+        "images": ["assets/img/productos/info/MRI Safe, 18 Hamper Stand.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["MBH-18", "18\" Hamper (No/Lid)", "$437.86"],
+                ["MBH-HB", "Linen Insert Bag", "$95.00"]
+            ]
+        }
     }
 ]
