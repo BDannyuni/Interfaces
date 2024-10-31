@@ -2412,6 +2412,69 @@
             ["HGP", "Pair", "$560.00"]
         ]
     }
+    },
+    {
+        "id": 98,
+        "name": "Hand Guard - A palm hand shield for improved control and excellent dexterity",
+        "rating": "★★★★☆ (18 reseñas)",
+        "price": "$CALL",
+        "brand": "TECHNOAIDE", 
+        "material": "Plastic",
+        "description": "Durable, comfortable and easy to use. Features one inch polypropylene webbing for thumb and fingers and hook and loop closure at wrist. Great for working with small animals, especially wildlife. One size fits most. Appropriate for both men and ladies' hands. Mitten is 12.5\" long and 9.5\" wide in the center. 5\" wide at wrist. Hook and loop strap is 10.5\" long",
+        "images": ["assets/img/productos/info/Hand Guard - A palm hand shield for improved control and excellent dexterity.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+         "specifications": {
+        "headers": ["Stock #", "Lead Type", "Pair?", "Your Price"],
+        "rows": [
+            ["HSRL", "Regular", "Left Only", "$Call"],
+            ["HSRR", "Regular", "Right Only", "$Call"],
+            ["HSRP", "Regular", "Pair", "$Call"],
+            ["HSLL", "Lightweight", "Left Only", "$Call"],
+            ["HSLR", "Lightweight", "Right Only", "$Call"],
+            ["HSLP", "Lightweight", "Pair", "$Call"],
+            ["HSGL", "Lead Free", "Left Only", "$Call"],
+            ["HSGR", "Lead Free", "Right Only", "$Call"],
+            ["HSGP", "Lead Free", "Pair", "$Call"]
+        ]
+    }
+    },
+    {
+        "id": 99,
+        "name": "Palm Guard - Protective Mittens.",
+        "rating": "★★★★☆ (21 reseñas)",
+        "price": "$CALL",
+        "brand": "TECHNOAIDE", 
+        "material": "Plastic",
+        "description": "Techno-Aide\"s \"Palm Guard\", no slit in palm. Seamless Lead Vinyl Radiation Protection Gloves provide hand protection with full palm protection and thumb extension for grip. Durable lead vinyl dipped gloves have a soft and supple Gray vinyl covering (15\") with 0.5mm Pb equivalency. Dip-molded core.",
+        "images": ["assets/img/productos/info/Palm Guard - Protective Mittens.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+         "specifications": {
+        "headers": ["Stock #", "Description", "Your Price"],
+        "rows": [
+            ["PGL", "No-Slit Mitten, LEFT only", "$Call"],
+            ["PGP", "No-Slit Mitten, Pair", "$Call"],
+            ["PGR", "No-Slit Mitten, RIGHT only", "$Call"]
+        ]
+    }
+    },
+    {
+        "id": 100,
+        "name": "Sleeve Guard - Upper Arm to Hand protection.",
+        "rating": "★★★★☆ (97 reseñas)",
+        "price": "$CALL",
+        "brand": "TECHNOAIDE", 
+        "material": "Plastic",
+        "description": "Protection for upper arm to hand. Please provide \"A\" measurement from top of shoulder to elbow, and \"B\" measurement Elbow to Wrist as per graphic below. Attaches to your existing apron through shoulder area. Effectively shields long bones. Convenient Hook & Loop and 1\" buckle closures. Elastic Elbow area for ease of movement. Shielded areas are 0.50mm Pb equivalency. Attaches to shoulder area of your apron",
+        "images": ["assets/img/productos/info/Sleeve Guard - Upper Arm to Hand protection.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+         "specifications": {
+        "headers": ["Stock #", "Lead Type", "Your Price"],
+        "rows": [
+            ["SER", "Regular", "$Call"],
+            ["SEL", "Light Weight", "$Call"],
+            ["SEG", "\"LMG\", Lead Free", "$Call"]
+        ]
+    }
     }
     
     
