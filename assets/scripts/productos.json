@@ -2357,8 +2357,8 @@
         ]
     }
     },
-    {
     
+    {
         "id": 96,
         "name": "Finger Guard - Radiation Reducing Gloves.",
         "rating": "★★★★☆ (47 reseñas)",
@@ -2376,6 +2376,44 @@
             ["PRL-1", "0.35mm", "Single Pair", "41% @ 120kVp", "Lead & Powder Free", "$99.00"]
         ]
     }
+    },
+    {
+    
+        "id": 95,
+        "name": "0.50 Pb Hand Shields.",
+        "rating": "★★★★☆ (54 reseñas)",
+        "price": "$287.50",
+        "brand": "INFAB", 
+        "material": "Plastic",
+        "description": "Finally, an inexpensive, yet extremely effective way to get the radiation protection you need for the top of your hands in a durable, comfortable, fully adjustable pair of half gloves. Unique design offeres full upper hand protection while allowing total mobility of the hand and fingers. Unique finger retainers are constructed of durable 1\" polypropylene webbing. Hook and loop type closures are utilized to fasten the shield at the wrist for a secure fit. One size fits all.Specify fabric color when ordering. See below.",
+        "images": ["assets/img/productos/info/0.50 Pb Hand Shields.jpg"],
+        "brandLogo": "assets/img/logos/INFAB.png",
+            "specifications": {
+        "headers": ["Stock #", "Description", "Your Price"],
+        "rows": [
+            ["684000", "0.50mm Pb equivalent Hand Shields, Pair", "$187.50"]
+        ]
     }
+    },
+    
+    {
+        "id": 97,
+        "name": "Hand Guard - Five Finger Protective Gloves.",
+        "rating": "★★★★☆ (101 reseñas)",
+        "price": "$560.00",
+        "brand": "TECHNOAIDE", 
+        "material": "Plastic",
+        "description": "Pair or individual. Seamless Lead Vinyl Radiation Protection Gloves. Five fingered protection for full dexterity. Durable lead vinyl dipped gloves have a soft and supple navy vinyl covering with 0.5mm Pb equivalency. Dip-molded core. 15\" long. Five fingered protection for full dexterity. Durable, soft, navy colored colored vinyl covering. 0.5mm Pb equivalent, dip-molded core",
+        "images": ["assets/img/productos/info/Hand Guard - Five Finger Protective Gloves.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+            "specifications": {
+        "headers": ["Stock #", "Hand", "Your Price"],
+        "rows": [
+            ["HGP", "Pair", "$560.00"]
+        ]
+    }
+    }
+    
+    
 
 ]
