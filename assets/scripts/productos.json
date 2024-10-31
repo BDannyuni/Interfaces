@@ -1424,5 +1424,185 @@
                 ["MBH-HB", "Linen Insert Bag", "$95.00"]
             ]
         }
+    },
+    {
+        "id": 74,
+        "name": "Standard H-Base, Overbed Table",
+        "rating": "★★★★★ (42 reseñas)",
+        "price": "$192.73",
+        "brand": "BREWER COMPANIES", 
+        "material": "WOOD",
+        "description": "Easy spring loaded height adjustment Four point H-base with two locking dual wheel nylon casters Height: 28.25\" - 43.25\"; Base: 15.25\" x 26.38\"; Top: 15\" x 31\" Weight capacity: 50 lbs. Some assembly required",
+        "images": ["assets/img/productos/info/Standard H-Base, Overbed Table.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["11600", "Gray laminate top, gray epoxy base", "$192.73"],
+                ["11610", "Walnut grain laminate top, chrome base", "$192.73"]
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "name": "Low H-Base, Overbed Table",
+        "rating": "★★★★☆ (23 reseñas)",
+        "price": "$172.73",
+        "brand": "BREWER COMPANIES", 
+        "material": "WOOD",
+        "description": "Easy spring loaded height adjustment Four point H-base with two locking dual wheel nylon casters 1.75\" casters and plastic glides included Height: Casters 19.75\" - 26.75\"; Glides: 17.5\" - 25.5\" Base: 15.25\" x 26.38\"; Top: 15\" x 31\" Ground clearance: 1.8\" with glides; 3.1\" with casters Weight capacity: 50 lbs Some assembly required",
+        "images": ["assets/img/productos/info/Low H-Base, Overbed Table.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["11640", "Walnut grain laminate top, chrome base", "$172.73"]
+            ]
+        }
+    },
+    {
+        "id": 76,
+        "name": "U-Base, Overbed Table",
+        "rating": "★★☆☆☆ (93 reseñas)",
+        "price": "$192.73",
+        "brand": "BREWER COMPANIES", 
+        "material": "WOOD",
+        "description": "\"U\" base to easily fit in restricted space areas Easy spring loaded height adjustment Four point U-base with two locking dual wheel nylon casters Height: 28.25\" - 43.25\"; Base: 15.25\" x 26.38\"; Top: 15\" x 31\" Weight capacity: 50 lbs. Some assembly required",
+        "images": ["assets/img/productos/info/U-Base, Overbed Table.jpg"],
+        "brandLogo": "assets/img/logos/BREWER COMPANIES.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["11620", "Walnut grain laminate top, chrome base", "$192.73"],
+                ["11630", "Grey laminate top, gray epoxy base", "$192.73"]
+            ]
+        }
+    },
+    {
+        "id": 77,
+        "name": "Stretcher Sheets",
+        "rating": "★★★★☆ (324 reseñas)",
+        "price": "$160.00",
+        "brand": "TECHNOAIDE", 
+        "material": "PAPER",
+        "description": "Soft and water resistant Deluxe tissue/poly Size: 40\" x 90\" Color: BLUE 50 Sheets per case.",
+        "images": ["assets/img/productos/info/Stretcher Sheets.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Your Price"],
+            "rows": [
+                ["GSS-49", "Blue", "$160.00"]
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "name": "Pillow Cases",
+        "rating": "★★★★☆ (23 reseñas)",
+        "price": "$83.00",
+        "brand": "TECHNOAIDE", 
+        "material": "PAPER",
+        "description": "Soft and water resistant Soft 2-ply tissue/poly Size: 21\" x 30\" Color: BLUE 100 Cases per case",
+        "images": ["assets/img/productos/info/Pillow Cases.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Color", "Your Price"],
+            "rows": [
+                ["GPC-23", "Blue", "$83.00"]
+            ]
+        }
+    },
+    {
+        "id": 79,
+        "name": "Pedigo's Utility Tables",
+        "rating": "★★★☆☆ (32 reseñas)",
+        "price": "$570.42 - $1226.68",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Overall Size: 16\"W x 20\"L x 34\"H Convenient and easy to use Stainless steel, Steril-Gard™ construction eliminates full sub-tops Improves the control of undesirable substances Full extending drawer hangers (not on SG-81-SS) Sound-proofed reinforcing channels for quiet use and added strength 3\" double ball bearing, rubber casters for silent mobility 1\" high 3-sided top rail",
+        "images": ["assets/img/productos/info/Pedigo's Utility Tables.jpg","assets/img/productos/info/Pedigo's Utility Tables-1.jpg","assets/img/productos/info/Pedigo's Utility Tables-2.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Drawers", "Drawer Size", "Your Price"],
+            "rows": [
+                ["SG-80-A-SS", "2", "12\"L x 15\"W x 3\"D", "$1,226.68"],
+                ["SG-80-SS", "1", "12\"L x 15\"W x 3\"D", "$772.80"],
+                ["SG-81-SS", "0", "N/A", "$570.42"]
+            ]
+        }
+    },
+    {
+        "id": 80,
+        "name": "Stainless Steel Wall Shelves",
+        "rating": "★★★★☆ (32 reseñas)",
+        "price": "$91.70 - $167.47",
+        "brand": "PEDIGO", 
+        "material": "METAL",
+        "description": "Stainless Steel Construction. Easily adds extra storage space. Available in a variety of sizes. Pre-drilled for easy wall mounting",
+        "images": ["assets/img/productos/info/Stainless Steel Wall Shelves.jpg"],
+        "brandLogo": "assets/img/logos/PEDIGO.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["P-624-SS", "6\"D x 24\"W", "$91.70"],
+                ["P-630-SS", "6\"D x 30\"W", "$110.78"],
+                ["P-636-SS", "6\"D x 36\"W", "$129.00"],
+                ["P-824-SS", "8\"D x 24\"W", "$119.00"],
+                ["P-830-SS", "8\"D x 30\"W", "$141.90"],
+                ["P-836-SS", "8\"D x 36\"W", "$167.47"]
+            ]
+        }
+    },
+    {
+        "id": 81,
+        "name": "Vet Wrap",
+        "rating": "★★★★☆ (255 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "TECHNOAIDE", 
+        "material": "WOOD",
+        "description": "Used to drape equipment, exam tables, et. Blue tissue provides clean work surface. Roll size: 38\"W x 100 yards. Packed in a convenient dispense case.",
+        "images": ["assets/img/productos/info/Vet Wrap.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Description", "Your Price"],
+            "rows": [
+                ["QNTW-VW", "38\" wide x 100 Yards", "$154.27"]
+            ]
+        }
+    },
+    {
+        "id": 82,
+        "name": "Barrier Gown",
+        "rating": "★★★★★ (255 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "TECHNOAIDE", 
+        "material": "FABRIC",
+        "description": "All-purpose, fluid resistant barrier gown. Coverall back closure with waist ties. Long sleeves with elastic cuffs keep you clean. Non-woven, blue material in two sizes.",
+        "images": ["assets/img/productos/info/Barrier Gown.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Size", "Your Price"],
+            "rows": [
+                ["QNTG-ML", "Medium-Large", "$75.42"],
+                ["QNTG-XL", "X-Large", "$128.56"]
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "name": "Vet Wrap",
+        "rating": "★★★★☆ (42 reseñas)",
+        "price": "$.00 - $.00",
+        "brand": "TECHNOAIDE", 
+        "material": "FABRIC",
+        "description": "All-purpose, liquid-proof utility apron. Bib style with ties in the back. One size: 28\"W x 46\"L. One piece, white plastic.",
+        "images": ["assets/img/productos/info/Vet Wrap-1.jpg"],
+        "brandLogo": "assets/img/logos/TechnoAide.png",
+        "specifications": {
+            "headers": ["Stock #", "Qty", "Your Price"],
+            "rows": [
+                ["QNTA-OZ", "500", "$Call"]
+            ]
+        }
     }
 ]
