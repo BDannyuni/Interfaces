@@ -1632,7 +1632,7 @@
                 {
                     "id": 85,
                     "name": "Wolf's Compression Paddle",
-                    "rating": "★★★★☆ (15 reseñas)",
+                    "rating": "★★☆☆☆(48 reseñas)",
                     "price": "$70.50 - $415.00",
                     "brand": "WOLF X-RAY CORPORATION", 
                     "material": "FABRIC",
@@ -1651,12 +1651,12 @@
                         {
                             "id": 86,
                             "name": "Mobile X-Ray Imaging Caddy",
-                            "rating": "★★★★☆ (15 reseñas)",
+                            "rating": "★☆☆☆☆(28 reseñas)",
                             "price": "$70.50 - $415.00",
                             "brand": "WOLF X-RAY CORPORATION", 
                             "material": "FABRIC",
                             "description": "Designed for applying compression during G.I. series. A metal circle in the bladder ring fluoroscopically indicates the area under compression. Wall mounting brackets are included. Specifications 25",
-                            "images": ["assets/img/productos/info/Wolf's Compression Paddle.jpg"],
+                            "images": ["assets/img/productos/info/Mobile X-Ray Imaging Caddy.jpg"],
                             "brandLogo": "assets/img/logos/WOLF X-RAY CORPORATION.png",
                                 "specifications": {
                                     "headers": ["Stock #", "Description", "Your Price"],
@@ -1665,7 +1665,6 @@
                                         ["14107-08", "Replacement Bladder", "$154.00"],
                                         ["14123", "Replacement Bulb", "$70.50"]
                                     ]
-                                }
-                            
-    }
+                                }   
+                            }   
 ]
