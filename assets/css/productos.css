@@ -1,4 +1,7 @@
 /* styles.css */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -197,6 +200,26 @@ body {
     color: gray;
 }
 
+#search-form {
+    width: 100%;
+    display: flex; /* Esto coloca los elementos en una línea */
+    align-items: center; /* Centra verticalmente los elementos dentro del formulario */
+    justify-content: center; /* Opcional: centra el formulario en su contenedor */
+    gap: 5px; /* Espacio entre el input y el botón */
+}
+
+#search-form input[type="text"] {
+    width: 100%; /* Para asegurar que el input ocupe todo el espacio disponible */
+}
+
+#search-form button {
+    /* Puedes agregar aquí el tamaño del botón para que se alinee al input */
+    padding: 8px 12px;
+}
+
+
+
+
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/Hero-productos.avif');
@@ -316,6 +339,7 @@ body {
         font-size: 0.8rem; /* Reducir el tamaño del texto del botón */
     }
 }
+
 
 
 .container-products {

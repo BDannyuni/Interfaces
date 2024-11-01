@@ -18,12 +18,14 @@
             </a>
         </div>
 
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
-            <button class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
-            <button class="search-button">
-                <img src="assets/img/search.png" alt="Buscar" width="20">
-            </button>
+         <div class="search-container">
+            <form id="search-form" onsubmit="handleSearch(event)">
+                <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+                <button type="button" class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
+                <button type="submit" class="search-button">
+                    <img src="assets/img/search.png" alt="Buscar" width="20">
+                </button>
+            </form>
             <div id="autocomplete-list" class="autocomplete-items"></div>
         </div>
         
@@ -49,8 +51,8 @@
         <aside class="filters">
             <h2>Filters</h2>
             <div class="filter-section">
-                <h3>Maximum price: $<span id="precio-maximo">100000</span></h3>
-                <input type="range" id="precio-slider" min="0" max="100000" value="100000">
+                <h3>Maximum price: $<span id="precio-maximo">10000</span></h3>
+                <input type="range" id="precio-slider" min="5" max="10000" value="10000">
             </div>
             <div class="filter-section">
                 <h3>Brand</h3>
@@ -88,49 +90,40 @@
             <div class="carousel-container">
                 <div class="carousel">
                     <div class="collaborator">
-                        <img src="assets/img/logos/Diagnomatic.png" alt="Diagnomatic" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/Diagnomatic.png" alt="DIAGNOMATIC" onclick="redirigirConFiltro('DIAGNOMATIC')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/INFAB.png" alt="INFAB" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/INFAB.png" alt="INFAB" onclick="redirigirConFiltro('INFAB')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/ProGuard.png" alt="ProGuard" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/ProGuard.png" alt="PROGUARD" onclick="redirigirConFiltro('PROGUARD')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/PEDIGO.png" alt="PEDIGO" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/PEDIGO.png" alt="PEDIGO" onclick="redirigirConFiltro('PEDIGO')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="PHILLIPS SAFETY PRODUCTS" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="PHILLIPS SAFETY PRODUCTS" onclick="redirigirConFiltro('PHILLIPS SAFETY PRODUCTS')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/pnwx.png" alt="PNWX" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/pnwx.png" alt="PNWX" onclick="redirigirConFiltro('PNWX')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="PROTECSIMPYX-RAY" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="PROTECSIMPYX-RAY" onclick="redirigirConFiltro('PROTECSIMPYX-RAY')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/RTINNOVATIONS.png" alt="RTINNOVATIONS" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/RTINNOVATIONS.png" alt="RTINNOVATIONS" onclick="redirigirConFiltro('RTINNOVATIONS')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/TechnoAide.png" alt="TechnoAide" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/TechnoAide.png" alt="TECHNOAIDE" onclick="redirigirConFiltro('TECHNOAIDE')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/WMI.png" alt="WMI" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/WMI.png" alt="WMI" onclick="redirigirConFiltro('WMI')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="WOLF X-RAY CORPORATION" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="WOLF X-RAY CORPORATION" onclick="redirigirConFiltro('WOLF X-RAY CORPORATION')">
                     </div>
                     <div class="collaborator">
-                        <img src="assets/img/logos/bar-ray.png" alt="Bar-Ray" onclick="window.location.href='productos.html'">
-                    </div>
-                    <div class="collaborator">
-                        <img src="assets/img/logos/rds.png" alt="RDS" onclick="window.location.href='productos.html'">
-                    </div>
-                    <div class="collaborator">
-                        <img src="assets/img/logos/beasy.png" alt="Beasy" onclick="window.location.href='productos.html'">
-                    </div>
-                    <div class="collaborator">
-                        <img src="assets/img/logos/brewer.png" alt="Brewer" onclick="window.location.href='productos.html'">
+                        <img src="assets/img/logos/brewer.png" alt="BREWER COMPANIES" onclick="redirigirConFiltro('BREWER COMPANIES')">
                     </div>
                 </div>
             </div>
@@ -176,6 +169,12 @@
     <!-- Link to Swiper's JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
+        function redirigirConFiltro(marca) {
+            // Redirigir a productos.html con la marca en los parámetros de la URL
+            window.location.href = `productos.html?marca=${encodeURIComponent(marca)}`;
+        }
+    </script>
+    <script>
        var swiper = new Swiper('.swiper-container', {
             slidesPerView: 4,
             spaceBetween: 30,
@@ -217,7 +216,7 @@
 
     <script>
         let productos = [];
-        let precioMaximo = 100000;
+        let precioMaximo = 10000;
         let marcasSeleccionadas = [];
         let materialesSeleccionados = [];
         let productosPorPagina = 15; // Valor inicial
@@ -243,9 +242,14 @@
         }
 
         function inicializarFiltros() {
+            // Limpiar los filtros anteriores
+            marcaFiltro.innerHTML = '';
+            materialFiltro.innerHTML = ''; // Limpiar los filtros de materiales también
+
             const marcas = [...new Set(productos.map(p => p.brand))];
             const materiales = [...new Set(productos.map(p => p.material))];
 
+            // Agregar filtros de marca
             marcas.forEach(marca => {
                 const marcaElement = document.createElement('div');
                 marcaElement.className = 'filtro-checkbox';
@@ -256,6 +260,7 @@
                 marcaFiltro.appendChild(marcaElement);
             });
 
+            // Agregar filtros de material
             materiales.forEach(material => {
                 const materialElement = document.createElement('div');
                 materialElement.className = 'filtro-checkbox';
@@ -266,6 +271,8 @@
                 materialFiltro.appendChild(materialElement);
             });
         }
+
+
 
         function actualizarProductos() {
             const productosFiltrados = productos.filter(producto => {
@@ -357,6 +364,30 @@
             productosPorPagina = parseInt(e.target.value);
             paginaActual = 1;
             actualizarProductos();
+        });
+
+        // Obtener el parámetro de la URL
+        function obtenerParametroURL(nombre) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(nombre);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const marcaSeleccionada = obtenerParametroURL('marca');
+            
+            // Cargar productos y configurar filtros
+            cargarProductos().then(() => {
+                // Solo activa el filtro después de inicializar los filtros
+                if (marcaSeleccionada) {
+                    const checkbox = document.getElementById(`marca-${marcaSeleccionada}`);
+                    
+                    if (checkbox) {
+                        checkbox.checked = true; // Marcar el checkbox
+                        marcasSeleccionadas.push(marcaSeleccionada); // Añadir a los filtros
+                        actualizarProductos(); // Actualizar la lista de productos
+                    }
+                }
+            });
         });
 
         cargarProductos();

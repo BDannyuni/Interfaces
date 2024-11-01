@@ -3,120 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacific Northwest X-RAY Inc.</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/solo-logo-sin-fondo.png">
-
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="assets/css/resultados.css">
 </head>
 <body>
-    
-   <!-- BARRA DE NAVEGACIÓN -->
-   <nav class="navbar">
-    <div class="logo-container">
-        <a href="index.html" class="logo">
-            <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
-            <h1>Pacific Northwest X-RAY Inc.</h1>
-        </a>
-    </div>
+    <!-- CONTENIDO OMITIDO POR BREVIDAD -->
 
-    <div class="search-container">
-        <form id="search-form" onsubmit="handleSearch(event)">
+      <!-- BARRA DE NAVEGACIÓN -->
+      <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/solo-logo-sin-fondo.png" height="50px" alt="">
+                <h1>Pacific Northwest X-RAY Inc.</h1>
+            </a>
+        </div>
+
+        <div class="search-container">
             <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
-            <button type="button" class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
-            <button type="submit" class="search-button">
+            <button class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
+            <button class="search-button">
                 <img src="assets/img/search.png" alt="Buscar" width="20">
             </button>
-        </form>
-        <div id="autocomplete-list" class="autocomplete-items"></div>
-    </div>
-
-    
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="productos.html">Products</a></li>
-        <li><a href="marcas.html">Brands</a></li>
-        <li><a href="contacto.html">Contact Us</a></li> 
-    </ul>
-    <div class="menu-icon">
-        <span>&#9776;</span>
-    </div>
-</nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
-
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Products</a></li>
+            <li><a href="marcas.html">Brands</a></li>
+            <li><a href="contacto.html">Contact Us</a></li> 
+        </ul>
+        <div class="menu-icon">
+            <span>&#9776;</span>
+        </div>
+    </nav> <!-- FIN DE BARRA DE NAVEGACIÓN -->
 
     <!-- INICIO -->
     <section class="hero">
         <div class="hero-content">
-            <h2> Welcome to Catalog <br> From Pacific Northwest X-RAY Inc.</h2>
-            <div class="hero-buttons">
-                <a href="productos.html" class="btn btn-blue">Our Catalog</a>
-                <a href="contacto.html" class="btn btn-red">Contact Us</a>
-            </div>
+            <h2 id="text-hero">WELCOME TO OUR<br> PRODUCTS SECTION</h2>
         </div>
     </section> <!-- FIN DE INICIO -->
+    <div class="container-products">
+    <main>
+        <h1>Search Results</h1>
+            <div id="resultados-container" class="productos-grid"></div>
+        <div id="paginacion"></div>
+    </main>
+</div>
 
-    <!-- NOSOTROS -->
-    <section id="nosotros">
-        <h2 class="section-title">About Us</h2>
-        <div class="nosotros-content">
-            <!-- <div class="nosotros-item">
-                <h3>Historia</h3>
-                <p>Tenemos 19 años ofreciendo un servicio completo, profesional y especializado 
-                de maquinados industriales, torneado y fresado...</p>
-            </div> -->
-            <div class="nosotros-item">
-                <!-- <h3>Misión</h3> -->
-                <p>We are a company called Pacific Northwest X-RAY Inc. dedicated to providing our customers 
-                    with high-quality X-ray focused products, with a wide range of innovative solutions to meet the needs
-                of hospitals, clinics, and medical centers. We take pride in providing reliablem accurate, and durable
-                equipment desing to ensure top-notch medical diagnostics. Our commitment is to prsovide exceptional service, combining
-            advanced technology with a personalized approach to ensure customer satisfaction and imprive healthcare globally.</p>
+<section id="productos-destacados">
+    <h2>Most Popular Products</h2>
+    <div class="productos-container">
+        <!-- Card 1 -->
+        <a href="detalle.html" class="a-productos" data-id="2"> <div class="producto-card">
+            <img src="assets/img/productos/ExamandSurgicalRadiationReducingGloves..png" alt="Producto 1">
+            <div class="producto-info">
+                <h3>Exam and Surgical Radiation Reducing Gloves.</h3>
+                <img src="assets/img/logos/ProGuard.png" alt="Logo Marca" class="logo-marca">
+                <a href="contacto.html" class="btn-contacto">Contáctanos</a>
             </div>
-            <!-- <div class="nosotros-item">
-                <h3>Visión</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam facilis...</p>
-            </div> -->
-        </div>
-    </section>  <!-- FIN DE NOSOTROS -->
+        </div></a>
+        <!-- Card 2 -->
+        <a href="detalle.html" class="a-productos" data-id="1"> <div class="producto-card">
+            <img src="assets/img/productos/Infab's lightning fast 24 hour ship aprons..png" alt="Producto 2">
+            <div class="producto-info">
+                <h3>Infab's lightning fast 24 hour ship aprons.</h3>
+                <img src="assets/img/logos/INFAB.png" alt="Logo Marca" class="logo-marca">
+                <a href="contacto.html" class="btn-contacto">Contáctanos</a>
+            </div>
+        </div></a>
+        <!-- Card 1 -->
+        <a href="detalle.html" class="a-productos" data-id="3"> <div class="producto-card">
+            <img src="assets/img/productos/Resolution Test Patterns.png" alt="Producto 1">
+            <div class="producto-info">
+                <h3>Resolution Test Patterns, Easily Customized At Your Request.</h3>
+                <img src="assets/img/logos/Diagnomatic.png" alt="Logo Marca" class="logo-marca">
+                <a href="contacto.html" class="btn-contacto">Contáctanos</a>
+            </div>
+        </div></a>
+        
+        <!-- Repite para más productos -->
+    </div><br><br>
+</section>
 
-    <section id="productos-destacados">
-        <h2>Most Popular Products</h2>
-        <div class="productos-container">
-            <!-- Card 1 -->
-             <a href="detalle.html" class="a-productos" data-id="2"> <div class="producto-card">
-                <img src="assets/img/productos/ExamandSurgicalRadiationReducingGloves..png" alt="Producto 1">
-                <div class="producto-info">
-                    <h3>Exam and Surgical Radiation Reducing Gloves.</h3>
-                    <img src="assets/img/logos/ProGuard.png" alt="Logo Marca" class="logo-marca">
-                    <a href="contacto.html" class="btn-contacto">Contáctanos</a>
-                </div>
-            </div></a>
-            <!-- Card 2 -->
-            <a href="detalle.html" class="a-productos" data-id="1"> <div class="producto-card">
-                <img src="assets/img/productos/Infab's lightning fast 24 hour ship aprons..png" alt="Producto 2">
-                <div class="producto-info">
-                    <h3>Infab's lightning fast 24 hour ship aprons.</h3>
-                    <img src="assets/img/logos/INFAB.png" alt="Logo Marca" class="logo-marca">
-                    <a href="contacto.html" class="btn-contacto">Contáctanos</a>
-                </div>
-            </div></a>
-            <!-- Card 1 -->
-            <a href="detalle.html" class="a-productos" data-id="3"> <div class="producto-card">
-                <img src="assets/img/productos/Resolution Test Patterns.png" alt="Producto 1">
-                <div class="producto-info">
-                    <h3>Resolution Test Patterns, Easily Customized At Your Request.</h3>
-                    <img src="assets/img/logos/Diagnomatic.png" alt="Logo Marca" class="logo-marca">
-                    <a href="contacto.html" class="btn-contacto">Contáctanos</a>
-                </div>
-            </div></a>
-            
-            <!-- Repite para más productos -->
-        </div><br><br>
-    </section>
-
-       <!-- NUESTROS COLABORADORES -->
-    <section>
+     <!-- NUESTROS COLABORADORES -->
+     <section>
         <div class="container">
             <div class="header">
                 <h2><span class="highlight">BRA</span>NDS</h2>
@@ -199,67 +171,26 @@
         </footer>
     </section> <!-- FIN DE FOOTER -->
 
+    <script src="assets/scripts/busqueda.js" defer></script>
 
-    <!-- SCRIPTS -->
-    <script src="assets/scripts/scripts.js" defer></script>
-
-    <!-- Link to Swiper's JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-       var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                1024: {
-                    slidesPerView: 4,
-                },
-                768: {
-                    slidesPerView: 3,
-                },
-                640: {
-                    slidesPerView: 2,
-                },
-                320: {
-                    slidesPerView: 1,
-                }
-            }
+        document.addEventListener('DOMContentLoaded', function() {
+          const productLinks = document.querySelectorAll('.a-productos');
+          
+          productLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+              e.preventDefault();
+              const productId = this.getAttribute('data-id');
+              viewProductDetails(productId);
+            });
+          });
         });
-    </script>
-
-<script>
-    function redirigirConFiltro(marca) {
-        // Redirigir a productos.html con la marca en los parámetros de la URL
-        window.location.href = `productos.html?marca=${encodeURIComponent(marca)}`;
-    }
-</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const productLinks = document.querySelectorAll('.a-productos');
-      
-      productLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          const productId = this.getAttribute('data-id');
-          viewProductDetails(productId);
-        });
-      });
-    });
-    
-    function viewProductDetails(id) {
-      localStorage.setItem('productId', id);
-      window.location.href = 'detalle.html';
-    }
-    </script>
+        
+        function viewProductDetails(id) {
+          localStorage.setItem('productId', id);
+          window.location.href = 'detalle.html';
+        }
+        </script>
     
     <script>
         const carousel = document.querySelector('.carousel');
@@ -377,6 +308,12 @@
                 navLinks.classList.toggle('show');
             });
         });
-    </script> <!-- FIN DE SCRIPTS -->
+    </script> 
+    <script>
+        function redirigirConFiltro(marca) {
+            // Redirigir a productos.html con la marca en los parámetros de la URL
+            window.location.href = `productos.html?marca=${encodeURIComponent(marca)}`;
+        }
+    </script><!-- FIN DE SCRIPTS -->
 </body>
 </html>

@@ -21,11 +21,13 @@
     </div>
 
     <div class="search-container">
-        <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
-        <button class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
-        <button class="search-button">
-            <img src="assets/img/search.png" alt="Buscar" width="20">
-        </button>
+        <form id="search-form" onsubmit="handleSearch(event)">
+            <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()" autocomplete="off">
+            <button type="button" class="clear-button" onclick="clearInput()" style="display: none;">&times;</button>
+            <button type="submit" class="search-button">
+                <img src="assets/img/search.png" alt="Buscar" width="20">
+            </button>
+        </form>
         <div id="autocomplete-list" class="autocomplete-items"></div>
     </div>
 
@@ -58,60 +60,52 @@
         <div class="container">
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="assets/img/logos/Diagnomatic.png" alt="Lapp Group" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/Diagnomatic.png" alt="DIAGNOMATIC" onclick="redirigirConFiltro('DIAGNOMATIC')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/INFAB.png" alt="Belden" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/INFAB.png" alt="INFAB" onclick="redirigirConFiltro('INFAB')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/ProGuard.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/ProGuard.png" alt="PROGUARD" onclick="redirigirConFiltro('PROGUARD')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/PEDIGO.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/PEDIGO.png" alt="PEDIGO" onclick="redirigirConFiltro('PEDIGO')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/PHILLIPS SAFETY PRODUCTS.jpg" alt="PHILLIPS SAFETY PRODUCTS" onclick="redirigirConFiltro('PHILLIPS SAFETY PRODUCTS')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/pnwx.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/pnwx.png" alt="PNWX" onclick="redirigirConFiltro('PNWX')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/PROTECSIMPYX-RAY.png" alt="PROTECSIMPYX-RAY" onclick="redirigirConFiltro('PROTECSIMPYX-RAY')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/RTINNOVATIONS.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/RTINNOVATIONS.png" alt="RTINNOVATIONS" onclick="redirigirConFiltro('RTINNOVATIONS')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/TechnoAide.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/TechnoAide.png" alt="TECHNOAIDE" onclick="redirigirConFiltro('TECHNOAIDE')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/WMI.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/WMI.png" alt="WMI" onclick="redirigirConFiltro('WMI')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/WOLF X-RAY CORPORATION.png" alt="WOLF X-RAY CORPORATION" onclick="redirigirConFiltro('WOLF X-RAY CORPORATION')">
                 </div>
                 <div class="collaborator">
-                    <img src="assets/img/logos/bar-ray.png" alt="Bricos" onclick="window.location.href='productos.html'">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/rds.png" alt="Bricos" onclick="window.location.href='productos.html'">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/beasy.png" alt="Bricos" onclick="window.location.href='productos.html'">
-                </div>
-                <div class="collaborator">
-                    <img src="assets/img/logos/brewer.png" alt="Bricos" onclick="window.location.href='productos.html'">
+                    <img src="assets/img/logos/brewer.png" alt="BREWER COMPANIES" onclick="redirigirConFiltro('BREWER COMPANIES')">
                 </div>
                 <!-- Agrega más colaboradores aquí -->
             </div>
         </div>
     </section> <!-- FIN DE NUESTROS COLABORADORES -->
+    <br><br><br><br>
 
     <section id="productos-destacados">
         <h2>Most Popular Products</h2>
         <div class="productos-container">
             <!-- Card 1 -->
-             <a href="productos.html" class="a-productos"> <div class="producto-card">
+            <a href="detalle.html" class="a-productos" data-id="2"> <div class="producto-card">
                 <img src="assets/img/productos/ExamandSurgicalRadiationReducingGloves..png" alt="Producto 1">
                 <div class="producto-info">
                     <h3>Exam and Surgical Radiation Reducing Gloves.</h3>
@@ -120,7 +114,7 @@
                 </div>
             </div></a>
             <!-- Card 2 -->
-            <a href="productos.html" class="a-productos"> <div class="producto-card">
+            <a href="detalle.html" class="a-productos" data-id="1"> <div class="producto-card">
                 <img src="assets/img/productos/Infab's lightning fast 24 hour ship aprons..png" alt="Producto 2">
                 <div class="producto-info">
                     <h3>Infab's lightning fast 24 hour ship aprons.</h3>
@@ -129,7 +123,7 @@
                 </div>
             </div></a>
             <!-- Card 1 -->
-            <a href="productos.html" class="a-productos"> <div class="producto-card">
+            <a href="detalle.html" class="a-productos" data-id="3"> <div class="producto-card">
                 <img src="assets/img/productos/Resolution Test Patterns.png" alt="Producto 1">
                 <div class="producto-info">
                     <h3>Resolution Test Patterns, Easily Customized At Your Request.</h3>
@@ -179,6 +173,13 @@
 
     <!-- SCRIPTS -->
     <script src="assets/scripts/scripts.js"></script>
+
+    <script>
+        function redirigirConFiltro(marca) {
+            // Redirigir a productos.html con la marca en los parámetros de la URL
+            window.location.href = `productos.html?marca=${encodeURIComponent(marca)}`;
+        }
+    </script>
     <!-- Link to Swiper's JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
@@ -219,6 +220,24 @@
                 navLinks.classList.toggle('show');
             });
         });
-    </script> <!-- FIN DE SCRIPTS -->
+    </script> 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const productLinks = document.querySelectorAll('.a-productos');
+          
+          productLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+              e.preventDefault();
+              const productId = this.getAttribute('data-id');
+              viewProductDetails(productId);
+            });
+          });
+        });
+        
+        function viewProductDetails(id) {
+          localStorage.setItem('productId', id);
+          window.location.href = 'detalle.html';
+        }
+        </script> <!-- FIN DE SCRIPTS -->
 </body>
 </html>
