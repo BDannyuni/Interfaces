@@ -12,6 +12,8 @@ body {
 body {
     overflow-x: hidden;
 }
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -523,6 +525,7 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
 .container {
     max-width: 1200px;
